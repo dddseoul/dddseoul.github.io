@@ -28,7 +28,7 @@ DDD Seoul 웹사이트는 [Statiq](https://www.statiq.dev/) 정적 웹사이트 
     dotnet restore && dotnet build && dotnet run --project ./src/DDDSeoul -- preview
     ```
 
-1. 웹 브라우저에서 [http://localhost:5080](http://localhost:5080)로 접속합니다.
+1. 웹 브라우저에서 [http://localhost:5080](http://localhost:5080)으로 접속한 후 웹사이트를 확인합니다.
 
 1. 배포를 위해 아티팩트를 생성하려면 아래 명령어를 실행합니다.
 
