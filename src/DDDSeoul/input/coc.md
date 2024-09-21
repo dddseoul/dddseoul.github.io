@@ -22,4 +22,4 @@ IsPage: true
 
 우리는 참가자들이 컨퍼런스 및 워크숍 장소와 컨퍼런스 관련 사교 행사에서 이러한 규칙을 따르기를 기대합니다.
 
-이 행동 강령은 Developer Developer UK 컨퍼런스 웹사이트에서 발췌한 것으로 그 자체가 컨퍼런스 행동 강령의 수정된 버전입니다.
+이 행동 강령은 [Developer Developer Developer! UK 컨퍼런스 웹사이트](https://developerdeveloperdeveloper.com/code-of-conduct)에서 발췌한 것으로 그 자체가 컨퍼런스 행동 강령의 수정된 버전입니다.
