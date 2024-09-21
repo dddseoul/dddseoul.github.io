@@ -48,7 +48,7 @@ jobs:
     - name: Publish artifact
       shell: bash
       run: |
-        dotnet run --project .\src\DDDSeoul\ -c Release -- deploy
+        dotnet run --project ./src/DDDSeoul -c Release -- deploy
 
     - name: Upload artifact for web
       uses: actions/upload-pages-artifact@v3
