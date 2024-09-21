@@ -8,6 +8,9 @@ on:
       - 'feature/*'
     paths:
       - 'src/DDDSeoul/**'
+  pull_request:
+    branches:
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -57,7 +60,7 @@ jobs:
 
   deploy:
     name: Deploy App to GitHub Pages
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == ('refs/heads/main' && github.event_name == 'push') || github.event_name == 'workflow_dispatch'
     needs:
     - build_artifact
 
