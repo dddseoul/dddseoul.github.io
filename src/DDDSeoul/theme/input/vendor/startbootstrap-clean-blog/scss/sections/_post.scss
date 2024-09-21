@@ -1,6 +1,6 @@
-// 
+//
 // Posts
-// 
+//
 
 .section-heading {
     font-size: 2.25rem;
@@ -58,5 +58,13 @@
                 font-size: 2.25rem;
             }
         }
+    }
+}
+
+h1#section-1 + p + table {
+    width: 100%;
+
+    thead {
+        background-color: $gray-400;
     }
 }
