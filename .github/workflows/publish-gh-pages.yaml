@@ -57,6 +57,7 @@ jobs:
 
   deploy:
     name: Deploy App to GitHub Pages
+    if: github.ref == 'refs/heads/main'
     needs:
     - build_artifact
 
