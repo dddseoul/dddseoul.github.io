@@ -33,7 +33,7 @@ DDD Seoul 웹사이트는 [Statiq](https://www.statiq.dev/) 정적 웹사이트 
 1. 배포를 위해 아티팩트를 생성하려면 아래 명령어를 실행합니다.
 
     ```bash
-    dotnet run --project ./src/DDDSeoul -- preview
+    dotnet run --project ./src/DDDSeoul -- deploy
     ```
 
 ## 컨텐츠 수정하기
