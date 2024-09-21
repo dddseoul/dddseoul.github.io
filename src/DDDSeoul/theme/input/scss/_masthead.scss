@@ -1,0 +1,55 @@
+header.masthead {
+  &.no-image {
+    background-origin: padding-box;
+    background-color: $orange-ddd;
+    // background-image: linear-gradient(180deg, tint-color($masthead-main-color, $masthead-gradient-spread) 0%, shade-color($masthead-main-color, $masthead-gradient-spread) 100%);
+
+  &::before {
+      display: none;
+    }
+  }
+
+  .page-heading .subheading,
+  .site-heading .subheading {
+    line-height: 1.6;
+  }
+
+  *, .post-heading * {
+    text-shadow: 0 0 80px rgba(0,0,0,0.8);
+  }
+
+  .post-heading {
+    word-break: break-word;
+
+    .subheading {
+      margin-bottom: 0;
+    }
+
+    .meta {
+      margin-top: 1.875rem;
+    }
+
+    .tags {
+      margin-top: 1.875rem;
+
+      .btn {
+        border-color: $gray-900;
+      }
+    }
+  }
+
+  .image-attribution {
+    position: absolute;
+    left: auto;
+    right: 1rem;
+    top: auto;
+    bottom: 1rem;
+    margin: 1rem 0 0 1rem;
+    opacity: .5;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

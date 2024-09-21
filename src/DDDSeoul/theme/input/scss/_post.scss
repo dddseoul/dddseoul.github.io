@@ -1,0 +1,9 @@
+.post-title {
+  margin-bottom: 0;
+  word-break: break-word;
+}
+
+.post-subtitle {
+  font-family: var(--#{$prefix}font-sans-serif);
+  font-size: $h4-font-size;
+}

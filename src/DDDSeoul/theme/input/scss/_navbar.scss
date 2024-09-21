@@ -1,0 +1,17 @@
+@include media-breakpoint-up(lg) {
+  #mainNav {
+    &.fixed-top {
+      // text-shadow: 0 0 4px rgba(0,0,0,0.8);
+    }
+
+    &.is-fixed {
+      top: -71px;
+      border-bottom: 1px solid fade-out($gray-600, .1);
+      text-shadow: none;
+    }
+
+    .navbar-nav {
+      align-items: center;
+    }
+  }
+}
