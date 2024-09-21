@@ -7,7 +7,7 @@ PageTitle: |
     string title = GetString("Title");
     return string.IsNullOrWhiteSpace(siteTitle) ? title : (string.IsNullOrWhiteSpace(title) ? siteTitle : $"{siteTitle} - {title}");
   }
-Copyright: => $"Copyright © {DateTime.Now.Year}"
+Copyright: => $"Copyright DDD Seoul © {DateTime.Now.Year}"
 PostSources: posts/**/*
 IsPost: => Context.Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(Document)
 PageSources: pages/**/*
