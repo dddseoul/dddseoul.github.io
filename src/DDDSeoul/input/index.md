@@ -1,4 +1,4 @@
-Title: DDD Seoul
+Title: Microsoft 기술 중심 개발자 컨퍼런스
 IsPost: false
 IsPage: true
 ---
