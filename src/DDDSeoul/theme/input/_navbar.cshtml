@@ -1,0 +1,29 @@
+@* @foreach(IDocument doc in Context.OutputPages.Where(x => x.GetBool("ShowInNavbar", x.GetBool("IsPage"))).OrderBy(x => x.GetInt(Keys.Order)))
+{
+  // Pages get added to the navigation bar by default,
+  // other pages (including posts) only if they have ShowInNavbar set to true
+  <li class="nav-item">
+    @Html.DocumentLink(
+      doc,
+      doc.GetString("NavbarTitle", doc.GetTitle()),
+      new Dictionary<object, object> { { "class", "nav-link" } })
+  </li>
+} *@
+<li class="nav-item">
+  <a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#agenda">행사일정</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#cfp">발표제안</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#speakers">발표자</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#register">참가신청</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#coc">행동강령</a>
+</li>
