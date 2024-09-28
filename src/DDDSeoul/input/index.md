@@ -74,3 +74,10 @@ DDD Seoul 컨퍼런스는 커뮤니티가 주도하는 행사입니다. 컨퍼�
 | &nbsp; |        |        |        |          |
 | 유현아 | 이보라 | 전미정 | 조성수 | 진미나   |
 | ![유현아](/images/organisers/hyunahyoo.png) | ![이보라](/images/organisers/boralee.png) | ![전미정](/images/organisers/mijeongjeon.png) | ![조성수](/images/organisers/seongsoocho.png) | ![진미나](/images/organisers/minajin.png) |
+
+---
+
+<a name="newsletter"></a>
+# DDD Seoul의 소식을 가장 먼저 받아보세요
+
+<iframe width="100%" height="580px" src="https://forms.office.com/r/7QdEBFeQ04?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh; overflow: hidden;" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
