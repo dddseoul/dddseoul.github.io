@@ -68,3 +68,21 @@ h1#section-2 + p + table {
         background-color: $gray-400;
     }
 }
+
+h1#section-5 + p + table {
+    margin: auto;
+
+    img {
+        width: 150px;
+    }
+
+    thead tr {
+        font-weight: $font-weight-bold;
+    }
+
+    tbody tr {
+        &:nth-child(3) {
+            font-weight: $font-weight-bold;
+        }
+    }
+}
