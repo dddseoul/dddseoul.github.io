@@ -60,3 +60,17 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 # 참가신청
 
 곧 안내할 예정입니다.
+
+---
+
+<a name="organisers"></a>
+# 운영진
+
+DDD Seoul 컨퍼런스는 커뮤니티가 주도하는 행사입니다. 컨퍼런스를 준비하고 운영하는 운영진은 다음과 같습니다.
+
+| 김진석 | 박구삼 | 박정환 | 박조은 | 유저스틴 |
+|:------:|:------:|:------:|:------:|:--------:|
+| ![김진석](/images/organisers/jinseokkim.png) | ![박구삼](/images/organisers/gusampark.png) | ![박정환](/images/organisers/junghwanpark.png) | ![박조은](/images/organisers/joeunpark.png) | ![유저스틴](/images/organisers/justinyoo.png) |
+| &nbsp; |        |        |        |          |
+| 유현아 | 이보라 | 전미정 | 조성수 | 진미나   |
+| ![유현아](/images/organisers/hyunahyoo.png) | ![이보라](/images/organisers/boralee.png) | ![전미정](/images/organisers/mijeongjeon.png) | ![조성수](/images/organisers/seongsoocho.png) | ![진미나](/images/organisers/minajin.png) |
