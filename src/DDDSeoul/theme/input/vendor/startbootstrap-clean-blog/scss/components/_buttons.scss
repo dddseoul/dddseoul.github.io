@@ -7,3 +7,21 @@
 .btn {
     letter-spacing: 0.0625em;
 }
+
+.btn-orange-ddd {
+  font-weight: 600;
+  color: #FFFFFF !important;
+  background-color: $orange-ddd;
+
+  &:hover {
+    color: #FFFFFF !important;
+    text-decoration: if($link-hover-decoration == underline, none, null);
+    background-color: $orange-ddd;
+    border-color: var(--#{$prefix}btn-hover-border-color);
+  }
+}
+
+.cfp-link {
+  display: block;
+  text-align: center;
+}

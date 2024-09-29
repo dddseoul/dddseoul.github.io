@@ -32,20 +32,27 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 <a name="cfp"></a>
 # 발표제안
 
+<div class="cfp-link">
+  <a class="btn btn-orange-ddd btn-lg" href="https://bit.ly/dddseoul2024cfp" target="_blank">발표 제안하기</a>
+</div>
+
 Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있습니다. 발표 주제는 다음과 같은 주제를 포함하지만 이에 국한하지 않습니다:
 
-| Cloud & Modern Workplace | Data & AI        | Infra & DevOps       | Career Development  |
-|:------------------------:|:----------------:|:--------------------:|:-------------------:|
-| Azure PaaS               | Azure OpenAI     | DevOps               | Professional Skills |
-| Azure Serverless         | Data Engineering | Infrastructure       | Soft Skills         |
-| Cloud-Native             | Data Analysis    | Kubernetes           | Leadership          |
-| Security                 | Machine Learning | Containers           | Career              |
-| Microsoft 365            |                  | Platform Engineering |                     |
-| Business Applications    |                  |                      |                     |
+| Cloud & Modern Workplace    | Data & AI        | Infra & DevOps       | Career Development  |
+|:---------------------------:|:----------------:|:--------------------:|:-------------------:|
+| Azure PaaS                  | Azure OpenAI     | DevOps               | Professional Skills |
+| Azure Serverless            | Data Engineering | Infrastructure       | Soft Skills         |
+| Cloud-Native                | Data Analysis    | Kubernetes           | Leadership          |
+| Security                    | Machine Learning | Containers           | Career              |
+| Microsoft 365               |                  | Platform Engineering |                     |
+| Business Applications       |                  |                      |                     |
+| Java/JavaScript/Python/.NET |                  |                      |                     |
 
 발표가 처음이라구요? 괜찮습니다. DDD Seoul 컨퍼런스는 새로운 발표자를 언제나 환영합니다. 발표 주제를 제안하고, 커뮤니티와 함께 성장해보세요.
 
-[발표 제안하기](#cfp)
+<div class="cfp-link">
+  <a class="btn btn-orange-ddd btn-lg" href="https://bit.ly/dddseoul2024cfp" target="_blank">발표 제안하기</a>
+</div>
 
 ---
 
