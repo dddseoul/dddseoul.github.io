@@ -7,7 +7,3 @@ DDD Seoul 컨퍼런스를 통해 새로운 발표자를 발굴하고 다양한 �
 이메일을 통해 DDD Seoul 컨퍼런스의 소식을 받아보실 수 있습니다. 많은 관심 부탁 드립니다. 감사합니다!
 
 DDD Seoul 운영진 일동
-
-<div class="btn">
-  <a class="btn btn-link" href="https://dddseoul.kr" target="_blank">DDD Seoul 웹사이트 바로 가기</a>
-</div>
