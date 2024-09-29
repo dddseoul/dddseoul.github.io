@@ -63,6 +63,18 @@ sudo mkdir -p /usr/local/lib/ && sudo cp ./lib/libsass.dylib "$_"
 - 컨텐츠는 `src/DDDSeoul/input` 디렉토리에 위치합니다. `index.md` 파일을 수정하면 웹사이트의 첫 페이지를 수정할 수 있습니다.
 - `src/DDDSeoul/input` 디렉토리에 새로운 Markdown 파일을 추가하면 새로운 페이지를 만들 수 있습니다.
 
+## 이메일 템플릿 생성/수정하기
+
+이메일 템플릿은 `templates` 디렉토리에 마크다운 문서 형태로 관리합니다. 템플릿을 생성 또는 수정한 후 아래 명령어를 실행시켜 HTML 파일로 변환해야 합니다.
+
+```bash
+# zsh/bash
+./scripts/md2html.sh
+
+# PowerShell
+./scripts/md2html.ps1
+```
+
 ## 웹사이트에 문제가 있나요?
 
 문제가 있거나 개선할 점이 있다면 [이슈](../../issues)를 등록해주세요.
