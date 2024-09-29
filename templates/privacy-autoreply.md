@@ -1,0 +1,9 @@
+# DDD Seoul의 개인정보 처리방침에 대한 안내
+
+안녕하세요! DDD Seoul의 개인정보 처리방침에 대해 문의해 주셔서 감사합니다. 담당자에게 이메일을 전달했으며, 확인하는대로 곧바로 답장드리도록 하겠습니다.
+
+DDD Seoul 개인정보 보호 책임자 드림
+
+<div class="btn">
+  <a class="btn btn-link" href="https://dddseoul.kr" target="_blank">DDD Seoul 웹사이트 바로 가기</a>
+</div>

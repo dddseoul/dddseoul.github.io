@@ -1,0 +1,13 @@
+# DDD Seoul 뉴스레터를 구독해 주셔서 감사합니다!
+
+안녕하세요! DDD Seoul 뉴스레터를 구독해 주셔서 감사합니다. DDD Seoul은 Microsoft 기술을 중심으로 하는 커뮤니티 주도 개발자 컨퍼런스입니다. 지난 2005년 영국의 레딩에서 처음 시작한 DDD 컨퍼런스는 이제 2024년부터 아시아 지역에서는 최초로 대한민국의 서울에서 진행합니다.
+
+DDD Seoul 컨퍼런스를 통해 새로운 발표자를 발굴하고 다양한 주제를 다루며 다양한 경험을 나누는 것을 목표로 하고 있습니다. DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합니다. DDD Seoul 컨퍼런스를 통해 다양한 기술 교육과 더불어 자연스러운 네트워킹을 통해 Microsoft 개발자 생태계에 기여할 것입니다.
+
+이메일을 통해 DDD Seoul 컨퍼런스의 소식을 받아보실 수 있습니다. 많은 관심 부탁 드립니다. 감사합니다!
+
+DDD Seoul 운영진 일동
+
+<div class="btn">
+  <a class="btn btn-link" href="https://dddseoul.kr" target="_blank">DDD Seoul 웹사이트 바로 가기</a>
+</div>
