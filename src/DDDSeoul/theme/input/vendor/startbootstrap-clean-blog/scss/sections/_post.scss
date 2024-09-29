@@ -86,3 +86,15 @@ h1#section-5 + p + table {
         }
     }
 }
+
+h2#section-4 + ol table {
+    width: 100%;
+
+    thead {
+        background-color: $gray-400;
+    }
+
+    td {
+        border: 1px solid $gray-400;
+    }
+}
