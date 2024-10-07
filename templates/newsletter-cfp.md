@@ -1,4 +1,4 @@
-# DDD Seoul 뉴스레터 {{ISSUE_NUMBER}}
+# DDD Seoul 뉴스레터 &ndash; {{ISSUE_NUMBER}}
 
 안녕하세요, DDD Seoul입니다.
 
