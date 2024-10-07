@@ -10,8 +10,8 @@
 
 <span style="background-color:#AC4E21;color:#FFFFFF;">경품 추첨에 참여하려면 반드시 연락처 정보를 입력해야 한다는 점을 잊지 마세요!</span>
 
-- 설문 조사기간: {{SURVEY_DUE_DATE}}
-- 당첨자 경품 발송 예정일: {{ITEM_DELIVERY_DATE}}
+- 설문 조사기간: {{SURVEY_DUE_DATE}}까지
+- 당첨자 경품 발송 예정일: {{ITEM_DELIVERY_DATE}} 이후
 
 <div style="text-align: center; padding: 10px 0px;">
     <a class="btn btn-link" href="https://bit.ly/dddseoulpresurvey" title="DDD Seoul" target="_blank">설문조사하고 커피 받으러 가기!</a>
