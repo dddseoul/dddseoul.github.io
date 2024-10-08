@@ -9,7 +9,7 @@ REPOSITORY_ROOT=$(git rev-parse --show-toplevel)
 echo -e "\033[36mCloning apps...\033[0m"
 
 cd "$REPOSITORY_ROOT"
-git clone https://github.com/justinyoo/markdown-to-html-for-techcommunity.git md2html
+git clone --depth=1 --single-branch https://github.com/justinyoo/markdown-to-html-for-techcommunity.git md2html
 cd md2html
 cp src/MD2Html.FunctionApp/local.settings.sample.json src/MD2Html.FunctionApp/local.settings.json
 dotnet restore && dotnet build
