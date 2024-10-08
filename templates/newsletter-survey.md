@@ -17,8 +17,6 @@
     <a class="btn btn-link" href="https://bit.ly/dddseoulpresurvey" title="DDD Seoul" target="_blank">설문조사하고 커피 받으러 가기!</a>
 </div>
 
-<span style="text-align: center;color:#AC4E21">이 설문은 개인정보가 보호되며 기술동향 및 행사 참고용으로만 사용합니다.</span>
-
 감사합니다!
 
 DDD Seoul 운영진 일동.
