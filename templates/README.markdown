@@ -15,3 +15,5 @@ $REPOSITORY_ROOT = git rev-parse --show-toplevel
 cd $REPOSITORY_ROOT
 ./scripts/md2html.ps1
 ```
+
+> **NOTE**: 위 스크립트를 실행시키기 위해서는 [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local)를 설치해야 합니다.
