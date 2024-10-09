@@ -17,6 +17,7 @@ DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
 
 - DDD Seoul은 커뮤니티가 주도하는 국내 최대 Microsoft 기반 기술 관련 비영리 개발자 컨퍼런스입니다.
 - DDD Seoul은 Microsoft 기술 생태계에 기여하고 저변을 확대하여 Microsoft 기반 기술을 사용하는 기업에 더욱 많은 기회를 창출하고자 합니다.
+- DDD Seoul은 참가자를 위한 저렴한 티켓 가격(1인당 비용보다 훨씬 저렴)을 제공하며, 우리가 이처럼 운영할 수 있는 이유는 후원사 여러분의 관대한 기업 후원을 통해서 입니다. 도와주신 모든 스폰서에게 감사의 말씀을 드립니다! - 여러분 없이는 이 일을 할 수 없습니다! 🙇 
 
 <div class="sponsorship-link">
   <a class="btn btn-orange-ddd btn-lg" href="mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20제안" target="_blank">후원 제안하기</a>
