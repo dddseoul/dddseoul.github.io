@@ -35,6 +35,10 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 
 곧 안내할 예정입니다.
 
+<div class="sponsorship-link">
+  <a class="btn btn-orange-ddd btn-lg" href="/sponsorship">후원 제안하기</a>
+</div>
+
 ---
 
 <a name="cfp"></a>

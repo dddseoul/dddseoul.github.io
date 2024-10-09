@@ -42,6 +42,6 @@ DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
   <a class="btn btn-orange-ddd btn-lg" href="mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20제안" target="_blank">후원 제안하기</a>
 </div>
 
-후원의 자세한 혜택과 보상 및 다양한 등급 간의 차이를 설명하는 후원 안내 관련 문의가 필요한 경우에 다음 [sponsorship@dddseoul.kr](mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20문의)로 문의 주시면 빠르게 답장 드리겠습니다.
+후원의 자세한 혜택과 보상 및 다양한 등급 간의 차이를 설명하는 후원 안내 관련 문의가 필요한 경우에 [sponsorship@dddseoul.kr](mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20문의)로 문의 주시면 빠르게 답장 드리겠습니다.
 
 여러분의 많은 참여를 기다랍니다!
