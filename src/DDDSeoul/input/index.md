@@ -22,8 +22,16 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 
 ---
 
-<a name="sponsorship"></a>
-# 후원제안
+<a name="sponsors"></a>
+# 후원사
+
+<!-- DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와주신 모든 후원사들께 감사의 말씀 드립니다.
+
+## 주 후원사
+
+<div class="sponsor-main">
+  <a class="sponsor" href="https://microsoft.com/ko-kr" target="_blank"><img src="/images/sponsors/microsoft.png" width="300" /></a>
+</div> -->
 
 곧 안내할 예정입니다.
 

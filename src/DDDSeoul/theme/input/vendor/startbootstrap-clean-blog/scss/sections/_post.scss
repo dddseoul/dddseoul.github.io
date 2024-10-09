@@ -87,6 +87,29 @@ h1#section-5 + p + table {
     }
 }
 
+h2#section-2 + p + table {
+    width: 100%;
+    text-align: center;
+
+    thead {
+        background-color: $gray-400;
+    }
+
+    td {
+        border: 1px solid $gray-400;
+    }
+
+    tbody tr td {
+      &:nth-child(1) {
+          font-weight: $font-weight-bold;
+      }
+  }
+}
+
+h2#section-2 + p + table + ul {
+    margin-top: 1.5em;
+}
+
 h2#section-4 + ol table {
     width: 100%;
 
