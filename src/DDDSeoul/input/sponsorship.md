@@ -7,7 +7,7 @@ IsPage: true
 DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
 
 - 컨퍼런스 기간: 2024년 12월 7일(토) - 8일(일)
-- 후원사 모집 기간: 2024년 9월 30일(월) - 10월 31일(목)
+- 후원사 모집 기간: 2024년 10월 14일(월) - 11월 22일(금)
 
 <div class="sponsorship-link">
   <a class="btn btn-orange-ddd btn-lg" href="mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20제안" target="_blank">후원 제안하기</a>
