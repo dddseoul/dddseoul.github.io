@@ -70,10 +70,13 @@ h1#section-2 + div + p + table {
 }
 
 h1#section-5 + p + table {
+    table-layout: fixed;
     margin: auto;
 
     img {
-        width: 150px;
+      width: 100%;
+      max-width: 150px;
+      height: auto;
     }
 
     thead tr {
@@ -120,4 +123,11 @@ h2#section-4 + ol table {
     td {
         border: 1px solid $gray-400;
     }
+}
+
+
+@media (max-width: 768px) {
+  h1#section-5 + p + table {
+    width: 100%;
+  }
 }
