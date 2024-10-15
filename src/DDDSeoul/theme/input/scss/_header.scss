@@ -1,0 +1,11 @@
+.header-responsive-img {
+  width: 500px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .header-responsive-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
