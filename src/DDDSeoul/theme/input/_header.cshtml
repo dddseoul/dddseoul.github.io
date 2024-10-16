@@ -18,13 +18,13 @@
   var imageAttribution = Document.GetString("ImageAttribution", string.Empty);
   var hasImageAttribution = !string.IsNullOrEmpty(imageAttribution);
 }
-<header class="@mastheadClass" style="@mastheadStyle padding: 50px 0px;">
+<header class="@mastheadClass" style="@mastheadStyle padding: 50px 0 0 0;">
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
         <div class='@(isPost ? "post-heading" : isPage ? "page-heading" : "site-heading")'>
           <h1>
-            <img src="/images/logo-dddseoul-whiteorange.png" alt="DDD Seoul logo" style="max-width: 100%; max-height:  282px;" />
+            <img src="/images/logo-dddseoul-whiteorange.png" alt="DDD Seoul logo" class="header-responsive-img"/>
             @* @title *@
             @if (Document.GetInt(Keys.Index) > 1)
             {
