@@ -71,7 +71,26 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 <a name="speakers"></a>
 # 발표자
 
-곧 안내할 예정입니다.
+<h2 class="speakers">키노트</h2>
+
+<table>
+    <tr>
+        <td>&nbsp;</td>
+        <td>
+            <h3><a href="https://www.linkedin.com/in/jisun-kim-47343679/" title="김지선 링크드인 프로필" target="_blank">김지선 &ndash; Microsoft</a></h3>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/images/speakers/jisunkim.jpg" width="350" alt="김지선" />
+        </td>
+        <td>
+            <blockquote class="bio">부모님의 게임하면 돈이 나오냐는 잔소리에 돈이 나온다는 것을 증명하고자 개발자의 여정을 시작하여, 게임 업계와 스타트업, 글로벌 빅테크에서 19년 째 데이터와 일, 게임이라는 삼위덕업일치의 삶을 즐기고 있습니다.</blockquote>
+            <p class="subject">🎤 Live it, enjoy it: 다 함께 즐기는 일과 삶</p>
+            <p class="description">2004년 개발자로 처음 커리어를 시작한 이후 19년 동안 데이터 엔지니어로 커리어를 쌓으면서 어떻게 일해왔는지 돌아보았을 때, "즐겁게", "함께", "조화롭게" 세 가지 키워드로 설명할 수 있었습니다. 빠르게 변화하는 기술 트랜드의 태풍 속에서 평생 A/S로 연결된 사춘기 딸과 어떻게 평화를 유지하며 동료들과 일을 지속적으로 즐길 수 있었는지, 화석과도 같은 존재라는 20년차 필드 여성 엔지니어의 Lessons learned를 공유합니다.</p>
+        </td>
+    </tr>
+</table>
 
 ---
 

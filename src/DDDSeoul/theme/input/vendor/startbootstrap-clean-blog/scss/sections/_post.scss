@@ -69,6 +69,38 @@ h1#section-2 + div + p + table {
     }
 }
 
+h1#section-3 + h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1#section-3 + h2 + table {
+    width: 100%;
+
+    h3 {
+        font-size: $font-size-xxxl;
+        font-weight: $font-weight-bold;
+    }
+
+    td {
+        vertical-align: top !important;
+        padding-left: 20px;
+    }
+}
+
+.bio {
+    font-size: $font-size-sm;
+}
+
+.subject {
+    font-size: $font-size-xxl;
+    font-weight: $font-weight-bold;
+}
+
+.description {
+    font-size: $font-size-xl;
+}
+
 h1#section-5 + p + table {
     table-layout: fixed;
     margin: auto;
