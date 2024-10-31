@@ -85,6 +85,7 @@ h1#section-3 + h2 + table {
     td {
         vertical-align: top !important;
         padding-left: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -99,6 +100,12 @@ h1#section-3 + h2 + table {
 
 .description {
     font-size: $font-size-xl;
+}
+
+.line-split {
+    border-top: 1px solid $gray-400;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1#section-5 + p + table {
