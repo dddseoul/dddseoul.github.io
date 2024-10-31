@@ -69,13 +69,21 @@ h1#section-2 + div + p + table {
     }
 }
 
-h1#section-3 + h2 {
+h2.speakers {
     text-align: center;
     margin-bottom: 20px;
 }
 
 h1#section-3 + h2 + table {
+    table-layout: fixed;
+    margin: auto;
     width: 100%;
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
 
     h3 {
         font-size: $font-size-xxxl;
@@ -83,9 +91,11 @@ h1#section-3 + h2 + table {
     }
 
     td {
-        vertical-align: top !important;
         padding-left: 20px;
-        padding-bottom: 20px;
+
+        &.profile {
+          padding: auto;
+        }
     }
 }
 
@@ -116,6 +126,7 @@ h1#section-5 + p + table {
       width: 100%;
       max-width: 150px;
       height: auto;
+      margin-bottom: 20px;
     }
 
     thead tr {
