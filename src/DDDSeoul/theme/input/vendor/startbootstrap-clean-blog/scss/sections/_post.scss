@@ -69,6 +69,55 @@ h1#section-2 + div + p + table {
     }
 }
 
+h2.speakers {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1#section-3 + h2 + table {
+    table-layout: fixed;
+    margin: auto;
+    width: 100%;
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+
+    h3 {
+        font-size: $font-size-xxxl;
+        font-weight: $font-weight-bold;
+    }
+
+    td {
+        padding-left: 20px;
+
+        &.profile {
+          padding: auto;
+        }
+    }
+}
+
+.bio {
+    font-size: $font-size-sm;
+}
+
+.subject {
+    font-size: $font-size-xxl;
+    font-weight: $font-weight-bold;
+}
+
+.description {
+    font-size: $font-size-xl;
+}
+
+.line-split {
+    border-top: 1px solid $gray-400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h1#section-5 + p + table {
     table-layout: fixed;
     margin: auto;
@@ -77,6 +126,7 @@ h1#section-5 + p + table {
       width: 100%;
       max-width: 150px;
       height: auto;
+      margin-bottom: 20px;
     }
 
     thead tr {
