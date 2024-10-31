@@ -26,4 +26,4 @@ IsPage: true
 
 ## 문의
 
-행동 강령에 대한 문의사항은 `events 골뱅이 dddseoul 쩜 kr`로 연락해 주세요.
+행동 강령에 대한 문의사항은 events@dddseoul.kr로 연락해 주세요.
