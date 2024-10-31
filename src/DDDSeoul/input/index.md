@@ -76,19 +76,6 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 <div class="container">
     <div class="row align-items-start">
         <div class="col-md-2 profile mb-4">
-            <img src="/images/speakers/hoondongkim.jpg" alt="김훈동" class="img-fluid" />
-        </div>
-        <div class="col-md-10">
-            <h3>📜 <a href="https://www.linkedin.com/in/hoondong-kim/" title="김훈동 링크드인 프로필" target="_blank">김훈동 | KT</a></h3>
-            <p class="subject">🎤 KT-MS 협력 의의 및 대한민국 규제 시장에서 Azure Secure AI/Cloud 가 할 수 있는 부분</p>
-            <blockquote class="bio">Microsoft AI MVP 및 RD로 활동하고 있으며, Korea Spark User Group 운영진으로 활동하고 있습니다. 현재 KT에서 AI Lead로 근무하고 있으며, 이전 직장에서는 리테일 및 통신 분야에서 AI 플랫폼을 리드했습니다.</blockquote>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 line-split"></div>
-    </div>
-    <div class="row align-items-start">
-        <div class="col-md-2 profile mb-4">
             <img src="/images/speakers/youngwookkim.jpg" alt="김영욱" class="img-fluid" />
         </div>
         <div class="col-md-10">
@@ -108,6 +95,19 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
             <h3>📜 <a href="https://www.linkedin.com/in/jisun-kim-47343679/" title="김지선 링크드인 프로필" target="_blank">김지선 | Microsoft</a></h3>
             <p class="subject">🎤 [Code; Without Barriers] Live it, enjoy it: 다 함께 즐기는 일과 삶</p>
             <blockquote class="bio">부모님의 게임하면 돈이 나오냐는 잔소리에 돈이 나온다는 것을 증명하고자 개발자의 여정을 시작하여, 게임 업계와 스타트업, 글로벌 빅테크에서 19년 째 데이터와 일, 게임이라는 삼위덕업일치의 삶을 즐기고 있습니다.</blockquote>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 line-split"></div>
+    </div>
+    <div class="row align-items-start">
+        <div class="col-md-2 profile mb-4">
+            <img src="/images/speakers/hoondongkim.jpg" alt="김훈동" class="img-fluid" />
+        </div>
+        <div class="col-md-10">
+            <h3>📜 <a href="https://www.linkedin.com/in/hoondong-kim/" title="김훈동 링크드인 프로필" target="_blank">김훈동 | KT</a></h3>
+            <p class="subject">🎤 KT-MS 협력 의의 및 대한민국 규제 시장에서 Azure Secure AI/Cloud 가 할 수 있는 부분</p>
+            <blockquote class="bio">Microsoft AI MVP 및 RD로 활동하고 있으며, Korea Spark User Group 운영진으로 활동하고 있습니다. 현재 KT에서 AI Lead로 근무하고 있으며, 이전 직장에서는 리테일 및 통신 분야에서 AI 플랫폼을 리드했습니다.</blockquote>
         </div>
     </div>
 </div>
