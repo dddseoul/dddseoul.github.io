@@ -1,8 +1,6 @@
 # DDD Seoul 주제 발표 신청 결과
 
-{{SPEAKER}}님의 "{{SESSION_TITLE}}" 세션을 <span style="color:#AC4E21">DDD Seoul 2024</span>에서 청중들과 공유할 수 있게 되어 너무나도 기쁩니다!
-
-{{SPEAKER}}님의 세션, "{{SESSION_TITLE}}"을/를 DDD Seoul에서 청중들과 공유할 수 있게 되어 너무나도 기쁩니다!
+{{SPEAKER}}님의 세션, "{{SESSION_TITLE}}"을/를 <span style="color:#AC4E21">DDD Seoul 2024</span>에서 청중들과 공유할 수 있게 되어 너무나도 기쁩니다!
 
 아래 버튼을 <span style="color:#AC4E21">{{CONFIRMATION_DUE_DATE}}</span>까지 클릭하여 발표자 참여 여부를 확인해 주세요.
 
