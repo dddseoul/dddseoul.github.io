@@ -1,28 +1,20 @@
-<!-- 제출 결과: {{SESSION_TITLE}} - 응답 필요! -->
-
-안녕하세요, {{SPEAKER}}님!
+# DDD Seoul 주제 발표 신청 결과
 
 {{SPEAKER}}님의 "{{SESSION_TITLE}}" 세션을 <span style="color:#AC4E21">DDD Seoul 2024</span>에서 청중들과 공유할 수 있게 되어 너무나도 기쁩니다!
 
-이제 마지막으로 {{SPEAKER}}님의 참여 의사를 확인하기 위해 아래 링크를 클릭하여 주세요.
+{{SPEAKER}}님의 세션, "{{SESSION_TITLE}}"을/를 DDD Seoul에서 청중들과 공유할 수 있게 되어 너무나도 기쁩니다!
 
-(이 링크는 11월 9일 0시까지만 유효합니다)
+아래 버튼을 <span style="color:#AC4E21">{{CONFIRMATION_DUE_DATE}}</span>까지 클릭하여 발표자 참여 여부를 확인해 주세요.
 
+<div style="text-align: center; padding: 10px 0px;">
+    <a class="btn btn-accepted" href="{{SPEAKER_ACCEPTED_URL}}" title="Speaker accepted link" target="_blank">수락합니다</a>
+    <a class="btn btn-rejected" href="{{SPEAKER_REJECTED_URL}}" title="Speaker accepted link" target="_blank">거절합니다</a>
+</div>
 
-<!-- 링크 주소를 포함할 위치 -->
+만약 지정된 기한까지 수락 여부를 알려주지 않으실 경우 다음 순위 발표자에게 발표 기회가 넘어갑니다.
 
-
-이번 <span style="color:#AC4E21">DDD Seoul 2024</span>에서는 정말 많은 분께서 관심을 보내주셨습니다.
-
-그에 따라 {{SPEAKER}}님의 소중한 기회를 잃어버리지 않도록 꼭 지정된 기한 내 링크를 클릭하여주세요.
-
-
-행사에 대한 안내 및 주의사항과 파워포인트 템플릿 파일은 빠른 시일 내 별도로 안내드리겠습니다.
-
-
-혹시라도 이후에 발표 관련 변경사항이 있거나 기타 문의사항이 있을 경우, 이 메일로 회신 부탁드립니다.
-
+DDD Seoul에서 {{SPEAKER}}님을 꼭 뵙길 바라겠습니다.
 
 감사합니다.
 
-DDD Seoul 드림.
+DDD Seoul 운영진 일동
