@@ -1,4 +1,4 @@
-# DDD Seoul 주제 발표 신청 결과
+# DDD Seoul 세션 주제 발표 신청 결과
 
 안녕하세요, <span style="color:#AC4E21">DDD Seoul</span> 입니다.
 
