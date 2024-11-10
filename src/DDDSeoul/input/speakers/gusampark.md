@@ -1,4 +1,4 @@
-# 🎤 발표자: 유저스틴
+# 🎤 발표자: 박구삼
 
 <div class="container">
     <div class="row justify-content-center">
