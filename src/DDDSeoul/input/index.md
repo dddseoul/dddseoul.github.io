@@ -112,7 +112,7 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     </div>
 </div>
 
-<h2 class="speakers">컨퍼런스 &ndash; 12월 7일</h2>
+<h2 class="speakers">컨퍼런스 &ndash; 12월 7일, 토요일</h2>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -193,7 +193,7 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     </div>
 </div>
 
-<h2 class="speakers">워크샵 &ndash; 12월 8일</h2>
+<h2 class="speakers">워크샵 &ndash; 12월 8일, 일요일</h2>
 
 <div class="container">
     <div class="row justify-content-center">
