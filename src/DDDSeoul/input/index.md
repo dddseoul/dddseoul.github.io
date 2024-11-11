@@ -39,7 +39,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
   <a class="btn btn-orange-ddd btn-lg" href="/sponsorship">후원 제안하기</a>
 </div>
 
----
+<!-- ---
 
 <a name="cfp"></a>
 # 발표제안
@@ -64,7 +64,7 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 
 <div class="cfp-link">
   <a class="btn btn-orange-ddd btn-lg" href="https://bit.ly/dddseoul2024cfp" target="_blank">발표 제안하기</a>
-</div>
+</div> -->
 
 ---
 
@@ -112,13 +112,135 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     </div>
 </div>
 
-<h2 class="speakers">컨퍼런스</h2>
+<h2 class="speakers">컨퍼런스 &ndash; 12월 7일, 토요일</h2>
 
-<p style="text-align: center;">곧 발표할 예정입니다.</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/sungwookkang" target="_self">
+                <img src="/images/speakers/sungwookkang.jpg" alt="강성욱" class="img-fluid mb-2" /><br>강성욱
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/daegeunkim" target="_self">
+                <img src="/images/speakers/daegeunkim.jpg" alt="김대근" class="img-fluid mb-2" /><br>김대근
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/jinseokkim" target="_self">
+                <img src="/images/speakers/jinseokkim.png" alt="김진석" class="img-fluid mb-2" /><br>김진석
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/hyunhyekim" target="_self">
+                <img src="/images/speakers/hyunhyekim.jpg" alt="김현혜" class="img-fluid mb-2" /><br>김현혜
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/kyungfilmoon" target="_self">
+                <img src="/images/speakers/kyungfilmoon.jpg" alt="문경필" class="img-fluid mb-2" /><br>문경필
+            </a>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/minjinpark" target="_self">
+                <img src="/images/speakers/minjinpark.jpg" alt="박민진" class="img-fluid mb-2" /><br>박민진
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/junobea" target="_self">
+                <img src="/images/speakers/junobea.jpg" alt="배준오" class="img-fluid mb-2" /><br>배준오
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/dounbaek" target="_self">
+                <img src="/images/speakers/dounbaek.jpg" alt="백도운" class="img-fluid mb-2" /><br>백도운
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/younheesong" target="_self">
+                <img src="/images/speakers/younheesong.jpg" alt="송윤희" class="img-fluid mb-2" /><br>송윤희
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/byeongwookyou" target="_self">
+                <img src="/images/speakers/byeongwookyou.jpg" alt="유병욱" class="img-fluid mb-2" /><br>유병욱
+            </a>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/sodamlee" target="_self">
+                <img src="/images/speakers/sodamlee.jpg" alt="이소담" class="img-fluid mb-2" /><br>이소담
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/siyeonglee" target="_self">
+                <img src="/images/speakers/siyeonglee.jpg" alt="이시영" class="img-fluid mb-2" /><br>이시영
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/hyokeunchoi" target="_self">
+                <img src="/images/speakers/hyokeunchoi.jpg" alt="최효근" class="img-fluid mb-2" /><br>최효근
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/jihyeonhwang" target="_self">
+                <img src="/images/speakers/jihyeonhwang.jpg" alt="황지현" class="img-fluid mb-2" /><br>황지현
+            </a>
+        </div>
+    </div>
+</div>
 
-<h2 class="speakers">워크샵</h2>
+<h2 class="speakers">워크샵 &ndash; 12월 8일, 일요일</h2>
 
-<p style="text-align: center;">곧 발표할 예정입니다.</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/gusampark" target="_self">
+                <img src="/images/speakers/gusampark.png" alt="박구삼" class="img-fluid mb-2" /><br>박구삼
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/junghwanpark" target="_self">
+                <img src="/images/speakers/junghwanpark.png" alt="박정환" class="img-fluid mb-2" /><br>박정환
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/minseoksong" target="_self">
+                <img src="/images/speakers/minseoksong.jpg" alt="송민석" class="img-fluid mb-2" /><br>송민석
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/sungjinahn" target="_self">
+                <img src="/images/speakers/sungjinahn.jpg" alt="안성진" class="img-fluid mb-2" /><br>안성진
+            </a>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/justinyoo" target="_self">
+                <img src="/images/speakers/justinyoo.png" alt="유저스틴" class="img-fluid mb-2" /><br>유저스틴
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/jaeseoklee" target="_self">
+                <img src="/images/speakers/jaeseoklee.jpg" alt="이재석" class="img-fluid mb-2" /><br>이재석
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/jonginlee" target="_self">
+                <img src="/images/speakers/jonginlee.jpg" alt="이종인" class="img-fluid mb-2" /><br>이종인
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="/speakers/minseongcho" target="_self">
+                <img src="/images/speakers/minseongcho.jpg" alt="조민성" class="img-fluid mb-2" /><br>조민성
+            </a>
+        </div>
+    </div>
+</div>
 
 ---
 
@@ -134,12 +256,42 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 
 DDD Seoul 컨퍼런스는 커뮤니티가 주도하는 행사입니다. 컨퍼런스를 준비하고 운영하는 운영진은 다음과 같습니다.
 
-| 김진석 | 박구삼 | 박정환 | 박조은 | 유저스틴 |
-|:------:|:------:|:------:|:------:|:--------:|
-| ![김진석](/images/organisers/jinseokkim.png) | ![박구삼](/images/organisers/gusampark.png) | ![박정환](/images/organisers/junghwanpark.png) | ![박조은](/images/organisers/joeunpark.png) | ![유저스틴](/images/organisers/justinyoo.png) |
-| &nbsp; |        |        |        |          |
-| 유현아 | 이보라 | 전미정 | 조성수 | 진미나   |
-| ![유현아](/images/organisers/hyunahyoo.png) | ![이보라](/images/organisers/boralee.png) | ![전미정](/images/organisers/mijeongjeon.png) | ![조성수](/images/organisers/seongsoocho.png) | ![진미나](/images/organisers/minajin.png) |
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/jinseokkim.png" alt="김진석" class="img-fluid mb-2" /><br>김진석
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/gusampark.png" alt="박구삼" class="img-fluid mb-2" /><br>박구삼
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/junghwanpark.png" alt="박정환" class="img-fluid mb-2" /><br>박정환
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/joeunpark.png" alt="박조은" class="img-fluid mb-2" /><br>박조은
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/justinyoo.png" alt="유저스틴" class="img-fluid mb-2" /><br>유저스틴
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/hyunahyoo.png" alt="유현아" class="img-fluid mb-2" /><br>유현아
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/boralee.png" alt="이보라" class="img-fluid mb-2" /><br>이보라
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/mijeongjeon.png" alt="전미정" class="img-fluid mb-2" /><br>전미정
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/seongsoocho.png" alt="조성수" class="img-fluid mb-2" /><br>조성수
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="/images/organisers/minajin.png" alt="진미나" class="img-fluid mb-2" /><br>진미나
+        </div>
+    </div>
+</div>
 
 ---
 
