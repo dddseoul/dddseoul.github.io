@@ -69,6 +69,19 @@ h1#section-2 + div + p + table {
     }
 }
 
+.keynote-cell,
+.session-cell,
+.workshop-cell {
+  height: 7.5rem;
+  padding: 1rem;
+}
+
+.keynote-cell:nth-child(even),
+.session-cell:nth-child(odd),
+.workshop-cell:nth-child(even) {
+  background-color: $gray-400;
+}
+
 h2.speakers {
     text-align: center;
     margin-bottom: 20px;
