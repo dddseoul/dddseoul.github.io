@@ -141,7 +141,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 | 09:30 - 11:00
+                            제주 | 09:30 - 11:00
                         </div>
                     </div>
                     <div class="row">
@@ -155,7 +155,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 | 11:30 - 13:00
+                            제주 | 11:30 - 13:00
                         </div>
                     </div>
                     <div class="row">
@@ -169,7 +169,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 | 14:00 - 15:30
+                            제주 | 14:00 - 15:30
                         </div>
                     </div>
                     <div class="row">
@@ -183,7 +183,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 | 16:00 - 17:30
+                            제주 | 16:00 - 17:30
                         </div>
                     </div>
                     <div class="row">
@@ -201,7 +201,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 | 09:30 - 11:00
+                            동해/독도 | 09:30 - 11:00
                         </div>
                     </div>
                     <div class="row">
@@ -215,7 +215,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 | 11:30 - 13:00
+                            동해/독도 | 11:30 - 13:00
                         </div>
                     </div>
                     <div class="row">
@@ -229,7 +229,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 | 14:00 - 15:30
+                            동해/독도 | 14:00 - 15:30
                         </div>
                     </div>
                     <div class="row">
@@ -243,7 +243,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 | 16:00 - 17:30
+                            동해/독도 | 16:00 - 17:30
                         </div>
                     </div>
                     <div class="row">
