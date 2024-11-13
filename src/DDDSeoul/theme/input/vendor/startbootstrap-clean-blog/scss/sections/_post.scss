@@ -82,7 +82,8 @@ h1#section-2 + div + p + table {
   background-color: $gray-400;
 }
 
-h2.speakers {
+h2.speakers,
+h2.sponsors {
     text-align: center;
     margin-bottom: 20px;
 }
