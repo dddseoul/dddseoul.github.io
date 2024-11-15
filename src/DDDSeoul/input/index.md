@@ -11,7 +11,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-8 text-center">
             <a class="btn btn-primary fs-3 fw-normal" href="https://event-us.kr/95037" target="_blank">세션 티켓 구매하기</a>
-            <!-- <a class="btn btn-success fs-3 fw-normal" href="#" target="_blank">워크샵 티켓 구매하기</a> -->
+            <a class="btn btn-success fs-3 fw-normal" href="https://event-us.kr/95123" target="_blank">워크샵 티켓 구매하기</a>
         </div>
     </div>
 </div>
@@ -151,6 +151,14 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 </div>
 
 <h2 id="workshops" class="speakers">워크샵 &ndash; 12월 8일, 일요일</h2>
+
+<div class="container mb-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <a class="btn btn-success fs-3 fw-normal" href="https://event-us.kr/95123" target="_blank">워크샵 티켓 구매하기</a>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -355,7 +363,6 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-8 text-center">
             <a class="btn btn-primary fs-3 fw-normal" href="https://event-us.kr/95037" target="_blank">세션 티켓 구매하기</a>
-            <!-- <a class="btn btn-success fs-3 fw-normal" href="#" target="_blank">워크샵 티켓 구매하기</a> -->
         </div>
     </div>
 </div>
@@ -405,7 +412,6 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-8 text-center">
             <a class="btn btn-primary fs-3 fw-normal" href="https://event-us.kr/95037" target="_blank">세션 티켓 구매하기</a>
-            <!-- <a class="btn btn-success fs-3 fw-normal" href="#" target="_blank">워크샵 티켓 구매하기</a> -->
         </div>
     </div>
 </div>
@@ -491,6 +497,14 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 
 <h2 class="speakers">워크샵 &ndash; 12월 8일, 일요일</h2>
 
+<div class="container mb-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <a class="btn btn-success fs-3 fw-normal" href="https://event-us.kr/95123" target="_blank">워크샵 티켓 구매하기</a>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-sm-10 col-md-2 profile mb-4 text-center">
@@ -547,7 +561,7 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-8 text-center">
             <a class="btn btn-primary fs-3 fw-normal" href="https://event-us.kr/95037" target="_blank">세션 티켓 구매하기</a>
-            <!-- <a class="btn btn-success fs-3 fw-normal" href="#" target="_blank">워크샵 티켓 구매하기</a> -->
+            <a class="btn btn-success fs-3 fw-normal" href="https://event-us.kr/95123" target="_blank">워크샵 티켓 구매하기</a>
         </div>
     </div>
 </div>
