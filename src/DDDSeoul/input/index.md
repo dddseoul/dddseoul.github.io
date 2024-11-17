@@ -39,13 +39,10 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 
 <h2 id="sessions" class="speakers">세션 &ndash; 12월 7일, 토요일</h2>
 
-> 세부 일정은 추후 안내합니다.
-
 <div class="container mb-4">
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-8 text-center">
             <a class="btn btn-primary fs-3 fw-normal" href="https://event-us.kr/95037" target="_blank">세션 티켓 구매하기</a>
-            <!-- <a class="btn btn-success fs-3 fw-normal" href="#" target="_blank">워크샵 티켓 구매하기</a> -->
         </div>
     </div>
 </div>
@@ -53,97 +50,263 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <a href="/speakers/youngwookkim">
-                키노트: 대 AI 에이전트의 시대, 개발자들의 항로 | 김영욱
-            </a>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 fw-bold">
+                    참가자 체크인 | 09:00 - 10:00
+                </div>
+            </div>
         </div>
         <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <a href="/speakers/jisunkim">
-                키노트: [Code; Without Barriers] Live it, enjoy it: 다 함께 즐기는 일과 삶 | 김지선
-            </a>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 fw-bold">
+                    ROOM 1 (제주) & ROOM 2 (동해/독도) | 10:10 - 10:50
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <a href="/speakers/youngwookkim">
+                        <span class="fw-bold">키노트</span> |
+                        대 AI 에이전트의 시대, 개발자들의 항로 |
+                        <span class="fw-bold">김영욱</span>
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <a href="/speakers/hoondongkim">
-                키노트: KT-MS 협력 의의 및 대한민국 규제 시장에서 Azure Secure AI/Cloud 가 할 수 있는 부분 | 김훈동
-            </a>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 fw-bold">
+                    ROOM 1 (제주) & ROOM 2 (동해/독도) | 11:00 - 11:40
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <a href="/speakers/jisunkim">
+                        <span class="fw-bold">키노트</span> |
+                        [Code; Without Barriers] Live it, enjoy it: 다 함께 즐기는 일과 삶 |
+                        <span class="fw-bold">김지선</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 fw-bold">
+                    ROOM 1 (제주) & ROOM 2 (동해/독도) | 11:50 - 12:30
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <a href="/speakers/hoondongkim">
+                        <span class="fw-bold">키노트</span> |
+                        KT-MS 협력 의의 및 대한민국 규제 시장에서 Azure Secure AI/Cloud 가 할 수 있는 부분 |
+                        <span class="fw-bold">김훈동</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-sm-10 col-md-6">
             <div class="row">
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/sungwookkang">
-                        DB 배포는 자동화 할 수 없나요? | 강성욱
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 13:30 - 14:00
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/jinseokkim">
+                                디자인을 하면 코드가 나온다! 퇴근길을 앞당기는 AppBuilder 소개 | 김진석
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/daegeunkim">
-                        Azure에서 손쉽게 한 방에 수행하는 파인튜닝-모델 평가-양자화-ONNX 최적화 꿀팁 (feat. torchtune, Microsoft Olive) | 김대근
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 14:10 - 14:40
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/hyunhyekim">
+                                Draft Idea to App | 김현혜
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/jinseokkim">
-                        디자인을 하면 코드가 나온다! 퇴근길을 앞당기는 AppBuilder 소개 | 김진석
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 14:50 - 15:20
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/younheesong">
+                                Microsoft Fabric으로 Real-time 데이터 분석하기! | 송윤희
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/hyunhyekim">
-                        Draft idea to App | 김현혜
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 15:40 - 16:10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/jihyeonhwang">
+                                Power Automate로 기술 해커톤 자동화하기 | 황지현
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/kyungfilmoon">
-                        M365를 처음 담당하게 되신분들을 위한 스타트업 M365 관리자의 생존 노하우 공유 | 문경필
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 16:20 - 16:50
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/sodamlee">
+                                (쉽게 만나는) 윈도우 서버에 IIS로 Django 배포하기(with HttpPlatformHandler) | 이소담
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/minjinpark">
-                        거의 모든 Azure Serverless: 정적 웹앱 배포에서 컨테이너 자동 관리까지 | 박민진
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 17:00 - 17:30
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/daegeunkim">
+                                Azure에서 손쉽게 한 방에 수행하는 파인튜닝-모델 평가-양자화-ONNX 최적화 꿀팁 (feat. torchtune, Microsoft Olive) | 김대근
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/junobea">
-                        청중의 집중을 높이는 발표력 향상 | 배준오
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 17:40 - 18:10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/sungwookkang">
+                                DB 배포는 자동화 할 수 없나요? | 강성욱
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-10 col-md-6">
             <div class="row">
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/dounbaek">
-                        AKS내 서비스 개발과정에서 인증과 네트워크 이슈 대응법 | 백도운
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 13:30 - 14:00
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/siyeonglee">
+                                MLSA 되기: 나는 어떻게 맨땅에 헤딩했나 | 이시영
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/younheesong">
-                        Microsoft Power BI Copilot과 Microsoft Fabric의 시너지 | 송윤희
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 14:10 - 14:40
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/hyokeunchoi">
+                                실용적인 Evaluation-Driven LLMOps란 무엇일까요? | 최효근
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/byeongwookyou">
-                        카메라잡고 밤새 편집하던 방송쟁이가 개발자가 되기까지 | 유병욱
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 14:50 - 15:20
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/minjinpark">
+                                거의 모든 Azure Serverless: 정적 웹앱 배포에서 컨테이너 자동 관리까지 | 박민진
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/sodamlee">
-                        (쉽게 만나는) 윈도우 서버에 IIS로 Django 배포하기(with HttpPlatformHandler) | 이소담
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 15:40 - 16:10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/kyungfilmoon">
+                                M365를 처음 담당하게 되신분들을 위한 스타트업 M365 관리자의 생존 노하우 공유 | 문경필
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/siyeonglee">
-                        MLSA 되기 : 나는 어떻게 맨땅에 헤딩했나 | 이시영
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 16:20 - 16:50
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/junobea">
+                                청중의 집중을 높이는 발표력 향상 | 배준오
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/hyokeunchoi">
-                        점진적/실용적인 Evaluation-Driven LLMOps 아키텍처 | 최효근
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 17:00 - 17:30
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/dounbaek">
+                                AKS 상 서비스 개발 과정에서 인증과 네트워크 이슈 대응법 | 백도운
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <a href="/speakers/jihyeonhwang">
-                        기술 해커톤 운영을 Power Automate로 자동화하기 | 황지현
-                    </a>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 17:40 - 18:10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="/speakers/byeongwookyou">
+                                카메라잡고 밤새 편집하던 방송쟁이가 개발자가 되기까지 | 유병욱
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,6 +325,19 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 
 <div class="container">
     <div class="row justify-content-center">
+        <div class="col-sm-11 col-md-12">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            참가자 체크인 | 09:00 - 09:30
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
         <div class="col-sm-10 col-md-6">
             <div class="row">
                 <div class="col-sm-12 col-md-12 mb-4 text-center workshop-cell">
@@ -173,7 +349,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <a href="/speakers/jaeseoklee">
-                                회사내 데이터로 Chatgpt를 직접 만들어 보고 싶어요. | 이재석
+                                회사내 데이터로 ChatGPT를 직접 만들어 보고 싶어요. | 이재석
                             </a>
                         </div>
                     </div>

@@ -16,8 +16,8 @@
 
   이 세션은 Azure 서버리스 서비스의 개념과 장점을 소개하고, 적합한 서비스를 선택하는 방법을 안내합니다. Azure Functions, Azure Static Web Apps, Azure App Service, Azure Container Apps를 중심으로 기능, 적용 사례, 비용 구조, CI/CD 연동 등을 비교합니다.
 
-- **세션일정**: TBD
-- **세션장소**: TBD
+- **세션일정**: 12월 7일(토), 14:50 - 15:20
+- **세션장소**: ROOM 2 (동해/독도)
 
 ## 📜 발표자 소개
 
