@@ -10,7 +10,7 @@
 
 ## 🔎 세션 정보
 
-- **세션명**: 회사내 데이터로 Chatgpt를 직접 만들어 보고 싶어요.
+- **세션명**: 회사내 데이터로 ChatGPT를 직접 만들어 보고 싶어요.
 - **세션종류**: 워크샵
 - **세션설명**:
 
@@ -18,6 +18,10 @@
 
 - **세션일정**: 12월 8일(토), 09:30 - 11:00
 - **세션장소**: ROOM 1 (제주)
+- **참가자 준비물**:
+
+  - Visual Studio Code [https://code.visualstudio.com](https://code.visualstudio.com)
+  - .NET SDK 9 [https://dotnet.microsoft.com/ko-kr/download/dotnet/9.0](https://dotnet.microsoft.com/ko-kr/download/dotnet/9.0)
 
 ## 📜 발표자 소개
 
