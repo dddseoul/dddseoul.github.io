@@ -14,14 +14,10 @@
 - **세션종류**: 브레이크아웃 세션
 - **세션설명**:
 
-  이 세션은 Azure 서버리스의 다양한 기능을 이해하고, 적합한 서버리스 서비스를 선택할 수 있도록 가이드를 제공하는 것이 목표입니다.
+  이 세션은 Azure 서버리스 서비스의 개념과 장점을 소개하고, 적합한 서비스를 선택하는 방법을 안내합니다. Azure Functions, Azure Static Web Apps, Azure App Service, Azure Container Apps를 중심으로 기능, 적용 사례, 비용 구조, CI/CD 연동 등을 비교합니다.
 
-  서버리스 개념과 서비스의 장점을 간단히 소개한 후, Azure의 주요 서버리스 서비스인 Azure Functions, Azure Static Web Apps, Azure App Service, Azure Container Apps를 서로 비교하며 개괄적으로 설명합니다. 각 서비스가 지원하는 기능, 지원 프레임워크, 비용, 적용 범위, CI/CD를 예시와 함께 다룰 것입니다.
-
-  특히 Azure Container Apps의 경우, 일반적인 컨테이너 생성 방법과 같이 Dockerfile을 작성하여 배포하는 방법뿐만 아니라, Dockerfile 없이도 컨테이너를 배포할 수 있는 방법 또한 소개할 것입니다. 이를 통해 사용자의 다양한 환경에 맞게 유연하게 활용할 수 있는 옵션이 많다는 점을 강조할 예정입니다.
-
-- **세션일정**: TBD
-- **세션장소**: TBD
+- **세션일정**: 12월 7일(토), 14:50 - 15:20
+- **세션장소**: ROOM 2 (동해/독도)
 
 ## 📜 발표자 소개
 
@@ -29,4 +25,6 @@
 - **소속**: DotNetGirls
 - **자기소개**:
 
-  현 NGO 조인어스코리아 백엔드/인프라 개발자, DotNetGirls 커뮤니티 오거나이저
+  DotNetGirls 커뮤니티 오거나이저
+  
+  **DotNetGirls**: 여성 .NET 개발자들이 능력을 펼칠 수 있도록 돕는 커뮤니티입니다. 정기적인 기술 세미나를 진행 중입니다.

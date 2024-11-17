@@ -77,8 +77,8 @@ h1#section-2 + div + p + table {
 }
 
 .keynote-cell:nth-child(even),
-.session-cell:nth-child(odd),
-.workshop-cell:nth-child(even) {
+.session-cell:nth-child(even),
+.workshop-cell:nth-child(odd) {
   background-color: $gray-400;
 }
 
