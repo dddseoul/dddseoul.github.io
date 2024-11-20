@@ -145,7 +145,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <a href="/speakers/younheesong">
-                                Microsoft Fabric으로 Real-time 데이터 분석하기! | 송윤희
+                                Microsoft Fabric: End-to-End 분석 경험하기 | 송윤희
                             </a>
                         </div>
                     </div>

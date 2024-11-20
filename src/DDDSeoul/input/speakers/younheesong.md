@@ -10,11 +10,11 @@
 
 ## 🔎 세션 정보
 
-- **세션명**: Microsoft Fabric으로 Real-time 데이터 분석하기!
+- **세션명**: Microsoft Fabric: End-to-End 분석 경험하기
 - **세션종류**: 브레이크아웃 세션
 - **세션설명**:
 
-  Microsoft Fabric은 데이터 작업을 위한 엔터프라이즈 통합 솔루션입니다. MS Fabric이 무엇인지 소개하고, Fabric의 일부 서비스를 사용한 Real-time 데이터 분석 방법을 살펴봅니다.
+  Microsoft Fabric은 데이터 작업을 위한 엔터프라이즈 통합 솔루션입니다. MS Fabric이 무엇인지 소개하고, Fabric에서 데이터 수집부터 시각화 보고서 빌드까지 이어지는 데이터 워크플로우를 살펴봅니다.
 
 - **세션일정**: 12월 7일(토), 14:50 - 15:20
 - **세션장소**: ROOM 1 (제주)
