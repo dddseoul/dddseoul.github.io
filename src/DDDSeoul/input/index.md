@@ -473,11 +473,14 @@ DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와�
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 mb-4 text-center align-self-center">
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
             <a href="https://www.microsoft.com/ko-kr" target="_blank"><img src="/images/sponsors/microsoft.png" width="300" alt="Microsoft" /></a>
         </div>
-        <div class="col-sm-12 col-md-6 mb-4 text-center align-self-center">
-            <a href="https://www.infragistics.co.kr" target="_blank"><img src="/images/sponsors/infragistics.jpg" width="100" alt="Infragistics" /></a>
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
+            <a href="https://www.infragistics.co.kr" target="_blank"><img src="/images/sponsors/infragistics.jpg" width="300" alt="Infragistics" /></a>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
+            <a href="https://laundrysurfing.com/" target="_blank"><img src="/images/sponsors/laundry-surfing.png" width="250" alt="Laundry Surfing" /></a>
         </div>
     </div>
 </div>
@@ -486,11 +489,14 @@ DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와�
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 mb-4 text-center align-self-center">
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
             <a href="https://www.onlybook.co.kr/" target="_blank"><img src="/images/sponsors/onlybooks.jpg" width="150" alt="책만" /></a>
         </div>
-        <div class="col-sm-12 col-md-6 mb-4 text-center align-self-center">
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
             <a href="https://www.youtube.com/@AI-io3ik" target="_blank"><img src="/images/sponsors/grateful-ai.jpg" width="150" alt="친절한 AI" /></a>
+        </div>
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
+            <a href="https://www.hanbit.co.kr/" target="_blank"><img src="/images/sponsors/hanbitmedia.png" width="300" alt="한빛미디어" /></a>
         </div>
     </div>
 </div>
