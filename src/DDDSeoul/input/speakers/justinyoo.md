@@ -20,8 +20,12 @@
 - **세션장소**: ROOM 2 (동해/독도)
 - **참가자 준비물**:
 
-  - 최신 버전의 Microsoft Edge 또는 Google Chrome 브라우저
-  - GitHub 계정
+  - [.NET SDK 9](https://dotnet.microsoft.com/download/dotnet/9.0) 설치
+  - [PowerShell 7](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) 설치
+  - [git CLI](https://git-scm.com/downloads) 설치
+  - [GitHub CLI](https://cli.github.com/) 설치
+  - [Docker Desktop](https://docs.docker.com/get-started/introduction/get-docker-desktop/) 설치
+  - [Visual Studio Code](https://code.visualstudio.com/) 설치
 
 ## 📜 발표자 소개
 

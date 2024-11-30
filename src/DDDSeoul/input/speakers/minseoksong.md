@@ -25,7 +25,11 @@
 - **세션장소**: ROOM 1 (제주)
 - **참가자 준비물**:
 
-  - 곧 안내하겠습니다.
+  - [GitHub 계정](https://github.com)
+  - [git](https://git-scm.com/)
+  - [Visual Studio Code](https://code.visualstudio.com) + [Python 확장](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Python](https://www.python.org/) 3.10 이상
+  - [pyenv](https://github.com/pyenv/pyenv)
 
 ## 📜 발표자 소개
 
