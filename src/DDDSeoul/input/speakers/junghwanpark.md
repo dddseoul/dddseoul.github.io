@@ -20,11 +20,24 @@
 - **세션장소**: ROOM 2 (동해/독도)
 - **참가자 준비물**:
 
-  - [GitHub 계정](https://github.com)
-  - [git](https://git-scm.com/)
-  - [Visual Studio Code](https://code.visualstudio.com) + [Python 확장](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-  - [Python](https://www.python.org/) 3.10 이상
-  - [pyenv](https://github.com/pyenv/pyenv)
+  - Python 3.10 이상 및 가상환경
+    - Anaconda 또는 miniconda 설치를 추천합니다: [Anaconda 또는 miniconda 설치](https://www.anaconda.com/download)
+    - (선택사항) (conda 미사용 시) pyenv 등을 사용하여 가상 환경을 구성합니다.
+    -  `python -V` 명령어를 실행했을 때 Python 3.10 이상이 출력되어야 합니다.
+  - Azure 계정
+    - Azure Portal에 로그인할 수 있는 계정이 필요합니다: [Azure Portal](https://portal.azure.com)
+    - 유효한 구독이 있어야 합니다.
+  - GitHub 계정 및 Git Client
+    - GitHub에 로그인할 수 있는 계정이 필요합니다: [GitHub](https://github.com)
+    - GitHub에 로그인, 저장소 만들기, Commit 및 Push가 가능해야 합니다.
+    - `git` 명령어를 실행했을 때 동작해야 합니다: [Git 설치](https://git-scm.com/downloads)
+  - Visual Studio Code (또는 코드 에디터)
+    - Visual Studio Code를 사용하는 것을 추천합니다: [Visual Studio Code 설치](https://code.visualstudio.com/download)
+    - (Visual Studio Code 사용 시) Python Extension Pack 설치를 추천합니다: [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+  - (선택사항) Docker 또는 Podman 등
+    - Docker 또는 Podman을 사용하여 컨테이너 이미지를 빌드하고 실행할 수 있어야 합니다: [Docker 설치](https://docs.docker.com/get-docker/)
+    - 단, Local Build 없이 진행하는 경우, Docker 또는 Podman은 필요하지 않습니다.
+
 
 ## 📜 발표자 소개
 
