@@ -3,6 +3,8 @@ IsPost: false
 IsPage: true
 ---
 <a name="about"></a>
+<h1 style="text-align: center;">2024</h1>
+
 DDD (Developer! Developer! Developer!) 는 마이크로소프트의 기술을 중심으로 하는 커뮤니티 주도 개발자 컨퍼런스입니다. DDD는 영국의 레딩에서 2005년부터 시작해서 전세계로 뻗어나갔으며, DDD Seoul은 아시아의 첫번째 DDD 컨퍼런스입니다. DDD Seoul 컨퍼런스를 통해 새로운 발표자를 발굴하고, 다양한 주제를 다루며, 다양한 경험을 나누고자 합니다.
 
 DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합니다. DDD Seoul 컨퍼런스를 통해 다양한 기술 교육과 더불어 자연스러운 네트워킹을 통해 Microsoft 개발자 생태계에 기여할 것입니다.
