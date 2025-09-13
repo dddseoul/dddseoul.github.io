@@ -4,7 +4,7 @@ DDD Seoul 웹사이트는 .NET 기반의 [Statiq](https://www.statiq.dev/) 정�
 
 ## 사전 요구사항
 
-- [.NET SDK 8+](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [.NET SDK 9+](https://dotnet.microsoft.com/download/dotnet/9.0)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) 또는 [Visual Studio Code](https://code.visualstudio.com/) + [C# DevKit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 - 윈도우 사용자: [PowerShell 7+](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)
 
