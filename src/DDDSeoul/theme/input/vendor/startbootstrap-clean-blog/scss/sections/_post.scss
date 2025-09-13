@@ -69,6 +69,43 @@ h1#section-2 + div + p + table {
     }
 }
 
+// 발표 제안
+h1#section-2 + p + table {
+  width: 100%;
+  text-align: center;
+
+  thead {
+      background-color: $gray-400;
+  }
+
+  td {
+      border: 1px solid $gray-400;
+  }
+}
+
+h2#section-2 + p + table {
+    width: 100%;
+    text-align: center;
+
+    thead {
+        background-color: $gray-400;
+    }
+
+    td {
+        border: 1px solid $gray-400;
+    }
+
+    tbody tr td {
+      &:nth-child(1) {
+          font-weight: $font-weight-bold;
+      }
+  }
+}
+
+h2#section-2 + p + table + ul {
+    margin-top: 1.5em;
+}
+
 .keynote-cell,
 .session-cell,
 .workshop-cell {
@@ -132,6 +169,18 @@ h1#section-3 + h2 + table {
     margin-bottom: 20px;
 }
 
+h2#section-4 + ol table {
+    width: 100%;
+
+    thead {
+        background-color: $gray-400;
+    }
+
+    td {
+        border: 1px solid $gray-400;
+    }
+}
+
 h1#section-5 + p + table {
     table-layout: fixed;
     margin: auto;
@@ -153,42 +202,6 @@ h1#section-5 + p + table {
         }
     }
 }
-
-h2#section-2 + p + table {
-    width: 100%;
-    text-align: center;
-
-    thead {
-        background-color: $gray-400;
-    }
-
-    td {
-        border: 1px solid $gray-400;
-    }
-
-    tbody tr td {
-      &:nth-child(1) {
-          font-weight: $font-weight-bold;
-      }
-  }
-}
-
-h2#section-2 + p + table + ul {
-    margin-top: 1.5em;
-}
-
-h2#section-4 + ol table {
-    width: 100%;
-
-    thead {
-        background-color: $gray-400;
-    }
-
-    td {
-        border: 1px solid $gray-400;
-    }
-}
-
 
 @media (max-width: 768px) {
   h1#section-5 + p + table {
