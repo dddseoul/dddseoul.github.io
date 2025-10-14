@@ -71,7 +71,22 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 <a name="speakers"></a>
 # 발표자
 
-곧 안내할 예정입니다.
+<h2 class="speakers">키노트</h2>
+
+<div class="container">
+    <div class="row align-items-start">
+        <div class="col-md-2 profile mb-4">
+            <img src="./images/speakers/hyesunan.png" alt="안혜선" class="img-fluid" />
+        </div>
+        <div class="col-md-10">
+            <h3>📜 <a href="https://www.linkedin.com/in/anhyesun/" title="안혜선 링크드인 프로필" target="_blank">안혜선 | Microsoft</a></h3>
+            <p class="subject">🎤 <a href="./speakers/hyesunan" target="_self">수포자가 전생했더니 마이크로소프트 엔지니어로?</a></p>
+            <blockquote class="bio">한국의 국문과 출신 마케팅 담당자가 캐나다에서, 그리고 미국에서 좌충우돌 개발자로 살고 있습니다.</blockquote>
+        </div>
+    </div>
+</div>
+
+더 많은 발표자를 곧 안내할 예정입니다.
 
 ---
 
@@ -85,7 +100,44 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 <a name="organisers"></a>
 # 운영진
 
-DDD Seoul 컨퍼런스는 커뮤니티가 주도하는 행사입니다. 컨퍼런스를 준비하고 운영하는 운영진은 곧 안내할 예정입니다.
+DDD Seoul 컨퍼런스는 커뮤니티가 주도하는 행사입니다. 컨퍼런스를 준비하고 운영하는 운영진은 다음과 같습니다.
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/youngwookkim.jpg" alt="김영욱" class="img-fluid mb-2" /><br>김영욱
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/jinseokkim.png" alt="김진석" class="img-fluid mb-2" /><br>김진석
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/joeunpark.png" alt="박조은" class="img-fluid mb-2" /><br>박조은
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/sunghoyou.jpg" alt="유승호" class="img-fluid mb-2" /><br>유승호
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/justinyoo.png" alt="유저스틴" class="img-fluid mb-2" /><br>유저스틴
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/boralee.png" alt="이보라" class="img-fluid mb-2" /><br>이보라
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/daehojeon.jpg" alt="전대호" class="img-fluid mb-2" /><br>전대호
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/minajin.png" alt="진미나" class="img-fluid mb-2" /><br>진미나
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/gaeunchoi.jpg" alt="최가은" class="img-fluid mb-2" /><br>최가은
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <img src="./images/organisers/jeongwoochoi.jpg" alt="최정우" class="img-fluid mb-2" /><br>최정우
+        </div>
+    </div>
+</div>
 
 ---
 
