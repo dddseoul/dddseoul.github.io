@@ -20,4 +20,9 @@
     <PackageReference Include="System.Security.Cryptography.Xml" Version="9.*" />
   </ItemGroup>
 
+  <Target Name="CopyLibsassAfterBuild" AfterTargets="Build"
+    Condition="$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))">
+    <Copy SourceFiles="../../lib/libsass.dylib" DestinationFolder="$(OutputPath)" />
+  </Target>
+
 </Project>

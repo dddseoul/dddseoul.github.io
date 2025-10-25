@@ -7,6 +7,14 @@ DDD (Developer! Developer! Developer!) 는 마이크로소프트의 기술을 �
 
 DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합니다. DDD Seoul 컨퍼런스를 통해 다양한 기술 교육과 더불어 자연스러운 네트워킹을 통해 Microsoft 개발자 생태계에 기여할 것입니다.
 
+<div class="container mb-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
+        </div>
+    </div>
+</div>
+
 ---
 
 <a name="agenda"></a>
@@ -93,7 +101,13 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 <a name="register"></a>
 # 참가신청
 
-곧 안내할 예정입니다.
+<div class="container mb-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
+        </div>
+    </div>
+</div>
 
 ---
 
