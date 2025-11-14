@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-4 profile mb-4 text-center">
-            <img src="../images/speakers/haneolkim.webp" alt="김한얼" class="img-fluid" />
+            <img src="../images/speakers/haneolkim.jpg" alt="김한얼" class="img-fluid" />
         </div>
     </div>
 </div>
@@ -14,7 +14,7 @@
 - **세션종류**: 브레이크아웃 세션
 - **세션설명**:
 
-  이 세션에서는 Microsoft Agent Framework를 중심으로 다양한 3rd-party 생성형 AI API를 결합하여, 생동감 넘치는 실시간 인터랙티브 콘텐츠를 제작하는 내용을 다룹니다.
+  이 세션은 Unity 6와 C# 환경에서 Microsoft Agent Framework를 중심으로 살아있는 AI 아바타를 만드는 가장 실용적인 방법을 제안합니다. 유저의 음성이 Speech-to-Text(STT)로 인식되면, Agent Framework를 통해 즉시 응답을 생성합니다. 이 응답은 Text-to-Speech(TTS)를 통해 생생한 음성으로 변환되는 동시에, 실시간 Lipsync 애니메이션과 결합되어 아바타에 생명력을 불어넣습니다. 이 모든 과정을 Unity 환경에서 매끄럽게 연결하는 실전 테크닉을 만나보세요.
 
 - **세션일정**: 12월 5일(금), 14:20 - 15:00
 - **세션장소**: ROOM 2 (동해/독도)

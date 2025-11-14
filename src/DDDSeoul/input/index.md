@@ -429,7 +429,7 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
         </div>
         <div class="col-sm-10 col-md-2 profile mb-4 text-center">
             <a href="./speakers/haneolkim" target="_self">
-                <img src="./images/speakers/haneolkim.webp" alt="김한얼" class="img-fluid mb-2" /><br>김한얼
+                <img src="./images/speakers/haneolkim.jpg" alt="김한얼" class="img-fluid mb-2" /><br>김한얼
             </a>
         </div>
         <div class="col-sm-10 col-md-2 profile mb-4 text-center">
