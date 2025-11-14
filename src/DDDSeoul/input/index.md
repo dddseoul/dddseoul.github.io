@@ -106,12 +106,158 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
         <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
             <div class="row">
                 <div class="col-sm-12 col-md-12 fw-bold">
-                    트랙 1 (제주) & 트랙 2 (동해/독도) | 13:30 - 18:00
+                    점심 식사 | 12:30 - 13:30
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-6">
             <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    트랙별 브레이크아웃 세션 진행 - 추후 안내
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 13:30 - 14:10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/yeowonlee">
+                                Python in Excel: 데이터 분석의 새로운 시작 | 이여원
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 14:20 - 15:00
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/jaehyunkim">
+                                Microsoft AI 기술은 첨이라... | 김재현
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 15:10 - 15:50
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/kisoosong">
+                                프롬프트에서 프로덕션까지: 현장에서 만난 AI 적용의 여정 | 송기수
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 16:00 - 16:40
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/minajin">
+                                고객센터 상담 AI Agent - 에이전트 플로우 흐름으로 Copilot Studio Agent 자동화 확장 | 진미나
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 1 (제주) | 16:50 - 17:30
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/justinyoo">
+                                엄마! 쟤가 MCP 서버 이상하게 만들었어요! - MCP 서버 개발시 고려해야 할 것들 | 유저스틴
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-10 col-md-6">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 13:30 - 14:10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/jinseokkim">
+                                App Builder의 AI 기능으로 실현하는 빠른 MVP 개발 | 김진석
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 14:20 - 15:00
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/haneolkim">
+                                Microsoft Agent Framework와 생성형 AI를 활용한 유니티 실시간 아바타 제작하기 | 김한얼
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 15:10 - 15:50
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/gyeongsunpark">
+                                귀하게 자란 내가... 아직도 구버전 LLM? | 박경선
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 16:00 - 16:40
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/taeyoungpark">
+                                스크랩해서 쌓아만 두는 당신에겐 AI Agent가 필요합니다! | 박태영
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 fw-bold">
+                            ROOM 2 (동해/독도) | 16:20 - 16:50
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <a href="./speakers/suminlee">
+                                AI Agent로 완성한 계약 관리 End-to-End 자동화 - Power Platform x Azure AI Foundry | 이수민/최재순
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,11 +269,60 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
 <a name="sponsors"></a>
 # 후원사
 
-곧 안내할 예정입니다.
+DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와주신 모든 후원사에 감사의 말씀 드립니다.
+
+<h2 id="sponsors-main" class="sponsors">주 후원사</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
+            <a href="https://www.microsoft.com/ko-kr" target="_blank"><img src="./images/sponsors/microsoft.png" width="300" alt="Microsoft" style="margin: 30px 0px;" /></a>
+        </div>
+        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
+            <a href="https://www.kt.com/" target="_blank"><img src="./images/sponsors/kt.jpg" width="300" alt="KT" style="margin: 30px 0px;" /></a>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
+            <a href="https://www.infragistics.co.kr" target="_blank"><img src="./images/sponsors/infragistics.jpg" width="300" alt="Infragistics" style="margin: 30px 0px;" /></a>
+        </div>
+    </div>
+</div>
+
+<h2 id="sponsors-books" class="sponsors">도서 후원사</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
+            <a href="https://www.hanbit.co.kr/" target="_blank"><img src="./images/sponsors/hanbitmedia.png" width="300" alt="한빛미디어" style="margin: 30px 0px;" /></a>
+        </div>
+    </div>
+</div>
+
+<h2 id="sponsors-books" class="sponsors">개인 후원</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
+            <div style="display: inline-block;">
+                <a href="https://www.linkedin.com/in/haesunpark" target="_blank">
+                    <img src="./images/sponsors/haesunpark.jpg" alt="박해선" class="img-fluid mb-2" width="150" /><br>박해선
+                </a>
+            </div>
+            <div style="display: inline-block;">
+                <a href="https://www.linkedin.com/in/sungjin-ahn/" target="_blank">
+                    <img src="./images/sponsors/sungjinahn.jpg" alt="안성진" class="img-fluid mb-2" width="150" /><br>안성진
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 곧 안내할 예정입니다.
 
 <div class="sponsorship-link">
   <a class="btn btn-orange-ddd btn-lg" href="/sponsorship">후원 제안하기</a>
-</div>
+</div> -->
 
 ---
 
@@ -162,6 +357,14 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
 # 발표자
 
 <h2 class="speakers">키노트</h2>
+
+<div class="container mb-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row align-items-start">
@@ -202,7 +405,72 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
     </div>
 </div>
 
-더 많은 발표자를 곧 안내할 예정입니다.
+<h2 class="speakers">브레이크아웃 세션</h2>
+
+<div class="container mb-4">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/jaehyunkim" target="_self">
+                <img src="./images/speakers/jaehyunkim.jpg" alt="김재현" class="img-fluid mb-2" /><br>김재현
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/jinseokkim" target="_self">
+                <img src="./images/speakers/jinseokkim.png" alt="김진석" class="img-fluid mb-2" /><br>김진석
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/haneolkim" target="_self">
+                <img src="./images/speakers/haneolkim.webp" alt="김한얼" class="img-fluid mb-2" /><br>김한얼
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/gyeongsunpark" target="_self">
+                <img src="./images/speakers/gyeongsunpark.jpg" alt="박경선" class="img-fluid mb-2" /><br>박경선
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/taeyoungpark" target="_self">
+                <img src="./images/speakers/taeyoungpark.jpg" alt="박태영" class="img-fluid mb-2" /><br>박태영
+            </a>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/kisoosong" target="_self">
+                <img src="./images/speakers/kisoosong.png" alt="송기수" class="img-fluid mb-2" /><br>송기수
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/justinyoo" target="_self">
+                <img src="./images/speakers/justinyoo.png" alt="유저스틴" class="img-fluid mb-2" /><br>유저스틴
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/suminlee" target="_self">
+                <img src="./images/speakers/suminlee.png" alt="이수민/최재순" class="img-fluid mb-2" /><br>이수민/최재순
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/yeowonlee" target="_self">
+                <img src="./images/speakers/yeowonlee.jpg" alt="이여원" class="img-fluid mb-2" /><br>이여원
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/minajin" target="_self">
+                <img src="./images/speakers/minajin.png" alt="진미나" class="img-fluid mb-2" /><br>진미나
+            </a>
+        </div>
+    </div>
+</div>
 
 ---
 
