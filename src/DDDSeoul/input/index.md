@@ -124,7 +124,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <a href="./speakers/yeowonlee">
-                                Python in Excel: 데이터 분석의 새로운 시작 | 이여원
+                                Excel의 재발견: Python부터 Copilot까지 한 번에 보기 | 이여원
                             </a>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                 <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 (동해/독도) | 16:20 - 16:50
+                            ROOM 2 (동해/독도) | 16:50 - 17:30
                         </div>
                     </div>
                     <div class="row">
