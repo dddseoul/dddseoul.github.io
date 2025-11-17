@@ -305,8 +305,13 @@ DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와�
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
             <div style="display: inline-block;">
+                <a href="https://www.linkedin.com/in/todaycode/" target="_blank">
+                    <img src="./images/sponsors/joeunpark.png" alt="박조은" class="img-fluid mb-2" width="150" /><br>박조은
+                </a>
+            </div>
+            <div style="display: inline-block;">
                 <a href="https://www.linkedin.com/in/haesunpark" target="_blank">
-                    <img src="./images/sponsors/haesunpark.jpg" alt="박해선" class="img-fluid mb-2" width="150" /><br>박해선
+                    <img src="./images/sponsors/haesunpark.png" alt="박해선" class="img-fluid mb-2" width="150" /><br>박해선
                 </a>
             </div>
             <div style="display: inline-block;">
