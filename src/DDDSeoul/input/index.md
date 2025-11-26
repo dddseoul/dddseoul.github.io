@@ -410,7 +410,7 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
         <div class="col-md-10">
             <h3>📜 <a href="https://www.linkedin.com/in/hoondong-kim/" title="김훈동 링크드인 프로필" target="_blank">김훈동 | KT</a></h3>
             <p class="subject">🎤 <a href="./speakers/hoondongkim" target="_self">Agentic 그 다음에 대하여</a></p>
-            <blockquote class="bio">Microsoft AI MVP 및 RD로 활동하고 있으며, 현재 KT에서 AI Lead로 근무하고 있습니다.</blockquote>
+            <blockquote class="bio">Microsoft AI MVP 및 RD로 활동하고 있으며, 현재 KT에서 AXD 본부 본부장으로 근무하고 있습니다.</blockquote>
         </div>
     </div>
 </div>

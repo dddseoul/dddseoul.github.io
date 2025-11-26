@@ -22,4 +22,4 @@
 - **소속**: KT
 - **자기소개**:
 
-  Microsoft AI MVP 및 RD로 활동하고 있으며, Korea Spark User Group 운영진으로 활동하고 있습니다. 현재 KT에서 AI Lead로 근무하고 있으며, 이전 직장에서는 리테일 및 통신 분야에서 AI 플랫폼을 리드했습니다.
+  Microsoft AI MVP 및 RD로 활동하고 있으며, Korea Spark User Group 운영진으로 활동하고 있습니다. 현재 KT에서 AXD 본부 본부장으로 근무하고 있으며, 이전 직장에서는 리테일 및 통신 분야에서 AI 플랫폼을 리드했습니다.
