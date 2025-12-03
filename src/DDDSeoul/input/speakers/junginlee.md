@@ -1,4 +1,4 @@
-# 🎤 발표자: 안혜선
+# 🎤 발표자: 이정인
 
 <div class="container">
     <div class="row justify-content-center">
