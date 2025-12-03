@@ -253,8 +253,8 @@ DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합�
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/suminlee">
-                                AI Agent로 완성한 계약 관리 End-to-End 자동화 - Power Platform x Azure AI Foundry | 이수민/최재순
+                            <a href="./speakers/yeonwoochoi">
+                                망한 스펙으로 살아남기: 33세에 시작한 첫 커리어 | 최연우
                             </a>
                         </div>
                     </div>
@@ -465,11 +465,6 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
             </a>
         </div>
         <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/suminlee" target="_self">
-                <img src="./images/speakers/suminlee.png" alt="이수민/최재순" class="img-fluid mb-2" /><br>이수민/최재순
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
             <a href="./speakers/yeowonlee" target="_self">
                 <img src="./images/speakers/yeowonlee.jpg" alt="이여원" class="img-fluid mb-2" /><br>이여원
             </a>
@@ -477,6 +472,11 @@ Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있
         <div class="col-sm-10 col-md-2 profile mb-4 text-center">
             <a href="./speakers/minajin" target="_self">
                 <img src="./images/speakers/minajin.png" alt="진미나" class="img-fluid mb-2" /><br>진미나
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
+            <a href="./speakers/yeonwoochoi" target="_self">
+                <img src="./images/speakers/yeonwoochoi.jpg" alt="최연우" class="img-fluid mb-2" /><br>최연우
             </a>
         </div>
     </div>
