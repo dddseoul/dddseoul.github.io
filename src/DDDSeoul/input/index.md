@@ -1,547 +1,144 @@
 Title: Microsoft 기술 중심 개발자 컨퍼런스
+Description: DDD Seoul 2026 — 2026년 12월 4일 금요일, 9시 - 18시. 한국 마이크로소프트 13층에서 함께하는 커뮤니티 주도 개발자 컨퍼런스입니다.
 IsPost: false
 IsPage: true
+Layout: /_layout-2026.cshtml
 ---
-<a name="about"></a>
-DDD (Developer! Developer! Developer!) 는 마이크로소프트의 기술을 중심으로 하는 커뮤니티 주도 개발자 컨퍼런스입니다. DDD는 영국의 레딩에서 2005년부터 시작해서 전세계로 뻗어나갔으며, DDD Seoul은 아시아의 첫번째 DDD 컨퍼런스입니다. DDD Seoul 컨퍼런스를 통해 새로운 발표자를 발굴하고, 다양한 주제를 다루며, 다양한 경험을 나누고자 합니다.
-
-DDD Seoul 컨퍼런스는 커뮤니티의 참여와 기여를 통해 성장합니다. DDD Seoul 컨퍼런스를 통해 다양한 기술 교육과 더불어 자연스러운 네트워킹을 통해 Microsoft 개발자 생태계에 기여할 것입니다.
-
-<!-- <div class="container mb-4">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 text-center">
-            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
-        </div>
+<div class="stage">
+  <div class="hero container">
+    <div class="hero-copy">
+      <div class="hero-label eyebrow mono">MICROSOFT TECHNOLOGY CONFERENCE</div>
+      <h1>경험을 나누며<br><span>가능성을 탐색하세요</span></h1>
+      <p>개발자가 만들고, 개발자가 함께하는 하루<br>Microsoft 기술을 중심으로 만나는 DDD Seoul 2026</p>
+      <div class="hero-actions">
+        <a class="button" href="#cfp">발표 제안 안내 <span>↓</span></a>
+        <a class="text-link" href="#newsletter">행사 소식 받아보기 ↓</a>
+      </div>
     </div>
-</div> -->
-
----
-
-<a name="agenda"></a>
-# 행사일정
-
-<div class="container">
-    <div class="row justify-content-center mb-4">
-        <div class="col-sm-12 col-md-8 fw-bold">
-            일시: 2025년 12월 5일 금요일, 9시 - 18시
-        </div>
-        <div class="col-sm-12 col-md-8 fw-bold">
-            장소: 한국 마이크로소프트 13층 | 서울특별시 종로구 종로1길 50 더케이트윈타워
-        </div>
+    <div class="edition" aria-hidden="true">
+      <span class="eyebrow mono">DEVELOPER! DEVELOPER! DEVELOPER!</span>
+      <div class="year"><span>20</span><span>26</span></div>
+      <div class="edition-bottom"><span class="mono">SEOUL / KOREA</span><span class="barcode"></span></div>
     </div>
-    <div class="row justify-content-center mb-4">
-        <div class="col-sm-12 col-md-8 text-center">
-            <img src="./images/location.png" class="img-fluid">
-        </div>
-    </div>
+  </div>
 </div>
-
-<h2 id="sessions" class="speakers">시간표</h2>
-
-<!-- <div class="container mb-4">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 text-center">
-            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
-        </div>
-    </div>
-</div> -->
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 fw-bold">
-                    참가자 체크인 | 09:00 - 10:00
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 fw-bold">
-                    트랙 1 (제주) & 트랙 2 (동해/독도) | 10:10 - 10:50
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <a href="./speakers/junginlee">
-                        <span class="fw-bold">키노트</span> |
-                        코드에서 클라우드까지 : 마이크로소프트 AI 전략 |
-                        <span class="fw-bold">이정인</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 fw-bold">
-                    트랙 1 (제주) & 트랙 2 (동해/독도) | 11:00 - 11:40
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <a href="./speakers/hyesunan">
-                        <span class="fw-bold">키노트</span> |
-                        수포자가 전생했더니 마이크로소프트 엔지니어로? |
-                        <span class="fw-bold">안혜선</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 fw-bold">
-                    트랙 1 (제주) & 트랙 2 (동해/독도) | 11:50 - 12:30
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <a href="./speakers/hoondongkim">
-                        <span class="fw-bold">키노트</span> |
-                        Agentic 그 다음에 대하여 |
-                        <span class="fw-bold">김훈동</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 mb-4 text-center keynote-cell">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 fw-bold">
-                    점심 식사 | 12:30 - 13:30
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="event-strip" aria-label="확정된 행사 일정">
+  <div class="strip-inner container">
+    <div class="strip-item"><span class="mono">DATE / 2026</span><strong>12.04 FRI</strong></div>
+    <div class="strip-item"><span class="mono">TIME / KST</span><strong>09:00 — 18:00</strong></div>
+    <div class="strip-item"><span class="mono">VENUE / SEOUL</span><strong>한국 마이크로소프트 13층</strong></div>
+    <div class="strip-item"><span class="mono">COMMUNITY</span><strong>함께 만드는 행사</strong></div>
+  </div>
 </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-6">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 (제주) | 13:30 - 14:10
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/yeowonlee">
-                                Excel의 재발견: Python부터 Copilot까지 한 번에 보기 | 이여원
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 (제주) | 14:20 - 15:00
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/jaehyunkim">
-                                Microsoft AI 기술은 첨이라... | 김재현
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 (제주) | 15:10 - 15:50
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/kisoosong">
-                                프롬프트에서 프로덕션까지: 현장에서 만난 AI 적용의 여정 | 송기수
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 (제주) | 16:00 - 16:40
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/minajin">
-                                고객센터 상담 AI Agent - 에이전트 플로우 흐름으로 Copilot Studio Agent 자동화 확장 | 진미나
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 1 (제주) | 16:50 - 17:30
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/justinyoo">
-                                엄마! 쟤가 MCP 서버 이상하게 만들었어요! - MCP 서버 개발시 고려해야 할 것들 | 유저스틴
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-10 col-md-6">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 (동해/독도) | 13:30 - 14:10
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/jinseokkim">
-                                App Builder의 AI 기능으로 실현하는 빠른 MVP 개발 | 김진석
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 (동해/독도) | 14:20 - 15:00
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/haneolkim">
-                                Microsoft Agent Framework와 생성형 AI를 활용한 유니티 실시간 아바타 제작하기 | 김한얼
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 (동해/독도) | 15:10 - 15:50
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/gyeongsunpark">
-                                귀하게 자란 내가... 아직도 구버전 LLM? | 박경선
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 (동해/독도) | 16:00 - 16:40
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/taeyoungpark">
-                                스크랩해서 쌓아만 두는 당신에겐 AI Agent가 필요합니다! | 박태영
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 mb-4 text-center session-cell">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 fw-bold">
-                            ROOM 2 (동해/독도) | 16:50 - 17:30
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <a href="./speakers/yeonwoochoi">
-                                망한 스펙으로 살아남기: 33세에 시작한 첫 커리어 | 최연우
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<main id="content" tabindex="-1">
+  <section id="about" class="section intro container">
+    <div class="section-label">
+      <span class="number mono">01 / ABOUT</span>
+      <h2>DDD Seoul</h2>
+      <p class="mono">BY THE COMMUNITY</p>
     </div>
-</div>
-
----
-
-<a name="sponsors"></a>
-# 후원사
-
-DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와주신 모든 후원사에 감사의 말씀 드립니다.
-
-<h2 id="sponsors-main" class="sponsors">주 후원사</h2>
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
-            <a href="https://www.microsoft.com/ko-kr" target="_blank"><img src="./images/sponsors/microsoft.png" width="300" alt="Microsoft" style="margin: 30px 0px;" /></a>
-        </div>
-        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
-            <a href="https://www.kt.com/" target="_blank"><img src="./images/sponsors/kt.jpg" width="300" alt="KT" style="margin: 30px 0px;" /></a>
-        </div>
+    <div class="section-body">
+      <h3>내가 쌓은 경험을 통해 함께 성장하는 힘으로</h3>
+      <p>DDD (Developer! Developer! Developer!) 는 마이크로소프트의 기술을 중심으로 하는 커뮤니티 주도 개발자 컨퍼런스입니다. DDD는 영국의 레딩에서 2005년부터 시작해서 전세계로 뻗어나갔으며, DDD Seoul은 아시아의 첫번째 DDD 컨퍼런스입니다.</p>
+      <p>DDD Seoul 컨퍼런스를 통해 새로운 발표자를 발굴하고, 다양한 주제를 다루며, 다양한 경험을 나누고자 합니다. 커뮤니티의 참여와 기여, 기술 교육과 자연스러운 네트워킹을 통해 Microsoft 개발자 생태계에 기여합니다.</p>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 mb-6 text-center align-self-center">
-            <a href="https://www.infragistics.co.kr" target="_blank"><img src="./images/sponsors/infragistics.jpg" width="300" alt="Infragistics" style="margin: 30px 0px;" /></a>
-        </div>
+  </section>
+  <section id="agenda" class="section container">
+    <div class="section-label">
+      <span class="number mono">02 / WHEN &amp; WHERE</span>
+      <h2>행사일정</h2>
+      <p class="mono">SAVE THE DATE</p>
     </div>
-</div>
-
-<h2 id="sponsors-books" class="sponsors">도서 후원사</h2>
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-4 mb-4 text-center align-self-center">
-            <a href="https://www.hanbit.co.kr/" target="_blank"><img src="./images/sponsors/hanbitmedia.png" width="300" alt="한빛미디어" style="margin: 30px 0px;" /></a>
+    <div class="section-body location-layout">
+      <div>
+        <div class="event-date"><time datetime="2026-12-04">2026.12.04</time></div>
+        <p class="time">금요일 · <time datetime="2026-12-04T09:00:00+09:00">09:00</time> — <time datetime="2026-12-04T18:00:00+09:00">18:00</time></p>
+        <div class="venue">
+          <h3>한국 마이크로소프트 13층</h3>
+          <p>서울특별시 종로구 종로1길 50<br>더케이트윈타워</p>
         </div>
+      </div>
+      <a id="map-link" class="map-link" href="/images/location.png" aria-haspopup="dialog" aria-controls="venue-map">
+        <img src="/images/location.png" alt="한국 마이크로소프트 위치 안내 지도" width="2800" height="1860" loading="lazy">
+        <span>안내 지도 크게 보기 ↗</span>
+      </a>
     </div>
-</div>
-
-<h2 id="sponsors-books" class="sponsors">개인 후원</h2>
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-12 mb-12 text-center align-self-center">
-            <div style="display: inline-block; vertical-align: top;">
-                <a href="https://www.linkedin.com/in/todaycode/" target="_blank">
-                    <img src="./images/sponsors/joeunpark.png" alt="박조은" class="img-fluid mb-2" width="150" /><br>박조은
-                </a>
-            </div>
-            <div style="display: inline-block; vertical-align: top;">
-                <a href="https://www.linkedin.com/in/haesunpark" target="_blank">
-                    <img src="./images/sponsors/haesunpark.png" alt="박해선" class="img-fluid mb-2" width="150" /><br>박해선
-                </a>
-            </div>
-            <div style="display: inline-block; vertical-align: top;">
-                <a href="https://www.linkedin.com/in/sungjin-ahn/" target="_blank">
-                    <img src="./images/sponsors/sungjinahn.jpg" alt="안성진" class="img-fluid mb-2" width="150" /><br>안성진
-                </a>
-            </div>
-            <div style="display: inline-block; vertical-align: top;">
-                <a href="https://bit.ly/openchat-playground" target="_blank">
-                    <img src="./images/sponsors/ocp.png" alt="OpenChat Playground" class="img-fluid mb-2" width="150" /><br>OpenChat<br>Playground
-                </a>
-            </div>
-        </div>
+  </section>
+  <section id="sponsors" class="section partners container">
+    <div class="section-label">
+      <span class="number mono">03 / PARTNERS</span>
+      <h2>후원사</h2>
+      <p class="mono">BETTER TOGETHER</p>
     </div>
-</div>
-
-<!-- 곧 안내할 예정입니다.
-
-<div class="sponsorship-link">
-  <a class="btn btn-orange-ddd btn-lg" href="/sponsorship">후원 제안하기</a>
-</div> -->
-
----
-
-<!-- <a name="cfp"></a>
-# 발표제안
-
-<div class="cfp-link">
-  <a class="btn btn-orange-ddd btn-lg" href="https://bit.ly/dddseoul2025cfp" target="_blank">발표 제안하기</a>
-</div>
-
-Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있습니다. 발표 주제는 다음과 같은 주제를 포함하지만 이에 국한하지 않습니다:
-
-| 소프트웨어 개발 | 클라우드              | 데이터 & AI      | 인프라 & DevOps      | 커리어              |
-|:---------------:|:---------------------:|:----------------:|:--------------------:|:-------------------:|
-| Java            | Azure                 | Agent            | Containers           | Career              |
-| JavaScript      | Business Applications | AI               | DevOps               | Leadership          |
-| Python          | Cloud-Native          | Data Analysis    | Infrastructure       | Professional Skills |
-| .NET            | Copilot               | Data Engineering | Kubernetes           | Soft Skills         |
-| Developer Tools | Microsoft 365         | Machine Learning | Platform Engineering |                     |
-| GitHub          | Security              | MCP              | SRE                  |                     |
-| GitHub Copilot  |                       |                  |                      |                     |
-
-발표가 처음이라구요? 괜찮습니다. DDD Seoul 컨퍼런스는 새로운 발표자를 언제나 환영합니다. 발표 주제를 제안하고, 커뮤니티와 함께 성장해보세요.
-
-<div class="cfp-link">
-  <a class="btn btn-orange-ddd btn-lg" href="https://bit.ly/dddseoul2025cfp" target="_blank">발표 제안하기</a>
-</div>
-
---- -->
-
-<a name="speakers"></a>
-# 발표자
-
-<h2 class="speakers">키노트</h2>
-
-<!-- <div class="container mb-4">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 text-center">
-            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
-        </div>
+    <div class="section-body">
+      <div class="partners-top">
+        <h3>주 후원사</h3>
+        <a class="text-link" href="/sponsorship">후원 제안하기 ↗</a>
+      </div>
+      <div class="sponsor-logos">
+        <a href="https://www.microsoft.com/ko-kr/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/microsoft.png" alt="Microsoft" width="244" height="76" loading="lazy"></a>
+        <a href="https://www.megazone.com/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/megazonecloud.png" alt="메가존 클라우드" width="244" height="76" loading="lazy"></a>
+      </div>
+      <p>DDD Seoul은 후원사의 도움으로 진행하고 있습니다. 함께해 주신 모든 후원사에 감사드립니다.</p>
     </div>
-</div> -->
-
-<div class="container">
-    <div class="row align-items-start">
-        <div class="col-md-2 profile mb-4">
-            <img src="./images/speakers/junginlee.jpg" alt="이정인" class="img-fluid" />
+  </section>
+  <div class="cfp-band">
+    <section id="cfp" class="section container">
+      <div class="section-label">
+        <span class="number mono">04 / CALL FOR PROPOSALS</span>
+        <h2>발표제안</h2>
+        <p class="mono">YOUR EXPERIENCE MATTERS</p>
+      </div>
+      <div class="section-body">
+        <div class="cfp-intro">
+          <h3>당신의 경험으로<br>무대를 채워주세요</h3>
+          <span class="first-time">첫 발표도 환영합니다.</span>
         </div>
-        <div class="col-md-10">
-            <h3>📜 <a href="https://www.linkedin.com/in/jungin-lee-5207a426/" title="이정인 링크드인 프로필" target="_blank">이정인 | Microsoft</a></h3>
-            <p class="subject">🎤 <a href="./speakers/junginlee" target="_self">코드에서 클라우드까지 : 마이크로소프트 AI 전략</a></p>
-            <blockquote class="bio">Microsoft Korea에서 AI 솔루션 엔지니어링 팀을 총괄하고 있습니다.</blockquote>
+        <p>Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있습니다. 작은 발견부터 깊이 있는 기술 이야기까지, 커뮤니티와 함께 성장할 경험을 들려주세요.</p>
+        <button type="button" class="button" disabled>발표 제안서 제출 일정은 곧 안내할 예정입니다.</button>
+        <p>발표 주제는 다음과 같은 주제를 포함하지만 이에 국한하지 않습니다.</p>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="발표 주제 표, 작은 화면에서는 가로로 스크롤할 수 있습니다">
+          <table>
+            <thead>
+              <tr><th scope="col">소프트웨어 개발</th><th scope="col">클라우드</th><th scope="col">데이터 &amp; AI</th><th scope="col">인프라 &amp; DevOps</th><th scope="col">커리어</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Java</td><td>Azure</td><td>Agent</td><td>Containers</td><td>Career</td></tr>
+              <tr><td>JavaScript</td><td>Business Applications</td><td>AI</td><td>DevOps</td><td>Leadership</td></tr>
+              <tr><td>Python</td><td>Cloud-Native</td><td>Data Analysis</td><td>Infrastructure</td><td>Professional Skills</td></tr>
+              <tr><td>.NET</td><td>Copilot</td><td>Data Engineering</td><td>Kubernetes</td><td>Soft Skills</td></tr>
+              <tr><td>Developer Tools</td><td>Microsoft 365</td><td>Machine Learning</td><td>Platform Engineering</td><td></td></tr>
+              <tr><td>GitHub</td><td>Security</td><td>MCP</td><td>SRE</td><td></td></tr>
+              <tr><td>GitHub Copilot</td><td></td><td></td><td></td><td></td></tr>
+            </tbody>
+          </table>
         </div>
+      </div>
+    </section>
+  </div>
+  <section id="speakers" class="section pending container">
+    <div class="section-label"><span class="number mono">05</span><h2>발표자</h2></div>
+    <div class="section-body"><p>DDD Seoul 2026의 발표자는 곧 안내할 예정입니다.</p><span class="status mono">COMING SOON</span></div>
+  </section>
+  <section id="register" class="section pending container">
+    <div class="section-label"><span class="number mono">06</span><h2>참가신청</h2></div>
+    <div class="section-body"><p>참가신청 일정은 곧 안내할 예정입니다.</p><span class="status mono">COMING SOON</span></div>
+  </section>
+  <section id="organisers" class="section pending container">
+    <div class="section-label"><span class="number mono">07</span><h2>운영진</h2></div>
+    <div class="section-body"><p>커뮤니티가 주도하는 행사, 함께 준비하는 운영진을 곧 소개합니다.</p><span class="status mono">COMING SOON</span></div>
+  </section>
+  <section id="newsletter" class="section newsletter container">
+    <div class="section-label"><span class="number mono">08 / KEEP IN TOUCH</span><h2>구독신청</h2></div>
+    <div class="section-body newsletter-box">
+      <h3>DDD Seoul의 소식을<br>가장 먼저 받아보세요.</h3>
+      <p>발표제안부터 참가신청까지, 다음 소식을 놓치지 마세요.</p>
+      <iframe class="newsletter-form" title="DDD Seoul 뉴스레터 구독 신청" src="https://forms.office.com/r/7QdEBFeQ04?embed=true" width="100%" height="580" loading="lazy" allowfullscreen></iframe>
+      <p class="newsletter-form-link"><a href="https://forms.office.com/r/7QdEBFeQ04" target="_blank" rel="noopener noreferrer">구독 폼을 별도 창에서 열기 ↗</a></p>
     </div>
-    <div class="row">
-        <div class="col-12 line-split"></div>
-    </div>
-    <div class="row align-items-start">
-        <div class="col-md-2 profile mb-4">
-            <img src="./images/speakers/hyesunan.png" alt="안혜선" class="img-fluid" />
-        </div>
-        <div class="col-md-10">
-            <h3>📜 <a href="https://www.linkedin.com/in/anhyesun/" title="안혜선 링크드인 프로필" target="_blank">안혜선 | Microsoft</a></h3>
-            <p class="subject">🎤 <a href="./speakers/hyesunan" target="_self">수포자가 전생했더니 마이크로소프트 엔지니어로?</a></p>
-            <blockquote class="bio">한국의 국문과 출신 마케팅 담당자가 캐나다에서, 그리고 미국에서 좌충우돌 개발자로 살고 있습니다.</blockquote>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 line-split"></div>
-    </div>
-    <div class="row align-items-start">
-        <div class="col-md-2 profile mb-4">
-            <img src="./images/speakers/hoondongkim.jpg" alt="김훈동" class="img-fluid" />
-        </div>
-        <div class="col-md-10">
-            <h3>📜 <a href="https://www.linkedin.com/in/hoondong-kim/" title="김훈동 링크드인 프로필" target="_blank">김훈동 | KT</a></h3>
-            <p class="subject">🎤 <a href="./speakers/hoondongkim" target="_self">Agentic 그 다음에 대하여</a></p>
-            <blockquote class="bio">Microsoft AI MVP 및 RD로 활동하고 있으며, 현재 KT에서 AXD 본부 본부장으로 근무하고 있습니다.</blockquote>
-        </div>
-    </div>
-</div>
-
-<h2 class="speakers">브레이크아웃 세션</h2>
-
-<!-- <div class="container mb-4">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 text-center">
-            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
-        </div>
-    </div>
-</div> -->
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/jaehyunkim" target="_self">
-                <img src="./images/speakers/jaehyunkim.jpg" alt="김재현" class="img-fluid mb-2" /><br>김재현
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/jinseokkim" target="_self">
-                <img src="./images/speakers/jinseokkim.png" alt="김진석" class="img-fluid mb-2" /><br>김진석
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/haneolkim" target="_self">
-                <img src="./images/speakers/haneolkim.jpg" alt="김한얼" class="img-fluid mb-2" /><br>김한얼
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/gyeongsunpark" target="_self">
-                <img src="./images/speakers/gyeongsunpark.jpg" alt="박경선" class="img-fluid mb-2" /><br>박경선
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/taeyoungpark" target="_self">
-                <img src="./images/speakers/taeyoungpark.jpg" alt="박태영" class="img-fluid mb-2" /><br>박태영
-            </a>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/kisoosong" target="_self">
-                <img src="./images/speakers/kisoosong.png" alt="송기수" class="img-fluid mb-2" /><br>송기수
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/justinyoo" target="_self">
-                <img src="./images/speakers/justinyoo.png" alt="유저스틴" class="img-fluid mb-2" /><br>유저스틴
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/yeowonlee" target="_self">
-                <img src="./images/speakers/yeowonlee.jpg" alt="이여원" class="img-fluid mb-2" /><br>이여원
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/minajin" target="_self">
-                <img src="./images/speakers/minajin.png" alt="진미나" class="img-fluid mb-2" /><br>진미나
-            </a>
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <a href="./speakers/yeonwoochoi" target="_self">
-                <img src="./images/speakers/yeonwoochoi.jpg" alt="최연우" class="img-fluid mb-2" /><br>최연우
-            </a>
-        </div>
-    </div>
-</div>
-
----
-
-<!-- <a name="register"></a>
-# 참가신청
-
-<div class="container mb-4">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-8 text-center">
-            <a class="btn btn-primary fs-3 fw-normal" href="https://www.ticketa.co/events/46" target="_blank">티켓 구매하기</a>
-        </div>
-    </div>
-</div>
-
---- -->
-
-<a name="organisers"></a>
-# 운영진
-
-DDD Seoul 컨퍼런스는 커뮤니티가 주도하는 행사입니다. 컨퍼런스를 준비하고 운영하는 운영진은 다음과 같습니다.
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/youngwookkim.jpg" alt="김영욱" class="img-fluid mb-2" /><br>김영욱
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/jinseokkim.png" alt="김진석" class="img-fluid mb-2" /><br>김진석
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/joeunpark.png" alt="박조은" class="img-fluid mb-2" /><br>박조은
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/sunghoyou.jpg" alt="유승호" class="img-fluid mb-2" /><br>유승호
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/justinyoo.png" alt="유저스틴" class="img-fluid mb-2" /><br>유저스틴
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/boralee.png" alt="이보라" class="img-fluid mb-2" /><br>이보라
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/daehojeon.jpg" alt="전대호" class="img-fluid mb-2" /><br>전대호
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/minajin.png" alt="진미나" class="img-fluid mb-2" /><br>진미나
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/gaeunchoi.jpg" alt="최가은" class="img-fluid mb-2" /><br>최가은
-        </div>
-        <div class="col-sm-10 col-md-2 profile mb-4 text-center">
-            <img src="./images/organisers/jeongwoochoi.jpg" alt="최정우" class="img-fluid mb-2" /><br>최정우
-        </div>
-    </div>
-</div>
-
----
-
-<a name="newsletter"></a>
-# DDD Seoul의 소식을 가장 먼저 받아보세요
-
-<iframe width="100%" height="580px" src="https://forms.office.com/r/7QdEBFeQ04?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh; overflow: hidden;" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+  </section>
+</main>
+<dialog id="venue-map" aria-label="행사장 안내 지도">
+  <form method="dialog"><button type="submit" autofocus>닫기 ×</button></form>
+  <img src="/images/location.png" alt="한국 마이크로소프트 위치 안내 지도 전체" width="2800" height="1860" loading="lazy">
+</dialog>

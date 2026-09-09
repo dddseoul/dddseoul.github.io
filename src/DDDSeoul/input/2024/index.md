@@ -521,7 +521,7 @@ DDD Seoul은 아래 후원사의 도움으로 진행하고 있습니다. 도와�
 <!-- 곧 안내할 예정입니다.
 
 <div class="sponsorship-link">
-  <a class="btn btn-orange-ddd btn-lg" href="/sponsorship">후원 제안하기</a>
+  <a class="btn btn-orange-ddd btn-lg" href="/2024/sponsorship">후원 제안하기</a>
 </div> -->
 
 <!-- ---

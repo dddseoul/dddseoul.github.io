@@ -9,6 +9,10 @@
 }
 
 .btn-orange-ddd {
+  --#{$prefix}btn-disabled-color: #FFFFFF;
+  --#{$prefix}btn-disabled-bg: #{$orange-ddd};
+  --#{$prefix}btn-disabled-border-color: #{$orange-ddd};
+
   font-weight: 600;
   color: #FFFFFF !important;
   background-color: $orange-ddd;

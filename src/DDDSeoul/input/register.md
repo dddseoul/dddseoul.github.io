@@ -1,5 +1,7 @@
-<!-- <meta http-equiv="refresh" content="0; url=https://www.ticketa.co/events/46"> -->
-<script>
-    window.location.href = "https://www.ticketa.co/events/46";
-</script>
-<p>Redirecting to <a href="https://www.ticketa.co/events/46">https://www.ticketa.co/events/46</a>...</p>
+Title: 참가신청
+IsPost: false
+IsPage: true
+---
+# 참가신청
+
+DDD Seoul 2026 참가신청은 곧 안내할 예정입니다.
