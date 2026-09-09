@@ -9,38 +9,48 @@
       new Dictionary<object, object> { { "class", "nav-link" } })
   </li>
 } *@
+@{
+  var archiveRoot = Document.GetString("ArchiveRoot", string.Empty);
+}
 <li class="nav-item">
-  <a class="nav-link" href="/#about">About</a>
+  <a class="nav-link" href="@(archiveRoot + "/#about")">About</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="/#agenda">행사일정</a>
+  <a class="nav-link" href="@(archiveRoot + "/#agenda")">행사일정</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="/#sponsors">후원사</a>
+  <a class="nav-link" href="@(archiveRoot + "/#sponsors")">후원사</a>
 </li>
-@* <li class="nav-item">
-  <a class="nav-link" href="/#cfp">발표제안</a>
-</li> *@
+@if (Document.GetBool("ShowCfpInNavbar", true))
+{
 <li class="nav-item">
-  <a class="nav-link" href="/#speakers">발표자</a>
+  <a class="nav-link" href="@(archiveRoot + "/#cfp")">발표제안</a>
 </li>
-@* <li class="nav-item">
-  <a class="nav-link" href="/register">참가신청</a>
-</li> *@
+}
 <li class="nav-item">
-  <a class="nav-link" href="/#organisers">운영진</a>
+  <a class="nav-link" href="@(archiveRoot + "/#speakers")">발표자</a>
+</li>
+@if (Document.GetBool("ShowRegisterInNavbar", true))
+{
+<li class="nav-item">
+  <a class="nav-link" href="@(archiveRoot + "/#register")">참가신청</a>
+</li>
+}
+<li class="nav-item">
+  <a class="nav-link" href="@(archiveRoot + "/#organisers")">운영진</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="/#newsletter">구독신청</a>
+  <a class="nav-link" href="@(archiveRoot + "/#newsletter")">구독신청</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="/coc">행동강령</a>
+  <a class="nav-link" href="@(archiveRoot + "/coc")">행동강령</a>
 </li>
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     이전행사
   </a>
   <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/2025">2025</a></li>
     <li><a class="dropdown-item" href="/2024">2024</a></li>
   </ul>
 </li>

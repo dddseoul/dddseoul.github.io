@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko" class="event-2026">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@Document.GetString("PageTitle")</title>
+  @if (Document.ContainsKey(WebKeys.Description))
+  {
+    <meta name="description" content="@Document.GetString(WebKeys.Description)">
+    <meta property="og:description" content="@Document.GetString(WebKeys.Description)">
+  }
+  @if (Document.ContainsKey(WebKeys.Author))
+  {
+    <meta name="author" content="@Document.GetString(WebKeys.Author)">
+  }
+
+  <link rel="canonical" href='@(Document.GetString("Canonical") ?? Document.GetLink(true))'>
+  <meta name="application-name" content='@Context.GetString("SiteTitle")'>
+  <meta name="msapplication-tooltip" content='@Context.GetString("SiteTitle")'>
+  <meta name="msapplication-starturl" content='@Context.GetLink("/")'>
+  <meta property="og:title" content='@Document.GetString("PageTitle")'>
+  <meta property="og:image" content='@Context.GetLink("https://dddseoul.kr/images/logo-dddseoul-orange.png")'>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content='@Document.GetLink(true)'>
+  <meta property="og:locale" content="ko_KR">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" href='@Context.GetLink("/favicon.ico")'>
+  <meta name="msapplication-TileColor" content="#ba4609">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#212529">
+
+  <link rel="stylesheet" href='@Context.GetLink("/scss/home-2026.css")'>
+  @Html.Partial("_head")
+  @RenderSection("Head", false)
+</head>
+<body>
+  <a class="skip-link" href="#content">본문으로 바로가기</a>
+  <div class="stage">
+    @Html.Partial("_navigation-2026")
+    @if (Document.GetBool("IsInfoPage"))
+    {
+      <div class="info-heading container">
+        <p class="eyebrow mono">DDD SEOUL / 2026</p>
+        <h1>@Document.GetString("InfoPageTitle", Document.GetTitle())</h1>
+        <a class="text-link" href="/">← 행사 메인으로 돌아가기</a>
+      </div>
+    }
+  </div>
+  @if (Document.GetBool("IsInfoPage"))
+  {
+    <main id="content" class="info-page container" tabindex="-1">
+      @RenderBody()
+    </main>
+  }
+  else
+  {
+    @RenderBody()
+  }
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">DDD Seoul <span>© @DateTime.Now.Year</span></div>
+      <div class="footer-links">
+        <a class="footer-social-link" href="https://github.com/dddseoul" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><img src="/images/github.svg" alt="" width="24" height="24"></a>
+        <a class="footer-social-link" href="https://youtube.com/@Html.Raw("@")dddseoul" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube"><img src="/images/youtube.svg" alt="" width="24" height="24"></a>
+        <a class="footer-social-link" href="https://linkedin.com/company/dddseoul" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><img src="/images/linkedin.svg" alt="" width="24" height="24"></a>
+        <a class="footer-social-link" href="https://twitter.com/dddseoul" target="_blank" rel="noopener noreferrer" aria-label="X" title="X"><img src="/images/x.svg" alt="" width="24" height="24"></a>
+        <a class="footer-social-link" href="https://facebook.com/dddseoul" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><img src="/images/facebook.svg" alt="" width="24" height="24"></a>
+        <a href="/coc">행동 강령</a>
+        <a href="/privacy">개인정보 처리방침</a>
+        <a href="/2025">2025 행사 ↗</a>
+        <a href="/2024">2024 행사 ↗</a>
+      </div>
+    </div>
+  </footer>
+  <script src='@Context.GetLink("/js/home-2026.js")' defer></script>
+  @Html.Partial("_scripts")
+  @RenderSection("Scripts", false)
+</body>
+</html>
