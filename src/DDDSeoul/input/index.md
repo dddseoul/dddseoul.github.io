@@ -95,7 +95,7 @@ Layout: /_layout-2026.cshtml
           <span class="first-time">첫 발표도 환영합니다.</span>
         </div>
         <p>Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있습니다. 작은 발견부터 깊이 있는 기술 이야기까지, 커뮤니티와 함께 성장할 경험을 들려주세요.</p>
-        <button type="button" class="button" disabled>발표 제안서 제출 일정은 곧 안내할 예정입니다.</button>
+        <a class="button" href="/cfp">발표 제안하기 ↗</a>
         <p>발표 주제는 다음과 같은 주제를 포함하지만 이에 국한하지 않습니다.</p>
         <div class="table-scroll" tabindex="0" role="region" aria-label="발표 주제 표, 작은 화면에서는 가로로 스크롤할 수 있습니다">
           <table>
