@@ -55,4 +55,33 @@
   document.querySelectorAll(".info-page table").forEach(table => {
     table.tabIndex = 0;
   });
+
+  const now = new Date();
+  const koreaDateParts = new Intl.DateTimeFormat("en", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(now);
+  const koreaDate = Object.fromEntries(koreaDateParts.map(part => [part.type, part.value]));
+  const today = `${koreaDate.year}-${koreaDate.month}-${koreaDate.day}`;
+
+  document.querySelectorAll("[data-ticket-start][data-ticket-end]").forEach(row => {
+    const start = row.dataset.ticketStart;
+    const end = row.dataset.ticketEnd;
+    const status = row.querySelector(".ticket-status");
+
+    if (!status) {
+      return;
+    }
+
+    if (today < start) {
+      status.textContent = "판매 예정";
+    } else if (today > end) {
+      status.textContent = "판매 종료";
+    } else {
+      row.classList.add("is-active");
+      status.textContent = "현재 판매 중";
+    }
+  });
 })();
