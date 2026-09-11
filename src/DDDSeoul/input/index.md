@@ -12,7 +12,7 @@ Layout: /_layout-2026.cshtml
       <p>개발자가 만들고, 개발자가 함께하는 하루<br>Microsoft 기술을 중심으로 만나는 DDD Seoul 2026</p>
       <div class="hero-actions">
         <a class="button" href="#cfp">발표 제안 안내 <span>↓</span></a>
-        <a class="text-link" href="/register">티켓 구매하기 ↗</a>
+        <a class="text-link" href="#register">티켓 구매하기 ↓</a>
       </div>
     </div>
     <div class="edition" aria-hidden="true">
