@@ -12,7 +12,7 @@ Layout: /_layout-2026.cshtml
       <p>개발자가 만들고, 개발자가 함께하는 하루<br>Microsoft 기술을 중심으로 만나는 DDD Seoul 2026</p>
       <div class="hero-actions">
         <a class="button" href="#cfp">발표 제안 안내 <span>↓</span></a>
-        <a class="text-link" href="#newsletter">행사 소식 받아보기 ↓</a>
+        <a class="text-link" href="/register">티켓 구매하기 ↗</a>
       </div>
     </div>
     <div class="edition" aria-hidden="true">
@@ -120,9 +120,50 @@ Layout: /_layout-2026.cshtml
     <div class="section-label"><span class="number mono">05</span><h2>발표자</h2></div>
     <div class="section-body"><p>DDD Seoul 2026의 발표자는 곧 안내할 예정입니다.</p><span class="status mono">COMING SOON</span></div>
   </section>
-  <section id="register" class="section pending container">
-    <div class="section-label"><span class="number mono">06</span><h2>참가신청</h2></div>
-    <div class="section-body"><p>참가신청 일정은 곧 안내할 예정입니다.</p><span class="status mono">COMING SOON</span></div>
+  <section id="register" class="section tickets container">
+    <div class="section-label">
+      <span class="number mono">06 / TICKETS</span>
+      <h2>티켓 구매</h2>
+      <p class="mono">JOIN US IN SEOUL</p>
+    </div>
+    <div class="section-body">
+      <p class="ticket-intro">판매 차수에 따라 티켓 가격이 달라집니다. 판매 기간과 가격을 확인하고 티켓을 구매하세요.</p>
+      <div class="ticket-table-wrap" tabindex="0" role="region" aria-label="티켓 가격 및 판매 일정 표, 작은 화면에서는 가로로 스크롤할 수 있습니다">
+        <table class="ticket-table">
+          <thead>
+            <tr><th scope="col">티켓</th><th scope="col">가격</th><th scope="col">판매 기간</th><th scope="col">상태</th></tr>
+          </thead>
+          <tbody>
+            <tr data-ticket-start="2026-09-10" data-ticket-end="2026-10-09">
+              <th scope="row">얼리버드</th>
+              <td>15,000원</td>
+              <td><time datetime="2026-09-10">9월 10일</time>–<time datetime="2026-10-09">10월 9일</time></td>
+              <td><span class="ticket-status">판매 일정</span></td>
+            </tr>
+            <tr data-ticket-start="2026-10-10" data-ticket-end="2026-11-09">
+              <th scope="row">1차 판매</th>
+              <td>20,000원</td>
+              <td><time datetime="2026-10-10">10월 10일</time>–<time datetime="2026-11-09">11월 9일</time></td>
+              <td><span class="ticket-status">판매 일정</span></td>
+            </tr>
+            <tr data-ticket-start="2026-11-10" data-ticket-end="2026-12-03">
+              <th scope="row">2차 판매</th>
+              <td>25,000원</td>
+              <td><time datetime="2026-11-10">11월 10일</time>–<time datetime="2026-12-03">12월 3일</time></td>
+              <td><span class="ticket-status">판매 일정</span></td>
+            </tr>
+            <tr class="sponsor-ticket" data-ticket-start="2026-09-10" data-ticket-end="2026-12-03">
+              <th scope="row">개인 후원</th>
+              <td>50,000원</td>
+              <td><time datetime="2026-09-10">9월 10일</time>–<time datetime="2026-12-03">12월 3일</time></td>
+              <td><span class="ticket-status">판매 일정</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="ticket-note">개인 후원 티켓은 일반 티켓과 별도로 운영됩니다. 판매 일정과 상세 정책은 티켓 구매 페이지를 기준으로 합니다.</p>
+      <a class="button ticket-button" href="/register">지금 티켓 구매하기 ↗</a>
+    </div>
   </section>
   <section id="organisers" class="section pending container">
     <div class="section-label"><span class="number mono">07</span><h2>운영진</h2></div>
@@ -132,7 +173,7 @@ Layout: /_layout-2026.cshtml
     <div class="section-label"><span class="number mono">08 / KEEP IN TOUCH</span><h2>구독신청</h2></div>
     <div class="section-body newsletter-box">
       <h3>DDD Seoul의 소식을<br>가장 먼저 받아보세요.</h3>
-      <p>발표제안부터 참가신청까지, 다음 소식을 놓치지 마세요.</p>
+      <p>발표제안부터 티켓 오픈까지, 다음 소식을 놓치지 마세요.</p>
       <iframe class="newsletter-form" title="DDD Seoul 뉴스레터 구독 신청" src="https://forms.office.com/r/7QdEBFeQ04?embed=true" width="100%" height="580" loading="lazy" allowfullscreen></iframe>
       <p class="newsletter-form-link"><a href="https://forms.office.com/r/7QdEBFeQ04" target="_blank" rel="noopener noreferrer">구독 폼을 별도 창에서 열기 ↗</a></p>
     </div>

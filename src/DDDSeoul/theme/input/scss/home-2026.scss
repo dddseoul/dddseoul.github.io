@@ -4,6 +4,7 @@
 .event-2026 {
   --ddd-bg: #{$white};
   --ddd-surface-soft: #f5f5f5;
+  --ddd-accent-soft: #fff1e8;
   --ddd-text: #{$gray-900};
   --ddd-text-muted: #5c5c5c;
   --ddd-text-soft: #6f6f6f;
@@ -278,6 +279,20 @@
   .pending .section-body { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
   .pending .section-body p { margin: 0; font-size: var(--ddd-font-body); }
   .status { font-size: var(--ddd-font-caption); padding: 7px 10px; border: 1px solid var(--ddd-border); white-space: nowrap; letter-spacing: .05em; color: var(--ddd-text-soft); }
+  .ticket-intro { margin: 0; }
+  .ticket-table-wrap { overflow-x: auto; margin-block: 28px 20px; }
+  .ticket-table { min-width: 42rem; color: var(--ddd-text); }
+  .ticket-table th, .ticket-table td { padding: 12px 10px; color: var(--ddd-text); vertical-align: middle; }
+  .ticket-table thead th { border-top: 2px solid var(--ddd-ink); border-bottom-color: var(--ddd-border-strong); }
+  .ticket-table tbody th { border-bottom: 1px solid var(--ddd-border); font-size: var(--ddd-font-small); }
+  .ticket-table td:nth-child(2), .ticket-table td:nth-child(3) { white-space: nowrap; }
+  .ticket-table .sponsor-ticket > * { border-top: 2px solid var(--ddd-border-strong); }
+  .ticket-table tr.is-active > * { background: var(--ddd-accent-soft); }
+  .ticket-table tr.is-active > :first-child { box-shadow: inset 4px 0 var(--ddd-accent); }
+  .ticket-status { display: inline-block; padding: 5px 8px; border: 1px solid var(--ddd-border); color: var(--ddd-text-soft); font-size: var(--ddd-font-caption); white-space: nowrap; }
+  .is-active .ticket-status { border-color: var(--ddd-accent); background: var(--ddd-accent); color: var(--ddd-paper); font-weight: 700; }
+  .ticket-note { font-size: var(--ddd-font-small) !important; }
+  .ticket-button { width: 100%; margin-top: 4px; }
   .newsletter { border-bottom: 0; }
   .newsletter-box { border-left: 5px solid var(--ddd-accent); padding-left: 28px; }
   .newsletter-box h3 { font-size: 1.875rem; line-height: 1.4; letter-spacing: -.04em; margin: 0 0 16px; }
@@ -375,6 +390,7 @@
     .pending { gap: 16px; padding-block: 24px; }
     .pending .section-body { gap: 12px; }
     .status { padding: 6px 8px; }
+    .ticket-table-wrap { margin-top: 20px; }
     .newsletter-box { padding-left: 20px; }
     .newsletter-box h3 { font-size: 1.6875rem; }
     .footer .container { display: block; }
