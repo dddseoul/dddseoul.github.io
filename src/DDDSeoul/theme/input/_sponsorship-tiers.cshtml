@@ -1,0 +1,55 @@
+@{
+  var tiers = new[] { "Mango", "Melon", "Peach", "Kiwi", "Strawberry", "Banana" };
+  var benefits = new[]
+  {
+    (Label: "후원금", Values: new[] { "1,000만원", "800만원", "500만원", "300만원", "100만원", "도서 후원" }),
+    (Label: "후원사 세션", Values: new[] { "키노트", "일반세션", "일반세션", "", "", "" }),
+    (Label: "부스 이벤트", Values: new[] { "✓", "✓", "", "✓", "", "" }),
+    (Label: "참가자 DB 제공", Values: new[] { "✓", "✓", "✓", "✓", "✓", "" }),
+    (Label: "브로셔 배부", Values: new[] { "✓", "✓", "✓", "✓", "✓", "" }),
+    (Label: "SNS 홍보^", Values: new[] { "✓", "✓", "✓", "✓", "✓", "" }),
+    (Label: "동영상 재생*", Values: new[] { "✓", "✓", "✓", "✓", "✓", "✓" }),
+    (Label: "로고 노출", Values: new[] { "✓", "✓", "✓", "✓", "✓", "✓" })
+  };
+}
+<table class="sponsorship-table" aria-label="후원 등급별 금액 및 혜택">
+  <thead>
+    <tr>
+      <th scope="col">항목</th>
+      @foreach (var tier in tiers)
+      {
+        <th scope="col">@tier</th>
+      }
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var benefit in benefits)
+    {
+      <tr>
+        <th scope="row">@benefit.Label</th>
+        @foreach (var value in benefit.Values)
+        {
+          <td>@value</td>
+        }
+      </tr>
+    }
+  </tbody>
+</table>
+<div class="sponsorship-cards">
+  @for (var tierIndex = 0; tierIndex < tiers.Length; tierIndex++)
+  {
+    <section class="sponsorship-card" aria-labelledby="sponsorship-tier-@tierIndex">
+      <h3 id="sponsorship-tier-@tierIndex">@tiers[tierIndex]</h3>
+      <dl>
+        @foreach (var benefit in benefits)
+        {
+          var value = benefit.Values[tierIndex];
+          <div>
+            <dt>@benefit.Label</dt>
+            <dd>@(value == "✓" ? "제공" : string.IsNullOrEmpty(value) ? "미제공" : value)</dd>
+          </div>
+        }
+      </dl>
+    </section>
+  }
+</div>
