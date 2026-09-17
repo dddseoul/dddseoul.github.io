@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="experience-pie-title experience-pie-desc">
+  <title id="experience-pie-title">2025년 등록자 연차 분포</title>
+  <desc id="experience-pie-desc">0~1년차 25.0%, 2년차 6.7%, 3~5년차 25.0%, 6~9년차 15.0%, 10년차 이상 25.8%, 판단 불가 2.5%.</desc>
+  <!-- Sector counts: 30, 8, 30, 18, 31, 3 (total: 120). -->
+  <g aria-hidden="true" stroke="#ffffff" stroke-width="2" stroke-linejoin="round">
+    <path fill="#b34b00" d="M 120 120 L 120 20 A 100 100 0 0 1 220 120 Z" />
+    <path fill="#007a78" d="M 120 120 L 220 120 A 100 100 0 0 1 211.3545 160.6737 Z" />
+    <path fill="#355da8" d="M 120 120 L 211.3545 160.6737 A 100 100 0 0 1 79.3263 211.3545 Z" />
+    <path fill="#854784" d="M 120 120 L 79.3263 211.3545 A 100 100 0 0 1 22.1852 140.7912 Z" />
+    <path fill="#756010" d="M 120 120 L 22.1852 140.7912 A 100 100 0 0 1 104.3566 21.2312 Z" />
+    <path fill="#5c5c5c" d="M 120 120 L 104.3566 21.2312 A 100 100 0 0 1 120 20 Z" />
+  </g>
+  <g aria-hidden="true" fill="#ffffff" font-family="Segoe UI, Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <text x="168.0833" y="71.9167">1</text>
+    <text x="186.5140" y="134.1380">2</text>
+    <text x="144.3690" y="183.4835">3</text>
+    <text x="67.1541" y="162.7938">4</text>
+    <text x="63.9594" y="81.4844">5</text>
+    <text x="113.5664" y="38.2528">6</text>
+  </g>
+</svg>
