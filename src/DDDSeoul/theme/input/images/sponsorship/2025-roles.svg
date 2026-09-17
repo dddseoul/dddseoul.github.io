@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="roles-pie-title roles-pie-desc">
+  <title id="roles-pie-title">2025년 등록자 직군 분포</title>
+  <desc id="roles-pie-desc">개발 직군 36.7%, 비개발 직군 16.7%, 판단 불가 46.7%.</desc>
+  <!-- Sector counts: 44, 20, 56 (total: 120). -->
+  <g aria-hidden="true" stroke="#ffffff" stroke-width="2" stroke-linejoin="round">
+    <path fill="#b34b00" d="M 120 120 L 120 20 A 100 100 0 0 1 194.3145 186.9131 Z" />
+    <path fill="#007a78" d="M 120 120 L 194.3145 186.9131 A 100 100 0 0 1 99.2088 217.8148 Z" />
+    <path fill="#5c5c5c" d="M 120 120 L 99.2088 217.8148 A 100 100 0 0 1 120 20 Z" />
+  </g>
+  <g aria-hidden="true" fill="#ffffff" font-family="Segoe UI, Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <text x="182.1211" y="92.3419">1</text>
+    <text x="141.0132" y="184.6718">2</text>
+    <text x="52.3725" y="112.8921">3</text>
+  </g>
+</svg>

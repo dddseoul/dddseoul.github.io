@@ -317,6 +317,19 @@
   .info-page th, .info-page td { min-width: 10rem; padding: .75rem; border: 1px solid var(--ddd-border); vertical-align: top; color: var(--ddd-text); }
   .info-page th { background: var(--ddd-surface-soft); }
 
+  .sponsorship-pie { display: grid; grid-template-columns: minmax(0, 18rem) minmax(0, 1fr); align-items: center; gap: 2rem; margin: 1.5rem 0; }
+  .sponsorship-pie-chart { display: block; width: 100%; height: auto; }
+  .pie-color-1 { --pie-color: #b34b00; }
+  .pie-color-2 { --pie-color: #007a78; }
+  .pie-color-3 { --pie-color: #355da8; }
+  .pie-color-4 { --pie-color: #854784; }
+  .pie-color-5 { --pie-color: #756010; }
+  .pie-color-6 { --pie-color: #5c5c5c; }
+  .info-page .sponsorship-pie-legend { display: grid; gap: .625rem; list-style: none; padding: 0; margin: 0; }
+  .info-page .sponsorship-pie-legend li { display: flex; align-items: baseline; gap: .75rem; margin: 0; }
+  .sponsorship-pie-key { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--pie-color); color: var(--ddd-paper); font-size: var(--ddd-font-caption); font-weight: 700; }
+  .sponsorship-pie-legend strong { margin-left: .5rem; white-space: nowrap; }
+
   .footer { background: var(--ddd-ink); color: var(--ddd-paper); padding-block: 28px; }
   .footer .container { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
   .footer-brand { font-size: var(--ddd-font-body); font-weight: 750; }
@@ -391,6 +404,8 @@
     .pending .section-body { gap: 12px; }
     .status { padding: 6px 8px; }
     .ticket-table-wrap { margin-top: 20px; }
+    .sponsorship-pie { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+    .sponsorship-pie-chart { max-width: 18rem; margin-inline: auto; }
     .newsletter-box { padding-left: 20px; }
     .newsletter-box h3 { font-size: 1.6875rem; }
     .footer .container { display: block; }

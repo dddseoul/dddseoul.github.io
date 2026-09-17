@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="attendance-pie-title attendance-pie-desc">
+  <title id="attendance-pie-title">2025년 등록 대비 참석 비율</title>
+  <desc id="attendance-pie-desc">참석 120명, 85.7%. 미참석 20명, 14.3%.</desc>
+  <!-- Sector counts: 120, 20 (total: 140). -->
+  <g aria-hidden="true" stroke="#ffffff" stroke-width="2" stroke-linejoin="round">
+    <path fill="#b34b00" d="M 120 120 L 120 20 A 100 100 0 1 1 41.8169 57.6510 Z" />
+    <path fill="#5c5c5c" d="M 120 120 L 41.8169 57.6510 A 100 100 0 0 1 120 20 Z" />
+  </g>
+  <g aria-hidden="true" fill="#ffffff" font-family="Segoe UI, Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <text x="149.5041" y="181.2659">1</text>
+    <text x="90.4959" y="58.7341">2</text>
+  </g>
+</svg>

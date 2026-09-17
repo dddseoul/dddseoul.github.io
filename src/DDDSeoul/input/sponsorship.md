@@ -7,7 +7,7 @@ IsInfoPage: true
 DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
 
 - 컨퍼런스 기간: 2026년 12월 4일 금요일, 9시 - 18시
-- 후원사 모집 기간: 곧 안내할 예정입니다.
+- 후원사 모집 기간: 2026년 9월 10일 - 11월 20일
 
 <div class="sponsorship-link">
   <a class="button" href="mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20제안" target="_blank" rel="noopener noreferrer">후원 제안하기</a>
@@ -19,13 +19,78 @@ DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
 - DDD Seoul은 Microsoft 기술 생태계에 기여하고 저변을 확대하여 Microsoft 기반 기술을 사용하는 기업에 더욱 많은 기회를 창출하고자 합니다.
 - DDD Seoul은 참가자를 위한 저렴한 티켓 가격(1인당 비용보다 훨씬 저렴)을 제공하며, 우리가 이처럼 운영할 수 있는 이유는 후원사의 지원이 있기 때문입니다.
 
+**2025년 행사 실적: 등록 140명 · 참석 120명**
+
+## 후원 종류
+
+후원사로 참여하시면 DDD Seoul 참가자들과의 소통을 통해 기술 커뮤니티에 대한 인지도를 높일 수 있습니다. 또한 후원사로 참여하시면 다음과 같은 혜택을 받을 수 있습니다.
+
+| 항목           | Mango     | Melon    | Peach    | Kiwi    | Strawberry | Banana    |
+|:--------------:|:---------:|:--------:|:--------:|:-------:|:----------:|:---------:|
+| 후원금         | 1,000만원 | 800만원  | 500만원  | 300만원 | 100만원    | 도서 후원 |
+| 후원사 세션    | 키노트    | 일반세션 | 일반세션 |         |            |           |
+| 부스 이벤트    | ✓         | ✓        |          | ✓       |            |           |
+| 참가자 DB 제공 | ✓         | ✓        | ✓        | ✓       | ✓          |           |
+| 브로셔 배부    | ✓         | ✓        | ✓        | ✓       | ✓          |           |
+| SNS 홍보^      | ✓         | ✓        | ✓        | ✓       | ✓          |           |
+| 동영상 재생*   | ✓         | ✓        | ✓        | ✓       | ✓          | ✓         |
+| 로고 노출      | ✓         | ✓        | ✓        | ✓       | ✓          | ✓         |
+
+- \* 동영상은 2분 이내의 길이로 세션 중간에 재생합니다.
+- ^ SNS 홍보는 행사 전 2회, 행사 후 1회 진행합니다.
+
 <div class="sponsorship-link">
   <a class="button" href="mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20제안" target="_blank" rel="noopener noreferrer">후원 제안하기</a>
 </div>
 
-## 후원 종류
+## 2025년 행사 실적
 
-후원사로 참여하시면 DDD Seoul 참가자들과의 소통을 통해 기술 커뮤니티에 대한 인지도를 높일 수 있습니다. 후원 종류와 혜택은 곧 안내할 예정입니다.
+DDD Seoul 2025의 행사 규모는 다음과 같습니다.
+
+<figure class="sponsorship-pie">
+  <img class="sponsorship-pie-chart" src="/images/sponsorship/2025-attendance.svg" width="240" height="240" alt="2025년 참석 비율: 참석 120명(85.7%), 미참석 20명(14.3%).">
+  <figcaption>
+    <ul class="sponsorship-pie-legend">
+      <li><span class="sponsorship-pie-key pie-color-1" aria-hidden="true">1</span><span>참석 120명 <strong>85.7%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-6" aria-hidden="true">2</span><span>미참석 20명 <strong>14.3%</strong></span></li>
+    </ul>
+  </figcaption>
+</figure>
+
+### 등록자 연차 분포
+
+<figure class="sponsorship-pie">
+  <img class="sponsorship-pie-chart" src="/images/sponsorship/2025-experience.svg" width="240" height="240" alt="등록자 연차 분포: 0~1년차 25.0%, 2년차 6.7%, 3~5년차 25.0%, 6~9년차 15.0%, 10년차 이상 25.8%, 판단 불가 2.5%.">
+  <figcaption>
+    <ul class="sponsorship-pie-legend">
+      <li><span class="sponsorship-pie-key pie-color-1" aria-hidden="true">1</span><span>0~1년차 <strong>25.0%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-2" aria-hidden="true">2</span><span>2년차 <strong>6.7%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-3" aria-hidden="true">3</span><span>3~5년차 <strong>25.0%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-4" aria-hidden="true">4</span><span>6~9년차 <strong>15.0%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-5" aria-hidden="true">5</span><span>10년차 이상 <strong>25.8%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-6" aria-hidden="true">6</span><span>판단 불가 <strong>2.5%</strong></span></li>
+    </ul>
+  </figcaption>
+</figure>
+
+연차 중앙값은 **5년차**입니다.
+
+### 등록자 직군 분포
+
+개발 직군은 소프트웨어 개발·엔지니어링뿐 아니라 AI·데이터 사이언스 및 관련 연구까지 포함합니다.
+
+<figure class="sponsorship-pie">
+  <img class="sponsorship-pie-chart" src="/images/sponsorship/2025-roles.svg" width="240" height="240" alt="등록자 직군 분포: 개발 직군 36.7%, 비개발 직군 16.7%, 판단 불가 46.7%.">
+  <figcaption>
+    <ul class="sponsorship-pie-legend">
+      <li><span class="sponsorship-pie-key pie-color-1" aria-hidden="true">1</span><span>개발 직군 <strong>36.7%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-2" aria-hidden="true">2</span><span>비개발 직군 <strong>16.7%</strong></span></li>
+      <li><span class="sponsorship-pie-key pie-color-6" aria-hidden="true">3</span><span>판단 불가 <strong>46.7%</strong></span></li>
+    </ul>
+  </figcaption>
+</figure>
+
+직책이나 부서명만으로 판별하기 어려운 응답은 판단 불가로 남겼습니다.
 
 <div class="sponsorship-link">
   <a class="button" href="mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20제안" target="_blank" rel="noopener noreferrer">후원 제안하기</a>
