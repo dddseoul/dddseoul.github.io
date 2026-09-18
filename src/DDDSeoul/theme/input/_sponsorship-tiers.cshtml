@@ -1,0 +1,82 @@
+@{
+  var isEnglish = Document.GetString("Language", "ko") == "en";
+  var culture = System.Globalization.CultureInfo.InvariantCulture;
+  (string Name, int? Amount)[] tiers =
+  {
+    ("Mango", 10000000),
+    ("Melon", 8000000),
+    ("Peach", 5000000),
+    ("Kiwi", 3000000),
+    ("Strawberry", 1000000),
+    ("Banana", null)
+  };
+
+  string FormatAmount(int? amount)
+  {
+    if (!amount.HasValue)
+    {
+      return isEnglish ? "Book sponsorship" : "도서 후원";
+    }
+
+    return isEnglish
+      ? "KRW " + amount.Value.ToString("N0", culture)
+      : (amount.Value / 10000).ToString("N0", culture) + "만원";
+  }
+
+  var keynote = isEnglish ? "Keynote" : "키노트";
+  var session = isEnglish ? "Regular session" : "일반세션";
+  var included = isEnglish ? "Included" : "제공";
+  var notIncluded = isEnglish ? "Not included" : "미제공";
+  var benefits = new[]
+  {
+    (Label: isEnglish ? "Contribution" : "후원금", Values: tiers.Select(tier => FormatAmount(tier.Amount)).ToArray()),
+    (Label: isEnglish ? "Sponsor session" : "후원사 세션", Values: new[] { keynote, session, session, "", "", "" }),
+    (Label: isEnglish ? "Booth event" : "부스 이벤트", Values: new[] { "✓", "✓", "", "✓", "", "" }),
+    (Label: isEnglish ? "Attendee database access" : "참가자 DB 제공", Values: new[] { "✓", "✓", "✓", "✓", "✓", "" }),
+    (Label: isEnglish ? "Brochure distribution" : "브로셔 배부", Values: new[] { "✓", "✓", "✓", "✓", "✓", "" }),
+    (Label: isEnglish ? "Social media promotion^" : "SNS 홍보^", Values: new[] { "✓", "✓", "✓", "✓", "✓", "" }),
+    (Label: isEnglish ? "Video playback*" : "동영상 재생*", Values: new[] { "✓", "✓", "✓", "✓", "✓", "✓" }),
+    (Label: isEnglish ? "Logo visibility" : "로고 노출", Values: new[] { "✓", "✓", "✓", "✓", "✓", "✓" })
+  };
+}
+<table class="sponsorship-table" aria-label="@(isEnglish ? "Contributions and benefits by sponsorship tier" : "후원 등급별 금액 및 혜택")">
+  <thead>
+    <tr>
+      <th scope="col">@(isEnglish ? "Benefit" : "항목")</th>
+      @foreach (var tier in tiers)
+      {
+        <th scope="col">@tier.Name</th>
+      }
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var benefit in benefits)
+    {
+      <tr>
+        <th scope="row">@benefit.Label</th>
+        @foreach (var value in benefit.Values)
+        {
+          <td>@value</td>
+        }
+      </tr>
+    }
+  </tbody>
+</table>
+<div class="sponsorship-cards">
+  @for (var tierIndex = 0; tierIndex < tiers.Length; tierIndex++)
+  {
+    <section class="sponsorship-card" aria-labelledby="sponsorship-tier-@tierIndex">
+      <h3 id="sponsorship-tier-@tierIndex">@tiers[tierIndex].Name</h3>
+      <dl>
+        @foreach (var benefit in benefits)
+        {
+          var value = benefit.Values[tierIndex];
+          <div>
+            <dt>@benefit.Label</dt>
+            <dd>@(value == "✓" ? included : string.IsNullOrEmpty(value) ? notIncluded : value)</dd>
+          </div>
+        }
+      </dl>
+    </section>
+  }
+</div>

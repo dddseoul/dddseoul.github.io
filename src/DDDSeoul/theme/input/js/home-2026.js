@@ -52,7 +52,7 @@
     });
   }
 
-  document.querySelectorAll(".info-page table").forEach(table => {
+  document.querySelectorAll(".info-page table:not(.sponsorship-table)").forEach(table => {
     table.tabIndex = 0;
   });
 

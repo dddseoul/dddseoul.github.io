@@ -3,7 +3,11 @@ IsPost: false
 IsPage: true
 Layout: /_layout-2026.cshtml
 IsInfoPage: true
+Language: ko
+Canonical: https://dddseoul.kr/sponsorship
+AlternateLanguageUrl: /en/sponsorship
 ---
+<?# Markdown ?>
 DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
 
 - 컨퍼런스 기간: 2026년 12월 4일 금요일, 9시 - 18시
@@ -25,16 +29,9 @@ DDD Seoul의 원활한 진행을 위한 후원사를 모집합니다.
 
 후원사로 참여하시면 DDD Seoul 참가자들과의 소통을 통해 기술 커뮤니티에 대한 인지도를 높일 수 있습니다. 또한 후원사로 참여하시면 다음과 같은 혜택을 받을 수 있습니다.
 
-| 항목           | Mango     | Melon    | Peach    | Kiwi    | Strawberry | Banana    |
-|:--------------:|:---------:|:--------:|:--------:|:-------:|:----------:|:---------:|
-| 후원금         | 1,000만원 | 800만원  | 500만원  | 300만원 | 100만원    | 도서 후원 |
-| 후원사 세션    | 키노트    | 일반세션 | 일반세션 |         |            |           |
-| 부스 이벤트    | ✓         | ✓        |          | ✓       |            |           |
-| 참가자 DB 제공 | ✓         | ✓        | ✓        | ✓       | ✓          |           |
-| 브로셔 배부    | ✓         | ✓        | ✓        | ✓       | ✓          |           |
-| SNS 홍보^      | ✓         | ✓        | ✓        | ✓       | ✓          |           |
-| 동영상 재생*   | ✓         | ✓        | ✓        | ✓       | ✓          | ✓         |
-| 로고 노출      | ✓         | ✓        | ✓        | ✓       | ✓          | ✓         |
+<?#/ Markdown ?>
+@Html.Partial("_sponsorship-tiers")
+<?# Markdown ?>
 
 - \* 동영상은 2분 이내의 길이로 세션 중간에 재생합니다.
 - ^ SNS 홍보는 행사 전 2회, 행사 후 1회 진행합니다.
@@ -99,3 +96,4 @@ DDD Seoul 2025의 행사 규모는 다음과 같습니다.
 후원의 자세한 혜택과 보상 및 다양한 등급 간의 차이를 설명하는 후원 안내 관련 문의가 필요한 경우에 [sponsorship@dddseoul.kr](mailto:sponsorship@dddseoul.kr?subject=[DDD%20Seoul]%20후원%20문의)로 문의 주시면 빠르게 답장 드리겠습니다.
 
 여러분의 많은 참여를 기다랍니다!
+<?#/ Markdown ?>
