@@ -303,6 +303,8 @@
   .info-heading { padding-block: 2.5rem 3rem; }
   .info-heading .eyebrow { margin: 0; color: var(--ddd-border); }
   .info-heading h1 { font-size: clamp(2rem, calc(1.5rem + 2vw), 3rem); line-height: 1.35; letter-spacing: -.035em; margin: 1rem 0 1.5rem; word-break: keep-all; }
+  .language-switch { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-top: 1.25rem; font-size: var(--ddd-font-small); }
+  .language-switch a[aria-current="page"] { font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
   .info-page { max-width: 52rem; padding-block: 3rem; line-height: 1.8; overflow-wrap: anywhere; }
   .info-page p, .info-page ul, .info-page ol { margin: 0 0 1.25rem; }
   .info-page ul, .info-page ol { padding-left: 1.5rem; }

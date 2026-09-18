@@ -1,22 +1,23 @@
 @{
   var home = Document.GetBool("IsInfoPage") ? "/" : string.Empty;
+  var isEnglish = Document.GetString("Language", "ko") == "en";
 }
 <header class="navigation container">
   <a class="brand" href="@(home + "#about")">
     <img src="/images/logo-dddseoul-orange.png" alt="DDD Seoul" width="2000" height="1065">
     <span class="mono">DDD SEOUL<br>2026</span>
   </a>
-  <button id="menu-toggle" type="button" class="menu-toggle" aria-controls="nav-links" aria-expanded="false">메뉴 ☰</button>
-  <nav id="nav-links" class="nav-links" aria-label="주 메뉴">
+  <button id="menu-toggle" type="button" class="menu-toggle" aria-controls="nav-links" aria-expanded="false">@(isEnglish ? "Menu ☰" : "메뉴 ☰")</button>
+  <nav id="nav-links" class="nav-links" aria-label="@(isEnglish ? "Main navigation" : "주 메뉴")">
     <a href="@(home + "#about")">About</a>
-    <a href="@(home + "#agenda")">행사일정</a>
-    <a href="@(home + "#sponsors")">후원사</a>
-    <a href="@(home + "#cfp")">발표제안</a>
-    <a href="@(home + "#speakers")">발표자</a>
-    <a href="@(home + "#register")">티켓 구매</a>
-    <a href="@(home + "#organisers")">운영진</a>
+    <a href="@(home + "#agenda")">@(isEnglish ? "Agenda" : "행사일정")</a>
+    <a href="@(home + "#sponsors")">@(isEnglish ? "Sponsors" : "후원사")</a>
+    <a href="@(home + "#cfp")">@(isEnglish ? "Call for proposals" : "발표제안")</a>
+    <a href="@(home + "#speakers")">@(isEnglish ? "Speakers" : "발표자")</a>
+    <a href="@(home + "#register")">@(isEnglish ? "Tickets" : "티켓 구매")</a>
+    <a href="@(home + "#organisers")">@(isEnglish ? "Organisers" : "운영진")</a>
     <details class="archive">
-      <summary>이전행사</summary>
+      <summary>@(isEnglish ? "Past events" : "이전행사")</summary>
       <div>
         <a href="/2025">2025</a>
         <a href="/2024">2024</a>
