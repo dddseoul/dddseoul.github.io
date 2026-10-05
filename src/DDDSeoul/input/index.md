@@ -165,9 +165,28 @@ Layout: /_layout-2026.cshtml
       <a class="button ticket-button" href="/register">지금 티켓 구매하기 ↗</a>
     </div>
   </section>
-  <section id="organisers" class="section pending container">
-    <div class="section-label"><span class="number mono">07</span><h2>운영진</h2></div>
-    <div class="section-body"><p>커뮤니티가 주도하는 행사, 함께 준비하는 운영진을 곧 소개합니다.</p><span class="status mono">COMING SOON</span></div>
+  <section id="organisers" class="section organisers container">
+    <div class="section-label">
+      <span class="number mono">07 / ORGANISERS</span>
+      <h2>운영진</h2>
+      <p class="mono">MADE BY THE COMMUNITY</p>
+    </div>
+    <div class="section-body">
+      <p>커뮤니티가 주도하는 행사를 함께 준비하는 운영진입니다.</p>
+      <div class="organiser-grid" aria-label="DDD Seoul 2026 운영진">
+        <a class="organiser-card" href="https://www.linkedin.com/in/ksko1/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/kyeongseokkoh.jpg" alt="고경석" loading="lazy"></div><strong>고경석</strong></a>
+        <div class="organiser-card"><div class="organiser-photo"><img src="/images/organisers/yohankoh.jpg" alt="고요한" loading="lazy"></div><strong>고요한</strong></div>
+        <a class="organiser-card" href="https://www.linkedin.com/in/nuri-kim-441a5312b/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/nurikim.jpg" alt="김누리" loading="lazy"></div><strong>김누리</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/iamjinseok/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/jinseokkim.png" alt="김진석" loading="lazy"></div><strong>김진석</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/hahahaysh/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/sunghoyou.jpg" alt="유승호" loading="lazy"></div><strong>유승호</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/justinyoo/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/justinyoo.png" alt="유저스틴" loading="lazy"></div><strong>유저스틴</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/younni/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/miyoungyoun.jpg" alt="윤미영" loading="lazy"></div><strong>윤미영</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/tryeon/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/seoyeonlee.jpg" alt="이서연" loading="lazy"></div><strong>이서연</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/canrobot/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/daehojeon.jpg" alt="전대호" loading="lazy"></div><strong>전대호</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/mina-jin-91333493/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/minajin.png" alt="진미나" loading="lazy"></div><strong>진미나</strong></a>
+        <a class="organiser-card" href="https://www.linkedin.com/in/jeongwoo-choi-387b091b/" target="_blank" rel="noopener noreferrer"><div class="organiser-photo"><img src="/images/organisers/jeongwoochoi.jpg" alt="최정우" loading="lazy"></div><strong>최정우</strong></a>
+      </div>
+    </div>
   </section>
   <section id="newsletter" class="section newsletter container">
     <div class="section-label"><span class="number mono">08 / KEEP IN TOUCH</span><h2>구독신청</h2></div>
