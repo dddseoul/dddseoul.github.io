@@ -293,6 +293,14 @@
   .is-active .ticket-status { border-color: var(--ddd-accent); background: var(--ddd-accent); color: var(--ddd-paper); font-weight: 700; }
   .ticket-note { font-size: var(--ddd-font-small) !important; }
   .ticket-button { width: 100%; margin-top: 4px; }
+  .organiser-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px 20px; margin-top: 28px; }
+  .organiser-card { min-width: 0; }
+  .organiser-photo { display: grid; place-items: center; aspect-ratio: 1; border: 1px solid var(--ddd-border); background: var(--ddd-surface-soft); color: var(--ddd-text-soft); }
+  .organiser-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .organiser-photo span { font-size: var(--ddd-font-caption); letter-spacing: .1em; }
+  .organiser-card strong { display: block; margin-top: 12px; font-size: var(--ddd-font-small); line-height: 1.5; text-align: center; }
+  a.organiser-card:hover { text-decoration: none; }
+  a.organiser-card:hover strong { text-decoration: underline; text-underline-offset: .2em; }
   .newsletter { border-bottom: 0; }
   .newsletter-box { border-left: 5px solid var(--ddd-accent); padding-left: 28px; }
   .newsletter-box h3 { font-size: 1.875rem; line-height: 1.4; letter-spacing: -.04em; margin: 0 0 16px; }
@@ -417,6 +425,7 @@
     .pending .section-body { gap: 12px; }
     .status { padding: 6px 8px; }
     .ticket-table-wrap { margin-top: 20px; }
+    .organiser-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 16px; margin-top: 24px; }
     .info-page .sponsorship-table { display: none; }
     .sponsorship-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-block: 1.5rem; }
     .sponsorship-pie { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
@@ -428,6 +437,7 @@
   }
 
   @media (max-width: 480px) {
+    .organiser-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .sponsorship-cards { grid-template-columns: minmax(0, 1fr); }
   }
 
