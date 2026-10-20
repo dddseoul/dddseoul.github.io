@@ -259,26 +259,38 @@
   .sponsor-logos a { display: flex; align-items: center; width: 244px; height: 76px; }
   .sponsor-logos img { width: 100%; height: 100%; object-fit: contain; }
   .partners .section-body > p { margin-top: 12px; font-size: var(--ddd-font-body); }
-  .cfp-band { background: var(--ddd-ink); color: var(--ddd-paper); border-top: 5px solid var(--ddd-accent); }
-  .cfp-band .section { border: 0; }
-  .cfp-band .section-label .number { color: var(--ddd-paper); }
-  .cfp-band .section-label p { color: var(--ddd-border); }
-  .cfp-band .section-body p { color: var(--ddd-border); }
-  .cfp-intro { display: flex; align-items: start; justify-content: space-between; gap: 28px; }
-  .cfp-intro h3 { margin: 0 0 20px; font-size: 2.125rem; letter-spacing: -.045em; line-height: 1.4; }
-  .first-time { padding: 7px 10px; border: 1px solid var(--ddd-dark-rule); font-size: var(--ddd-font-caption); }
-  .cfp-band .button { width: 100%; margin-block: 4px 24px; }
-  .table-scroll { overflow-x: auto; margin-top: 24px; }
+  .keynote-band { background: var(--ddd-ink); color: var(--ddd-paper); border-top: 5px solid var(--ddd-accent); }
+  .keynote-band .section { border: 0; }
+  .keynote-band .section-label .number { color: var(--ddd-paper); }
+  .keynote-band .section-label p { color: var(--ddd-border); }
+  .keynote-band .section-body p { color: var(--ddd-border); }
+  .keynote-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(#{"min(100%, 22rem)"}, 1fr)); gap: 20px; list-style: none; padding: 0; margin: 28px 0 0; }
+  .keynote-card { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 20px; align-items: center; padding: 20px; border: 1px solid var(--ddd-dark-rule); border-left: 4px solid var(--ddd-accent); }
+  .keynote-photo { aspect-ratio: 1; overflow: hidden; border: 1px solid var(--ddd-dark-rule); }
+  .keynote-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .keynote-body { min-width: 0; }
+  .keynote-label { display: block; font-size: var(--ddd-font-caption); letter-spacing: .07em; color: var(--ddd-paper); }
+  .keynote-body strong { display: block; margin-top: 8px; font-size: 1.25rem; line-height: 1.4; word-break: keep-all; overflow-wrap: anywhere; }
+  .keynote-band .keynote-body p { margin: 8px 0 0; font-size: var(--ddd-font-small); }
   table { border-collapse: collapse; width: 100%; min-width: 44rem; font-size: var(--ddd-font-small); text-align: left; line-height: 1.65; }
   th { padding: 12px 10px; border-top: 2px solid var(--ddd-paper); border-bottom: 1px solid var(--ddd-dark-rule); font-size: var(--ddd-font-small); }
   td { padding: 8px 10px; border-bottom: 1px solid var(--ddd-dark-rule); color: var(--ddd-border); }
-  .pending { padding-block: 28px; align-items: center; }
-  .pending .section-label { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
-  .pending .section-label .number { padding: 0; border: 0; }
-  .pending .section-label h2 { margin: 0; font-size: 1.3125rem; }
-  .pending .section-body { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
-  .pending .section-body p { margin: 0; font-size: var(--ddd-font-body); }
-  .status { font-size: var(--ddd-font-caption); padding: 7px 10px; border: 1px solid var(--ddd-border); white-space: nowrap; letter-spacing: .05em; color: var(--ddd-text-soft); }
+  .speakers-heading, .keynote-heading { margin: 0 0 12px; font-size: var(--ddd-font-heading); line-height: 1.4; letter-spacing: -.035em; word-break: keep-all; }
+  .speaker-grid, .organiser-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px 20px; margin-top: 28px; }
+  .speaker-grid { list-style: none; padding: 0; margin-bottom: 0; }
+  .speaker-grid > li { min-width: 0; }
+  .speaker-card { display: block; }
+  .speaker-photo, .organiser-photo { display: grid; place-items: center; aspect-ratio: 1; overflow: hidden; border: 1px solid var(--ddd-border); background: var(--ddd-surface-soft); color: var(--ddd-text-soft); }
+  .speaker-photo span { font-size: var(--ddd-font-caption); }
+  .speaker-photo img, .organiser-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .speaker-card strong, .organiser-card strong { display: block; margin-top: 12px; font-size: var(--ddd-font-small); line-height: 1.5; text-align: center; }
+  .speaker-card:hover, a.organiser-card:hover { text-decoration: none; }
+  .speaker-card:hover strong, .speaker-card:focus-visible strong, a.organiser-card:hover strong { text-decoration: underline; text-underline-offset: .2em; }
+  .speaker-profile { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 32px; align-items: start; }
+  .speaker-profile-body { min-width: 0; }
+  .info-page .speaker-profile-body > h2:first-child { margin-top: 0; }
+  .info-heading .speaker-affiliation { margin: -.75rem 0 1.5rem; color: var(--ddd-border); font-weight: 600; word-break: keep-all; overflow-wrap: anywhere; }
+  .info-page .session-schedule-note { margin: 2rem 0 0; padding: 14px 18px; border-left: 4px solid var(--ddd-accent); background: var(--ddd-accent-soft); color: var(--ddd-text); font-weight: 700; word-break: keep-all; }
   .ticket-intro { margin: 0; }
   .ticket-table-wrap { overflow-x: auto; margin-block: 28px 20px; }
   .ticket-table { min-width: 42rem; color: var(--ddd-text); }
@@ -293,14 +305,8 @@
   .is-active .ticket-status { border-color: var(--ddd-accent); background: var(--ddd-accent); color: var(--ddd-paper); font-weight: 700; }
   .ticket-note { font-size: var(--ddd-font-small) !important; }
   .ticket-button { width: 100%; margin-top: 4px; }
-  .organiser-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px 20px; margin-top: 28px; }
   .organiser-card { min-width: 0; }
-  .organiser-photo { display: grid; place-items: center; aspect-ratio: 1; border: 1px solid var(--ddd-border); background: var(--ddd-surface-soft); color: var(--ddd-text-soft); }
-  .organiser-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .organiser-photo span { font-size: var(--ddd-font-caption); letter-spacing: .1em; }
-  .organiser-card strong { display: block; margin-top: 12px; font-size: var(--ddd-font-small); line-height: 1.5; text-align: center; }
-  a.organiser-card:hover { text-decoration: none; }
-  a.organiser-card:hover strong { text-decoration: underline; text-underline-offset: .2em; }
   .newsletter { border-bottom: 0; }
   .newsletter-box { border-left: 5px solid var(--ddd-accent); padding-left: 28px; }
   .newsletter-box h3 { font-size: 1.875rem; line-height: 1.4; letter-spacing: -.04em; margin: 0 0 16px; }
@@ -375,8 +381,6 @@
     .strip-item strong { font-size: 1rem; }
     .location-layout { grid-template-columns: 1fr 1fr; gap: 20px; }
     .sponsor-logos { gap: 40px; }
-    .cfp-intro { display: block; }
-    .first-time { display: inline-block; margin-bottom: 20px; }
   }
 
   @media (max-width: 760px) {
@@ -418,14 +422,11 @@
     .partners-top { gap: 16px; }
     .sponsor-logos { gap: 24px; padding-block: 12px; }
     .sponsor-logos a { width: calc(50% - 12px); height: 60px; }
-    .cfp-intro h3 { font-size: 1.75rem; }
-    .cfp-band .button { padding: 14px 10px; }
-    .table-scroll { margin-top: 16px; }
-    .pending { gap: 16px; padding-block: 24px; }
-    .pending .section-body { gap: 12px; }
-    .status { padding: 6px 8px; }
+    .keynote-list { margin-top: 24px; }
+    .speaker-grid, .organiser-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 16px; margin-top: 24px; }
+    .speaker-profile { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+    .speaker-profile .speaker-photo { width: 100%; max-width: 16rem; }
     .ticket-table-wrap { margin-top: 20px; }
-    .organiser-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 16px; margin-top: 24px; }
     .info-page .sponsorship-table { display: none; }
     .sponsorship-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-block: 1.5rem; }
     .sponsorship-pie { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
@@ -437,7 +438,9 @@
   }
 
   @media (max-width: 480px) {
-    .organiser-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .keynote-card { grid-template-columns: 5.5rem minmax(0, 1fr); gap: 16px; padding: 16px; }
+    .keynote-body strong { font-size: 1.125rem; }
+    .speaker-grid, .organiser-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .sponsorship-cards { grid-template-columns: minmax(0, 1fr); }
   }
 

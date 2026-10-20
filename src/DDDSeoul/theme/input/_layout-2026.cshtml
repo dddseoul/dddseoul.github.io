@@ -1,6 +1,9 @@
 @{
   var language = Document.GetString("Language", "ko");
   var isEnglish = language == "en";
+  var isSpeaker = Document.GetBool("IsSpeaker");
+  var speakerPhoto = Document.GetString("SpeakerPhoto");
+  var speakerAffiliation = Document.GetString("SpeakerAffiliation");
   var canonicalUrl = Document.GetString("Canonical") ?? Document.GetLink(true);
   var alternateLanguageUrl = Document.GetString("AlternateLanguageUrl");
 }
@@ -65,9 +68,20 @@
     @if (Document.GetBool("IsInfoPage"))
     {
       <div class="info-heading container">
-        <p class="eyebrow mono">DDD SEOUL / 2026</p>
+        <p class="eyebrow mono">DDD SEOUL / 2026@(isSpeaker ? " / SPEAKER" : string.Empty)</p>
         <h1>@Document.GetString("InfoPageTitle", Document.GetTitle())</h1>
-        <a class="text-link" href="/">@(isEnglish ? "← Back to event home (Korean)" : "← 행사 메인으로 돌아가기")</a>
+        @if (isSpeaker)
+        {
+          if (!string.IsNullOrEmpty(speakerAffiliation))
+          {
+            <p class="speaker-affiliation">@speakerAffiliation</p>
+          }
+          <a class="text-link" href="/#speakers">← 발표자 목록으로 돌아가기</a>
+        }
+        else
+        {
+          <a class="text-link" href="/">@(isEnglish ? "← Back to event home (Korean)" : "← 행사 메인으로 돌아가기")</a>
+        }
         @if (!string.IsNullOrEmpty(alternateLanguageUrl))
         {
           <nav class="language-switch" aria-label="@(isEnglish ? "Language selection" : "언어 선택")">
@@ -82,7 +96,28 @@
   @if (Document.GetBool("IsInfoPage"))
   {
     <main id="content" class="info-page container" tabindex="-1">
-      @RenderBody()
+      @if (isSpeaker)
+      {
+        <div class="speaker-profile">
+          <div class="speaker-photo">
+            @if (!string.IsNullOrEmpty(speakerPhoto))
+            {
+              <img src="@speakerPhoto" alt="@Document.GetTitle() 발표자 사진">
+            }
+            else
+            {
+              <span>사진 준비 중</span>
+            }
+          </div>
+          <div class="speaker-profile-body">
+            @RenderBody()
+          </div>
+        </div>
+      }
+      else
+      {
+        @RenderBody()
+      }
     </main>
   }
   else
