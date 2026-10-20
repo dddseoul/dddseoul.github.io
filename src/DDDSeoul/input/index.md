@@ -11,7 +11,7 @@ Layout: /_layout-2026.cshtml
       <h1>경험을 나누며<br><span>가능성을 탐색하세요</span></h1>
       <p>개발자가 만들고, 개발자가 함께하는 하루<br>Microsoft 기술을 중심으로 만나는 DDD Seoul 2026</p>
       <div class="hero-actions">
-        <a class="button" href="#cfp">발표 제안 안내 <span>↓</span></a>
+        <a class="button" href="#keynote">발표자 보기 <span>↓</span></a>
         <a class="text-link" href="#register">티켓 구매하기 ↓</a>
       </div>
     </div>
@@ -82,43 +82,56 @@ Layout: /_layout-2026.cshtml
       <p>DDD Seoul은 후원사의 도움으로 진행하고 있습니다. 함께해 주신 모든 후원사에 감사드립니다.</p>
     </div>
   </section>
-  <div class="cfp-band">
-    <section id="cfp" class="section container">
+  <div class="keynote-band">
+    <section id="keynote" class="section container">
       <div class="section-label">
-        <span class="number mono">04 / CALL FOR PROPOSALS</span>
-        <h2>발표제안</h2>
-        <p class="mono">YOUR EXPERIENCE MATTERS</p>
+        <span class="number mono">04 / KEYNOTE</span>
+        <h2>키노트</h2>
+        <p class="mono">OPENING KEYNOTE</p>
       </div>
       <div class="section-body">
-        <div class="cfp-intro">
-          <h3>당신의 경험으로<br>무대를 채워주세요</h3>
-          <span class="first-time">첫 발표도 환영합니다.</span>
-        </div>
-        <p>Microsoft 기술과 관련한 주제라면 누구나 발표를 제안할 수 있습니다. 작은 발견부터 깊이 있는 기술 이야기까지, 커뮤니티와 함께 성장할 경험을 들려주세요.</p>
-        <a class="button" href="/cfp">발표 제안하기 ↗</a>
-        <p>발표 주제는 다음과 같은 주제를 포함하지만 이에 국한하지 않습니다.</p>
-        <div class="table-scroll" tabindex="0" role="region" aria-label="발표 주제 표, 작은 화면에서는 가로로 스크롤할 수 있습니다">
-          <table>
-            <thead>
-              <tr><th scope="col">소프트웨어 개발</th><th scope="col">클라우드</th><th scope="col">데이터 &amp; AI</th><th scope="col">인프라 &amp; DevOps</th><th scope="col">커리어</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Java</td><td>Azure</td><td>Agent</td><td>Containers</td><td>Career</td></tr>
-              <tr><td>JavaScript</td><td>Business Applications</td><td>AI</td><td>DevOps</td><td>Leadership</td></tr>
-              <tr><td>Python</td><td>Cloud-Native</td><td>Data Analysis</td><td>Infrastructure</td><td>Professional Skills</td></tr>
-              <tr><td>.NET</td><td>Copilot</td><td>Data Engineering</td><td>Kubernetes</td><td>Soft Skills</td></tr>
-              <tr><td>Developer Tools</td><td>Microsoft 365</td><td>Machine Learning</td><td>Platform Engineering</td><td></td></tr>
-              <tr><td>GitHub</td><td>Security</td><td>MCP</td><td>SRE</td><td></td></tr>
-              <tr><td>GitHub Copilot</td><td></td><td></td><td></td><td></td></tr>
-            </tbody>
-          </table>
-        </div>
+        <h3 class="keynote-heading">오프닝 키노트</h3>
+        <p>DDD Seoul 2026의 문을 여는 오프닝 키노트를 준비하고 있습니다. 연사와 세션 정보는 확정되는 대로 공개합니다.</p>
+        <ul class="keynote-list" aria-label="DDD Seoul 2026 오프닝 키노트">
+          <li class="keynote-card">
+            <div class="keynote-photo" aria-hidden="true"><img src="/images/speakers/silhouette.svg" alt="" width="240" height="240"></div>
+            <div class="keynote-body">
+              <span class="keynote-label mono">OPENING KEYNOTE</span>
+              <strong>연사 공개 예정</strong>
+              <p>세션 정보는 추후 안내합니다.</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   </div>
-  <section id="speakers" class="section pending container">
-    <div class="section-label"><span class="number mono">05</span><h2>발표자</h2></div>
-    <div class="section-body"><p>DDD Seoul 2026의 발표자는 곧 안내할 예정입니다.</p><span class="status mono">COMING SOON</span></div>
+  <section id="speakers" class="section speakers container">
+    <div class="section-label">
+      <span class="number mono">05 / SPEAKERS</span>
+      <h2>발표자</h2>
+      <p class="mono">MEET THE COMMUNITY</p>
+    </div>
+    <div class="section-body">
+      <h3 class="speakers-heading">함께 경험을 나눌 15명의 발표자</h3>
+      <p>DDD Seoul 2026의 발표자를 소개합니다. 발표자를 선택하면 소개와 세션 정보를 볼 수 있습니다.</p>
+      <ul class="speaker-grid" aria-label="DDD Seoul 2026 발표자">
+        <li><a class="speaker-card" href="/speakers/suyeonkwon"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/suyeonkwon.jpg" alt="" loading="lazy"></div><strong>권수연</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/youngseokim"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/youngseokim.jpg" alt="" loading="lazy"></div><strong>김영서</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/yuseokkim"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/yuseokkim.jpg" alt="" loading="lazy"></div><strong>김유석</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/insookkim"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/insookkim.jpg" alt="" loading="lazy"></div><strong>김인숙</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/pyeonggwonkim"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/pyeonggwonkim.jpg" alt="" loading="lazy"></div><strong>김평권</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/kyungfilmoon"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/kyungfilmoon.jpg" alt="" loading="lazy"></div><strong>문경필</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/gyeolpark"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/gyeolpark.jpg" alt="" loading="lazy"></div><strong>박결</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/sohyunbang"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/sohyunbang.jpg" alt="" loading="lazy"></div><strong>방소현</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/taewoongson"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/taewoongson.jpg" alt="" loading="lazy"></div><strong>손태웅</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/minseoksong"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/minseoksong.jpg" alt="" loading="lazy"></div><strong>송민석</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/justinyoo"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/justinyoo.jpg" alt="" loading="lazy"></div><strong>유저스틴</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/jeyoungjeon"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/jeyoungjeon.jpg" alt="" loading="lazy"></div><strong>전제영</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/bohyunjung"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/bohyunjung.jpg" alt="" loading="lazy"></div><strong>정보현</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/taeyoungjung"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/taeyoungjung.jpg" alt="" loading="lazy"></div><strong>정태영</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/minajin"><div class="speaker-photo" aria-hidden="true"><img src="/images/organisers/minajin.png" alt="" loading="lazy"></div><strong>진미나</strong></a></li>
+      </ul>
+    </div>
   </section>
   <section id="register" class="section tickets container">
     <div class="section-label">
