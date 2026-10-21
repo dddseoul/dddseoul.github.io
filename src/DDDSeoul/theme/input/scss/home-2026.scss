@@ -258,6 +258,8 @@
   .sponsor-logos { display: flex; align-items: center; gap: 64px; padding-block: 20px; }
   .sponsor-logos a { display: flex; align-items: center; width: 244px; height: 76px; }
   .sponsor-logos img { width: 100%; height: 100%; object-fit: contain; }
+  .sponsor-logos + .partners-top { margin-top: 28px; }
+  .sponsor-logos-secondary a { width: 200px; height: 60px; }
   .partners .section-body > p { margin-top: 12px; font-size: var(--ddd-font-body); }
   .keynote-band { background: var(--ddd-ink); color: var(--ddd-paper); border-top: 5px solid var(--ddd-accent); }
   .keynote-band .section { border: 0; }
