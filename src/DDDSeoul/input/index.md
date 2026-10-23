@@ -135,7 +135,7 @@ Layout: /_layout-2026.cshtml
         <li><a class="speaker-card" href="/speakers/justinyoo"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/justinyoo.jpg" alt="" loading="lazy"></div><strong>유저스틴</strong></a></li>
         <li><a class="speaker-card" href="/speakers/jeyoungjeon"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/jeyoungjeon.jpg" alt="" loading="lazy"></div><strong>전제영</strong></a></li>
         <li><a class="speaker-card" href="/speakers/bohyunjung"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/bohyunjung.jpg" alt="" loading="lazy"></div><strong>정보현</strong></a></li>
-        <li><a class="speaker-card" href="/speakers/taeyoungjung"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/taeyoungjung.jpg" alt="" loading="lazy"></div><strong>정태영</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/taeyeongjeong"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/taeyeongjeong.jpg" alt="" loading="lazy"></div><strong>정태영</strong></a></li>
         <li><a class="speaker-card" href="/speakers/minajin"><div class="speaker-photo" aria-hidden="true"><img src="/images/organisers/minajin.png" alt="" loading="lazy"></div><strong>진미나</strong></a></li>
       </ul>
     </div>
