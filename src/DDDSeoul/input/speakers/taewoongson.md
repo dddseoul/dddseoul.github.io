@@ -1,6 +1,6 @@
 Title: 손태웅
 Description: "손태웅 - MetalFX For Unreal - Apple 생태계를 위한 개발을 Windows에서 진행하기"
-SpeakerAffiliation: "로켓곰군"
+SpeakerAffiliation: "프리랜서"
 SpeakerPhoto: /images/speakers/taewoongson.jpg
 ---
 ## 발표자 소개
