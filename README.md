@@ -71,6 +71,8 @@ sudo mkdir -p /usr/local/lib/ && sudo cp ./lib/libsass.dylib "$_"
 - 영어 페이지는 후원 안내에 한해 `/en/sponsorship`으로 제공합니다. 본문은 `input/en/sponsorship.cshtml`에서 관리하며, 한국어와 영어 본문·통계·차트 범례·이미지 대체 설명은 함께 갱신하세요. 두 페이지는 같은 후원 템플릿과 차트 이미지를 재사용합니다. 후원 금액은 원화 정수로 한 번만 정의하고 한국어는 만원 단위, 영어는 `KRW` 금액으로 표시합니다. `Language: en`은 해당 페이지의 메뉴·푸터·접근성 문구를 영어로 표시하며, 지정하지 않은 페이지는 한국어를 유지합니다. 두 후원 페이지의 `Canonical`은 각각의 절대 URL이고, `AlternateLanguageUrl`은 상대 언어 페이지의 루트 경로입니다. 이 메타데이터로 `한국어 | English` 전환 링크와 상호 `hreflang`을 생성합니다. 다른 페이지는 번역하지 않으므로 영어 페이지에서도 메뉴·푸터 링크는 기존 한국어 경로로 연결합니다.
 - `/sponsorship`은 후원 종류·혜택을 먼저 보여주고, 2025년 상세 실적은 파이 차트와 범례로 표시합니다. 차트 원본은 `theme/input/images/sponsorship/2025-attendance.svg`, `2025-experience.svg`, `2025-roles.svg`이며, `input/sponsorship.cshtml`에서 이미지로 불러옵니다. SVG는 색상·글꼴 설정을 자체 포함하므로 별도로 열어도 표시됩니다. 통계를 수정할 때는 SVG 주석의 원자료 수를 기준으로 조각의 각도와 번호 위치를 다시 계산하고, 페이지의 요약·범례·이미지 대체 설명과 SVG의 제목·설명도 함께 갱신하세요. 반올림한 비율 대신 원자료로 각도를 계산하며, 판단 불가 응답도 전체에 포함합니다. 페이지 배치와 범례 색상은 `home-2026.scss`의 `.sponsorship-pie` 및 `.pie-color-*` 규칙에서 관리합니다. 색상을 바꿀 때는 SVG의 조각 색상도 맞춰 주세요. 760px 이하 화면에서는 차트와 범례를 세로로 배치합니다.
 
+2026 발표자 페이지의 티켓 구매 버튼은 `_layout-2026.cshtml`에서 `IsSpeaker: true`인 페이지의 본문 끝에 공통으로 표시하며, `/register`로 연결합니다. 개별 발표자 문서에는 버튼을 추가하지 않습니다.
+
 ## 이메일 템플릿 생성/수정하기
 
 > **NOTE**: 이메일 템플릿을 생성/수정하기 위해서는 [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local)를 설치해야 합니다.
