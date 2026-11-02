@@ -272,7 +272,6 @@
   .keynote-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .keynote-body { min-width: 0; }
   .keynote-card:hover, .keynote-card:focus-visible { text-decoration: none; }
-  .keynote-card:hover h4, .keynote-card:focus-visible h4 { text-decoration: underline; text-underline-offset: .2em; }
   .keynote-body h4 { margin: 8px 0 0; font-size: 1.25rem; line-height: 1.4; word-break: keep-all; overflow-wrap: anywhere; }
   .keynote-band .keynote-body p { margin: 8px 0 0; font-size: var(--ddd-font-small); }
   table { border-collapse: collapse; width: 100%; min-width: 44rem; font-size: var(--ddd-font-small); text-align: left; line-height: 1.65; }
