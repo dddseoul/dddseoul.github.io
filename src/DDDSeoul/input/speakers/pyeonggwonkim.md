@@ -37,4 +37,4 @@ Entra ID(External ID, Workforce, OBO flow)와 Microsoft Graph로 SPFx ListView C
 
 Azure OpenAI 429 장애 61건을 Azure Monitor 메트릭만으로 추적한 과정을 공유합니다. 원인은 호출당 약 9,000토큰에 비해 작은 TPM 한도, 전역 동시성 상한의 부재, in-memory job store였습니다. 이를 계기로 job 상태를 PostgreSQL과 Blob Storage로 옮기고, 워커를 Container Apps와 KEDA로 이관해 처리량 상한을 인프라가 결정하도록 바꾸는 설계를 다룹니다.
 
-<p class="session-schedule-note">12:10–12:50 · Track A · <a href="/#schedule">전체 시간표</a></p>
+<p class="session-schedule-note">12:10–12:50 · Track A (제주) · <a href="/#schedule">전체 시간표</a></p>

@@ -11,7 +11,7 @@ Layout: /_layout-2026.cshtml
       <h1>경험을 나누며<br><span>가능성을 탐색하세요</span></h1>
       <p>개발자가 만들고, 개발자가 함께하는 하루<br>Microsoft 기술을 중심으로 만나는 DDD Seoul 2026</p>
       <div class="hero-actions">
-        <a class="button" href="#keynote">발표자 보기 <span>↓</span></a>
+        <a class="button" href="#speakers">발표자 보기 <span>↓</span></a>
         <a class="text-link" href="#register">티켓 구매하기 ↓</a>
       </div>
     </div>
@@ -43,6 +43,9 @@ Layout: /_layout-2026.cshtml
       <p>DDD Seoul 컨퍼런스를 통해 새로운 발표자를 발굴하고, 다양한 주제를 다루며, 다양한 경험을 나누고자 합니다. 커뮤니티의 참여와 기여, 기술 교육과 자연스러운 네트워킹을 통해 Microsoft 개발자 생태계에 기여합니다.</p>
     </div>
   </section>
+  <div class="ticket-cta container">
+    <a class="button" href="https://dddseoul.kr/register">티켓 구매하기 <span aria-hidden="true">↗</span></a>
+  </div>
   <section id="agenda" class="section container">
     <div class="section-label">
       <span class="number mono">02 / WHEN &amp; WHERE</span>
@@ -64,91 +67,12 @@ Layout: /_layout-2026.cshtml
           <span>안내 지도 크게 보기 ↗</span>
         </a>
       </div>
-      <div id="schedule" class="schedule-wrap">
-        <h3 class="schedule-heading">시간표</h3>
-        <div class="schedule-table-wrap" role="region" aria-label="DDD Seoul 2026 전체 시간표">
-          <table class="schedule-table">
-            <thead>
-              <tr><th scope="col">시간</th><th scope="col">Track A - 제주<br><span>Build&amp;Run</span></th><th scope="col">Track B - 동해/독도<br><span>Work with AI</span></th></tr>
-            </thead>
-            <tbody>
-              <tr><th class="schedule-time" scope="row"><time datetime="09:00">09:00</time>–<time datetime="09:30">09:30</time></th><td class="schedule-common" colspan="2">체크인</td></tr>
-              <tr><th class="schedule-time" scope="row"><time datetime="09:30">09:30</time>–<time datetime="10:10">10:10</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 1</strong><br><a href="/speakers/youngbinlee">이영빈 · GM TCK</a><br>키노트 주제는 곧 공개합니다</td></tr>
-              <tr><th class="schedule-time" scope="row"><time datetime="10:10">10:10</time>–<time datetime="10:20">10:20</time></th><td class="schedule-common" colspan="2">휴식</td></tr>
-              <tr><th class="schedule-time" scope="row"><time datetime="10:20">10:20</time>–<time datetime="11:00">11:00</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 2</strong><br><a href="/speakers/junghyunnam">남정현 · 메가존클라우드</a><br>AI가 거울에 보이는 것보다 가까이 있음</td></tr>
-              <tr><th class="schedule-time" scope="row"><time datetime="11:00">11:00</time>–<time datetime="11:20">11:20</time></th><td class="schedule-common" colspan="2">휴식 · 세션 준비</td></tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="11:20">11:20</time>–<time datetime="12:00">12:00</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/bohyunjung">정보현</a><br>처음 보는 데이터셋, Copilot이 MongoDB에서 C# 코드까지 만들어낼 수 있을까?</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/gyeolpark">박결</a><br>Copilot 에이전트, 코드로 손보면 추가 비용 없이 더 강해질까?</td>
-              </tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="12:10">12:10</time>–<time datetime="12:50">12:50</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/pyeonggwonkim">김평권</a><br>AI 번역에 문서 서식까지 맡길 수 있을까? Azure로 설계한 문서 변환</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/minajin">진미나</a><br>개발자가 아니어도 Copilot으로 달라질 수 있을까? 비개발자의 활용기</td>
-              </tr>
-              <tr><th class="schedule-time" scope="row"><time datetime="12:50">12:50</time>–<time datetime="13:50">13:50</time></th><td class="schedule-common" colspan="2">점심</td></tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="13:50">13:50</time>–<time datetime="14:30">14:30</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/yuseokkim">김유석</a><br>레거시 ERP와 AI, MCP로 안전하게 연결하는 방법</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/insookkim">김인숙</a> · <a href="/speakers/sohyunbang">방소현</a><br>AI는 디자인보다 데이터를 본다? 더 정확한 코드 생성을 위한 데이터 품질</td>
-              </tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="14:40">14:40</time>–<time datetime="15:20">15:20</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/taewoongson">손태웅</a><br>Apple 생태계를 위한 MetalFX, Windows에서 직접 구현해 본 이야기</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/taeyeongjeong">정태영</a><br>에이전트가 “완료”라는데, 진짜 끝난 걸까? PR 리뷰까지 맡겨 본 점검표</td>
-              </tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="15:30">15:30</time>–<time datetime="16:10">16:10</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/minseoksong">송민석</a><br>에이전트가 판단하고 컨테이너가 실행한다: 실패에도 버티는 AI 워크플로우</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/youngseokim">김영서</a><br>녹화만 하면 글과 영상까지? 로컬 AI로 자동 제작하기</td>
-              </tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="16:20">16:20</time>–<time datetime="17:00">17:00</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/justinyoo">유저스틴</a><br>내가 만든 에이전트가 돈 먹는 하마였다고?</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/kyungfilmoon">문경필</a><br>Copilot이 직원의 관심을 깨웠다? 함께 만든 AX 변화의 순간들</td>
-              </tr>
-              <tr>
-                <th class="schedule-time" scope="row"><time datetime="17:10">17:10</time>–<time datetime="17:50">17:50</time></th>
-                <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/jeyoungjeon">전제영</a><br>라즈베리파이 홈랩에 AI 에이전트 팀을 올리면? 쿠버네티스 라이브 데모</td>
-                <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/suyeonkwon">권수연</a><br>“GPT가 다 해주는데 코딩을 왜 배워요?” 아이들과 함께 찾은 답</td>
-              </tr>
-              <tr><th class="schedule-time" scope="row"><time datetime="17:50">17:50</time> 이후</th><td class="schedule-common" colspan="2">마무리 · 네트워킹</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="sponsors" class="section partners container">
-    <div class="section-label">
-      <span class="number mono">03 / PARTNERS</span>
-      <h2>후원사</h2>
-      <p class="mono">BETTER TOGETHER</p>
-    </div>
-    <div class="section-body">
-      <div class="partners-top">
-        <h3>주 후원사</h3>
-        <a class="text-link" href="/sponsorship">후원 제안하기 ↗</a>
-      </div>
-      <div class="sponsor-logos">
-        <a href="https://www.microsoft.com/ko-kr/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/microsoft.png" alt="Microsoft" width="244" height="76" loading="lazy"></a>
-        <a href="https://www.megazone.com/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/megazonecloud.png" alt="메가존 클라우드" width="244" height="76" loading="lazy"></a>
-      </div>
-      <div class="partners-top">
-        <h3>후원사</h3>
-      </div>
-      <div class="sponsor-logos sponsor-logos-secondary">
-        <a href="https://www.infragistics.co.kr" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/infragistics.svg" alt="Infragistics" width="200" height="60" loading="lazy"></a>
-        <a href="https://www.mongodb.com/ko-kr" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/mongodb.svg" alt="MongoDB" width="200" height="60" loading="lazy"></a>
-      </div>
-      <p>DDD Seoul은 후원사의 도움으로 진행하고 있습니다. 함께해 주신 모든 후원사에 감사드립니다.</p>
     </div>
   </section>
   <div class="keynote-band">
     <section id="keynote" class="section container">
       <div class="section-label">
-        <span class="number mono">04 / KEYNOTE</span>
+        <span class="number mono">03 / KEYNOTE</span>
         <h2>키노트</h2>
         <p class="mono">OPENING KEYNOTE</p>
       </div>
@@ -180,9 +104,100 @@ Layout: /_layout-2026.cshtml
       </div>
     </section>
   </div>
+  <div class="ticket-cta container">
+    <a class="button" href="https://dddseoul.kr/register">티켓 구매하기 <span aria-hidden="true">↗</span></a>
+  </div>
+  <section id="schedule" class="section container">
+    <div class="section-label">
+      <span class="number mono">04 / SCHEDULE</span>
+      <h2>시간표</h2>
+      <p class="mono">FULL AGENDA</p>
+    </div>
+    <div class="section-body">
+      <div class="schedule-table-wrap" role="region" aria-label="DDD Seoul 2026 전체 시간표">
+        <table class="schedule-table">
+          <thead>
+            <tr><th scope="col">시간</th><th scope="col">Track A - 제주<br><span>Build&amp;Run</span></th><th scope="col">Track B - 동해/독도<br><span>Work with AI</span></th></tr>
+          </thead>
+          <tbody>
+            <tr><th class="schedule-time" scope="row"><time datetime="09:00">09:00</time>–<time datetime="09:30">09:30</time></th><td class="schedule-common" colspan="2">체크인</td></tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="09:30">09:30</time>–<time datetime="10:10">10:10</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 1</strong><br><a href="/speakers/youngbinlee">이영빈 · GM TCK</a><br>키노트 주제는 곧 공개합니다</td></tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="10:10">10:10</time>–<time datetime="10:20">10:20</time></th><td class="schedule-common" colspan="2">휴식</td></tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="10:20">10:20</time>–<time datetime="11:00">11:00</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 2</strong><br><a href="/speakers/junghyunnam">남정현 · 메가존클라우드</a><br>AI가 거울에 보이는 것보다 가까이 있음</td></tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="11:00">11:00</time>–<time datetime="11:20">11:20</time></th><td class="schedule-common" colspan="2">휴식 · 세션 준비</td></tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="11:20">11:20</time>–<time datetime="12:00">12:00</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/bohyunjung">정보현</a><br>처음 보는 데이터셋, Copilot이 MongoDB에서 C# 코드까지 만들어낼 수 있을까?</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/gyeolpark">박결</a><br>Copilot 에이전트, 코드로 손보면 추가 비용 없이 더 강해질까?</td>
+            </tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="12:10">12:10</time>–<time datetime="12:50">12:50</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/pyeonggwonkim">김평권</a><br>AI 번역에 문서 서식까지 맡길 수 있을까? Azure로 설계한 문서 변환</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/minajin">진미나</a><br>개발자가 아니어도 Copilot으로 달라질 수 있을까? 비개발자의 활용기</td>
+            </tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="12:50">12:50</time>–<time datetime="13:50">13:50</time></th><td class="schedule-common" colspan="2">점심</td></tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="13:50">13:50</time>–<time datetime="14:30">14:30</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/yuseokkim">김유석</a><br>레거시 ERP와 AI, MCP로 안전하게 연결하는 방법</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/insookkim">김인숙</a> · <a href="/speakers/sohyunbang">방소현</a><br>AI는 디자인보다 데이터를 본다? 더 정확한 코드 생성을 위한 데이터 품질</td>
+            </tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="14:40">14:40</time>–<time datetime="15:20">15:20</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/taewoongson">손태웅</a><br>Apple 생태계를 위한 MetalFX, Windows에서 직접 구현해 본 이야기</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/taeyeongjeong">정태영</a><br>에이전트가 “완료”라는데, 진짜 끝난 걸까? PR 리뷰까지 맡겨 본 점검표</td>
+            </tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="15:30">15:30</time>–<time datetime="16:10">16:10</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/minseoksong">송민석</a><br>에이전트가 판단하고 컨테이너가 실행한다: 실패에도 버티는 AI 워크플로우</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/youngseokim">김영서</a><br>녹화만 하면 글과 영상까지? 로컬 AI로 자동 제작하기</td>
+            </tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="16:20">16:20</time>–<time datetime="17:00">17:00</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/justinyoo">유저스틴</a><br>내가 만든 에이전트가 돈 먹는 하마였다고?</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/kyungfilmoon">문경필</a><br>Copilot이 직원의 관심을 깨웠다? 함께 만든 AX 변화의 순간들</td>
+            </tr>
+            <tr>
+              <th class="schedule-time" scope="row"><time datetime="17:10">17:10</time>–<time datetime="17:50">17:50</time></th>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/jeyoungjeon">전제영</a><br>라즈베리파이 홈랩에 AI 에이전트 팀을 올리면? 쿠버네티스 라이브 데모</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/suyeonkwon">권수연</a><br>“GPT가 다 해주는데 코딩을 왜 배워요?” 아이들과 함께 찾은 답</td>
+            </tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="17:50">17:50</time> 이후</th><td class="schedule-common" colspan="2">마무리 · 네트워킹</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section id="sponsors" class="section partners container">
+    <div class="section-label">
+      <span class="number mono">05 / PARTNERS</span>
+      <h2>후원사</h2>
+      <p class="mono">BETTER TOGETHER</p>
+    </div>
+    <div class="section-body">
+      <div class="partners-top">
+        <h3>주 후원사</h3>
+        <a class="text-link" href="/sponsorship">후원 제안하기 ↗</a>
+      </div>
+      <div class="sponsor-logos">
+        <a href="https://www.microsoft.com/ko-kr/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/microsoft.png" alt="Microsoft" width="244" height="76" loading="lazy"></a>
+        <a href="https://www.megazone.com/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/megazonecloud.png" alt="메가존 클라우드" width="244" height="76" loading="lazy"></a>
+      </div>
+      <div class="partners-top">
+        <h3>후원사</h3>
+      </div>
+      <div class="sponsor-logos sponsor-logos-secondary">
+        <a href="https://www.infragistics.co.kr" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/infragistics.svg" alt="Infragistics" width="200" height="60" loading="lazy"></a>
+        <a href="https://www.mongodb.com/ko-kr" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/mongodb.svg" alt="MongoDB" width="200" height="60" loading="lazy"></a>
+      </div>
+      <p>DDD Seoul은 후원사의 도움으로 진행하고 있습니다. 함께해 주신 모든 후원사에 감사드립니다.</p>
+    </div>
+  </section>
+  <div class="ticket-cta container">
+    <a class="button" href="https://dddseoul.kr/register">티켓 구매하기 <span aria-hidden="true">↗</span></a>
+  </div>
   <section id="speakers" class="section speakers container">
     <div class="section-label">
-      <span class="number mono">05 / SPEAKERS</span>
+      <span class="number mono">06 / SPEAKERS</span>
       <h2>발표자</h2>
       <p class="mono">MEET THE COMMUNITY</p>
     </div>
@@ -210,7 +225,7 @@ Layout: /_layout-2026.cshtml
   </section>
   <section id="register" class="section tickets container">
     <div class="section-label">
-      <span class="number mono">06 / TICKETS</span>
+      <span class="number mono">07 / TICKETS</span>
       <h2>티켓 구매</h2>
       <p class="mono">JOIN US IN SEOUL</p>
     </div>
@@ -255,7 +270,7 @@ Layout: /_layout-2026.cshtml
   </section>
   <section id="organisers" class="section organisers container">
     <div class="section-label">
-      <span class="number mono">07 / ORGANISERS</span>
+      <span class="number mono">08 / ORGANISERS</span>
       <h2>운영진</h2>
       <p class="mono">MADE BY THE COMMUNITY</p>
     </div>
@@ -276,7 +291,7 @@ Layout: /_layout-2026.cshtml
     </div>
   </section>
   <section id="newsletter" class="section newsletter container">
-    <div class="section-label"><span class="number mono">08 / KEEP IN TOUCH</span><h2>구독신청</h2></div>
+    <div class="section-label"><span class="number mono">09 / KEEP IN TOUCH</span><h2>구독신청</h2></div>
     <div class="section-body newsletter-box">
       <h3>DDD Seoul의 소식을<br>가장 먼저 받아보세요.</h3>
       <p>발표제안부터 티켓 오픈까지, 다음 소식을 놓치지 마세요.</p>

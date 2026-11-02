@@ -19,4 +19,4 @@ AI가 디자인를 코드로 변환할 때 발생하는 오류는 모델 자체�
 
 디자인 데이터를 AI가 일관되게 해석할 수 있도록 다양한 도구를 제작하며 개선한 경험을 공유합니다.
 
-<p class="session-schedule-note">13:50–14:30 · Track B (방소현 님과 공동 발표) · <a href="/#schedule">전체 시간표</a></p>
+<p class="session-schedule-note">13:50–14:30 · Track B (동해/독도, 방소현 님과 공동 발표) · <a href="/#schedule">전체 시간표</a></p>

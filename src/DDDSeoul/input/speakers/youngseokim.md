@@ -17,4 +17,4 @@ SpeakerPhoto: /images/speakers/youngseokim.jpg
 
 이 세션에서는 스마트폰, 스마트안경, 액션캠으로 녹화한 영상을 로컬에서 자동으로 블로그와 동영상으로 편집하는 AI Agent를 만든 이야기를 공유합니다. 클라우드 LLM에 맡기지 않고, 노트북 한 대에서 오픈 모델을 직접 돌리며 더 경제적인 비용으로 편리한 Agent를 구현한 과정을 나누고자 합니다.
 
-<p class="session-schedule-note">15:30–16:10 · Track B · <a href="/#schedule">전체 시간표</a></p>
+<p class="session-schedule-note">15:30–16:10 · Track B (동해/독도) · <a href="/#schedule">전체 시간표</a></p>

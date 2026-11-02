@@ -218,6 +218,7 @@
   .section-body { min-width: 0; }
   .section-body p { font-size: var(--ddd-font-body); line-height: 1.75; color: var(--ddd-text-muted); word-break: keep-all; margin: 0 0 16px; }
   .section-body p:last-child { margin-bottom: 0; }
+  .ticket-cta { display: flex; justify-content: center; padding-block: 24px; }
   .intro h3 { margin: 0 0 20px; font-size: var(--ddd-font-heading); letter-spacing: -.04em; line-height: 1.4; }
   .location-layout { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 28px; }
   .event-date { margin: 0 0 8px; font-size: 2.0625rem; font-weight: 750; letter-spacing: -.055em; }
@@ -225,8 +226,6 @@
   .venue { border-top: 1px solid var(--ddd-border); margin-top: 24px; padding-top: 20px; }
   .venue h3 { margin: 0 0 8px; font-size: 1.125rem; line-height: 1.6; }
   .venue p { font-size: var(--ddd-font-small); line-height: 1.8; margin: 0; }
-  .schedule-wrap { margin-top: 48px; }
-  .schedule-heading { margin: 0 0 12px; font-size: var(--ddd-font-heading); line-height: 1.4; letter-spacing: -.035em; }
   .schedule-table-wrap { margin-top: 20px; }
   .schedule-table { width: 100%; min-width: 0; table-layout: fixed; color: var(--ddd-text); }
   .schedule-table th, .schedule-table td { padding: 12px; border-bottom: 1px solid var(--ddd-border); color: var(--ddd-text); vertical-align: top; }
