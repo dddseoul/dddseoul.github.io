@@ -98,15 +98,25 @@ Layout: /_layout-2026.cshtml
       </div>
       <div class="section-body">
         <h3 class="keynote-heading">오프닝 키노트</h3>
-        <p>DDD Seoul 2026의 문을 여는 오프닝 키노트를 준비하고 있습니다. 연사와 세션 정보는 확정되는 대로 공개합니다.</p>
+        <p>DDD Seoul 2026의 문을 여는 오프닝 키노트를 소개합니다.</p>
         <ul class="keynote-list" aria-label="DDD Seoul 2026 오프닝 키노트">
-          <li class="keynote-card">
-            <div class="keynote-photo" aria-hidden="true"><img src="/images/speakers/silhouette.svg" alt="" width="240" height="240"></div>
-            <div class="keynote-body">
-              <span class="keynote-label mono">OPENING KEYNOTE</span>
-              <strong>연사 공개 예정</strong>
-              <p>세션 정보는 추후 안내합니다.</p>
-            </div>
+          <li>
+            <a class="keynote-card" href="/speakers/youngbinlee">
+              <div class="keynote-photo" aria-hidden="true"><img src="/images/speakers/youngbinlee.jpg" alt="" width="600" height="600" loading="lazy"></div>
+              <div class="keynote-body">
+                <p><b>이영빈</b> · GM TCK</p>
+                <p>키노트 주제는 곧 공개합니다</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="keynote-card" href="/speakers/junghyunnam">
+              <div class="keynote-photo" aria-hidden="true"><img src="/images/speakers/junghyunnam.jpg" alt="" width="600" height="600" loading="lazy"></div>
+              <div class="keynote-body">
+                <p><b>남정현</b> · 메가존클라우드</p>
+                <h4>AI가 거울에 보이는 것보다 가까이 있음</h4>
+              </div>
+            </a>
           </li>
         </ul>
       </div>
