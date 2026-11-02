@@ -271,8 +271,9 @@
   .keynote-photo { aspect-ratio: 1; overflow: hidden; border: 1px solid var(--ddd-dark-rule); }
   .keynote-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .keynote-body { min-width: 0; }
-  .keynote-label { display: block; font-size: var(--ddd-font-caption); letter-spacing: .07em; color: var(--ddd-paper); }
-  .keynote-body strong { display: block; margin-top: 8px; font-size: 1.25rem; line-height: 1.4; word-break: keep-all; overflow-wrap: anywhere; }
+  .keynote-card:hover, .keynote-card:focus-visible { text-decoration: none; }
+  .keynote-card:hover h4, .keynote-card:focus-visible h4 { text-decoration: underline; text-underline-offset: .2em; }
+  .keynote-body h4 { margin: 8px 0 0; font-size: 1.25rem; line-height: 1.4; word-break: keep-all; overflow-wrap: anywhere; }
   .keynote-band .keynote-body p { margin: 8px 0 0; font-size: var(--ddd-font-small); }
   table { border-collapse: collapse; width: 100%; min-width: 44rem; font-size: var(--ddd-font-small); text-align: left; line-height: 1.65; }
   th { padding: 12px 10px; border-top: 2px solid var(--ddd-paper); border-bottom: 1px solid var(--ddd-dark-rule); font-size: var(--ddd-font-small); }
@@ -442,7 +443,7 @@
 
   @media (max-width: 480px) {
     .keynote-card { grid-template-columns: 5.5rem minmax(0, 1fr); gap: 16px; padding: 16px; }
-    .keynote-body strong { font-size: 1.125rem; }
+    .keynote-body h4 { font-size: 1.125rem; }
     .speaker-grid, .organiser-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .sponsorship-cards { grid-template-columns: minmax(0, 1fr); }
   }
