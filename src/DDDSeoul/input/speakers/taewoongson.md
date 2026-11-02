@@ -17,4 +17,4 @@ Apple 생태계 전용 Temporal Upscaling 개발 작업을 Windows / Mac 환경�
 
 개발 현황 공유와, 환경이 제한이 있더라도 도전하는 정신을 공유하고 싶습니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">14:40–15:20 · Track A (제주) · <a href="/#schedule">전체 시간표</a></p>

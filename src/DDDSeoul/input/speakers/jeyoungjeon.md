@@ -22,4 +22,4 @@ SpeakerPhoto: /images/speakers/jeyoungjeon.jpg
 
 취미와 개인 공부로 시작한 기록이 GitHub 포트폴리오가 되어 커리어에도 도움이 된 이야기도 함께 나눕니다. 중급 난이도이지만, AI와 쿠버네티스를 처음 접하시는 분도 편하게 들을 수 있도록 풀어서 소개합니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">17:10–17:50 · Track A (제주) · <a href="/#schedule">전체 시간표</a></p>

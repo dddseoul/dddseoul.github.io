@@ -27,4 +27,4 @@ GitHub에 현지화 요청 이슈가 등록되면 Microsoft Foundry 루틴이 �
 
 이 세션에서는 AI 에이전트의 판단 능력과 컨테이너 기반 실행 환경의 신뢰성을 결합해, 실제 운영 환경에서 실패하고 재시도해도 안전한 AI 워크플로를 설계하는 방법을 함께 살펴봅니다
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">15:30–16:10 · Track A (제주) · <a href="/#schedule">전체 시간표</a></p>

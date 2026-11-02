@@ -25,4 +25,4 @@ ERP를 직접 AI에게 열지 말고, AI 친화적인 Anti-Corruption Layer를 �
 
 또한 ALC(Assembly Load Context)를 활용하여 비즈니스 모듈을 독립 배포 가능하게 설계함으로써 서비스 재기동 없이 기능을 확장하고 운영 리스크를 줄인 경험을 공유합니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">13:50–14:30 · Track A (제주) · <a href="/#schedule">전체 시간표</a></p>

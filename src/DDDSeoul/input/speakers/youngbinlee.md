@@ -12,4 +12,4 @@ IsKeynote: true
 
 ### 키노트 주제는 곧 공개합니다
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">09:30–10:10 · 오프닝 키노트 1 · <a href="/#schedule">전체 시간표</a></p>
