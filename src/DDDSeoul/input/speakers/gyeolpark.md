@@ -23,4 +23,4 @@ Copilot에서 일반 사용자가 에이전트를 만드는 도구는 크게 세
 
 전혀 그렇지 않습니다. 아주 손쉽게 강력한 무과금 에이전트를 만드는 방법을 이 자리에서 공개합니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">11:20–12:00 · Track B · <a href="/#schedule">전체 시간표</a></p>

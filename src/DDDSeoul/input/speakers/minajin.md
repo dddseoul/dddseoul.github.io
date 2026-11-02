@@ -23,4 +23,4 @@ Megazone Cloud - ABS Technical Consulting 매니저
 
 신나게 만들고, 꼼꼼하게 검증하는 GitHub Copilot 활용 꿀팁과 비개발자의 좌충우돌 검증방법! 함께 나눠보고자 합니다!!
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">12:10–12:50 · Track B · <a href="/#schedule">전체 시간표</a></p>

@@ -29,4 +29,4 @@ SpeakerPhoto: /images/speakers/kyungfilmoon.jpg
 AX가 '제출할 과제'에서 '임직원분들의 역량이 한 단계 올라가는 일'로 바뀐 순간들을 공유합니다.
 그 전환이 일어난 지점을 사례로 짚고, 임직원의 지속적인 관심과 함께 만들어 가는 AX의 방법을 찾아봅니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">16:20–17:00 · Track B · <a href="/#schedule">전체 시간표</a></p>

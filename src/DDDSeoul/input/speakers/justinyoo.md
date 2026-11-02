@@ -15,4 +15,4 @@ Microsoft와 GitHub에서 수석 디벨로퍼 아드보캇으로 일하고 있�
 
 이번 세션에서는 AgentOps 관점에서 현재 상황 진단, 모델 최적화, 에이전트 최적화로 이어지는 힐클라이밍 기법에 대해 논의해 봅니다. 이렇게 최적화된 에이전트를 통해 AI 에이전트 사용 비용까지 최적화되는 결과를 한 번 만들어 보겠습니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">16:20–17:00 · Track A · <a href="/#schedule">전체 시간표</a></p>

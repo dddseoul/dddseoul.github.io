@@ -13,4 +13,4 @@ Senior Developer Advocate
 
 VS Code Agent Mode에 MongoDB MCP Server와 Agent Skills를 연결해, 처음 보는 데이터셋의 스키마를 탐색하고 인덱스를 검토하고 Aggregation Pipeline을 만든 뒤 애플리케이션 코드로 옮깁니다. Skills 적용 전후의 결과 차이를 비교하고, 읽기 전용 모드 등 에이전트에 DB 접근을 허용할 때의 안전장치도 함께 다룹니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">11:20–12:00 · Track A · <a href="/#schedule">전체 시간표</a></p>

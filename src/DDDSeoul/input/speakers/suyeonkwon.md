@@ -43,4 +43,4 @@ SpeakerPhoto: /images/speakers/suyeonkwon.jpg
 
 이것이 학생들이 묻던 "쌤, GPT가 다 해주는데 코딩 왜 배워야 해요?" 라는 질문에 정답은 아니지만 제 나름의 답변이 될 것이라고 전달하면서 세션을 마무리하려고 합니다.
 
-<p class="session-schedule-note">세션 시간과 장소는 추후 안내합니다.</p>
+<p class="session-schedule-note">17:10–17:50 · Track B · <a href="/#schedule">전체 시간표</a></p>
