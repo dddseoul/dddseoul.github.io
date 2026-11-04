@@ -127,7 +127,7 @@ Layout: /_layout-2026.cshtml
             <tr><th class="schedule-time" scope="row"><time datetime="11:00">11:00</time>–<time datetime="11:20">11:20</time></th><td class="schedule-common" colspan="2">휴식 · 세션 준비</td></tr>
             <tr>
               <th class="schedule-time" scope="row"><time datetime="11:20">11:20</time>–<time datetime="12:00">12:00</time></th>
-              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/bohyunjung">정보현</a><br>처음 보는 데이터셋, Copilot이 MongoDB에서 C# 코드까지 만들어낼 수 있을까?</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/bohyunjung">정보현</a><br>AI 기억 잡기: MongoDB로 구현하는 Agent Memory</td>
               <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/gyeolpark">박결</a><br>Copilot 에이전트, 코드로 손보면 추가 비용 없이 더 강해질까?</td>
             </tr>
             <tr>
@@ -143,8 +143,8 @@ Layout: /_layout-2026.cshtml
             </tr>
             <tr>
               <th class="schedule-time" scope="row"><time datetime="14:40">14:40</time>–<time datetime="15:20">15:20</time></th>
-              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/taewoongson">손태웅</a><br>Apple 생태계를 위한 MetalFX, Windows에서 직접 구현해 본 이야기</td>
-              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/taeyeongjeong">정태영</a><br>에이전트가 “완료”라는데, 진짜 끝난 걸까? PR 리뷰까지 맡겨 본 점검표</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/taewoongson">손태웅</a><br>Windows에서 시작하는 Apple MetalFX 플러그인 개발</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/taeyeongjeong">정태영</a><br>AI 에이전트가 ‘완료’라는데, 진짜 끝난 걸까? PR 리뷰까지 맡긴 기획자의 점검표 4가지</td>
             </tr>
             <tr>
               <th class="schedule-time" scope="row"><time datetime="15:30">15:30</time>–<time datetime="16:10">16:10</time></th>
