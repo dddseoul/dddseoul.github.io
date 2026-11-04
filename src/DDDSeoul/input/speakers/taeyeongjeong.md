@@ -1,5 +1,5 @@
 Title: 정태영
-Description: "정태영 - AI 에이전트가 ‘완료’라고 할 때 무엇을 믿어야 할까 — GitHub PR 리뷰까지 에이전트에게 맡긴 기획자의 점검표 4가지"
+Description: "정태영 - AI 에이전트가 ‘완료’라는데, 진짜 끝난 걸까? PR 리뷰까지 맡긴 기획자의 점검표 4가지"
 SpeakerAffiliation: "가비아"
 SpeakerPhoto: /images/speakers/taeyeongjeong.jpg
 ---
@@ -9,7 +9,7 @@ SpeakerPhoto: /images/speakers/taeyeongjeong.jpg
 
 ## 세션 정보
 
-### AI 에이전트가 ‘완료’라고 할 때 무엇을 믿어야 할까 — GitHub PR 리뷰까지 에이전트에게 맡긴 기획자의 점검표 4가지
+### AI 에이전트가 ‘완료’라는데, 진짜 끝난 걸까? PR 리뷰까지 맡긴 기획자의 점검표 4가지
 
 AI 코딩 에이전트에게 PR 리뷰와 병합, 배포 뒤 운영 확인까지 맡기면, 사람은 무엇을 근거로 ‘완료’를 받아들여야 할까요?
 
