@@ -158,7 +158,7 @@ Layout: /_layout-2026.cshtml
             </tr>
             <tr>
               <th class="schedule-time" scope="row"><time datetime="17:10">17:10</time>–<time datetime="17:50">17:50</time></th>
-              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/jeyoungjeon">전제영</a><br>라즈베리파이 홈랩에 AI 에이전트 팀을 올리면? 쿠버네티스 라이브 데모</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/jeayoungjeon">전제영</a><br>라즈베리파이 홈랩에 AI 에이전트 팀을 올리면? 쿠버네티스 라이브 데모</td>
               <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/suyeonkwon">권수연</a><br>“GPT가 다 해주는데 코딩을 왜 배워요?” 아이들과 함께 찾은 답</td>
             </tr>
             <tr><th class="schedule-time" scope="row"><time datetime="17:50">17:50</time> 이후</th><td class="schedule-common" colspan="2">마무리 · 네트워킹</td></tr>
@@ -216,7 +216,7 @@ Layout: /_layout-2026.cshtml
         <li><a class="speaker-card" href="/speakers/taewoongson"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/taewoongson.jpg" alt="" loading="lazy"></div><strong>손태웅</strong></a></li>
         <li><a class="speaker-card" href="/speakers/minseoksong"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/minseoksong.jpg" alt="" loading="lazy"></div><strong>송민석</strong></a></li>
         <li><a class="speaker-card" href="/speakers/justinyoo"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/justinyoo.jpg" alt="" loading="lazy"></div><strong>유저스틴</strong></a></li>
-        <li><a class="speaker-card" href="/speakers/jeyoungjeon"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/jeyoungjeon.jpg" alt="" loading="lazy"></div><strong>전제영</strong></a></li>
+        <li><a class="speaker-card" href="/speakers/jeayoungjeon"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/jeayoungjeon.jpg" alt="" loading="lazy"></div><strong>전제영</strong></a></li>
         <li><a class="speaker-card" href="/speakers/bohyunjung"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/bohyunjung.jpg" alt="" loading="lazy"></div><strong>정보현</strong></a></li>
         <li><a class="speaker-card" href="/speakers/taeyeongjeong"><div class="speaker-photo" aria-hidden="true"><img src="/images/speakers/taeyeongjeong.jpg" alt="" loading="lazy"></div><strong>정태영</strong></a></li>
         <li><a class="speaker-card" href="/speakers/minajin"><div class="speaker-photo" aria-hidden="true"><img src="/images/organisers/minajin.png" alt="" loading="lazy"></div><strong>진미나</strong></a></li>
