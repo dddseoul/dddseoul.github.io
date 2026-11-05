@@ -86,7 +86,7 @@ Layout: /_layout-2026.cshtml
               <div class="keynote-body">
                 <p class="keynote-time"><time datetime="09:30">09:30</time>–<time datetime="10:10">10:10</time> · 오프닝 키노트 1</p>
                 <p><b>이영빈</b> · GM TCK</p>
-                <p>키노트 주제는 곧 공개합니다</p>
+                <h4>비개발자가 GitHub Copilot으로 코드가 아닌 '진짜 문제'를 푸는 실전 AX</h4>
               </div>
             </a>
           </li>
@@ -121,7 +121,7 @@ Layout: /_layout-2026.cshtml
           </thead>
           <tbody>
             <tr><th class="schedule-time" scope="row"><time datetime="09:00">09:00</time>–<time datetime="09:30">09:30</time></th><td class="schedule-common" colspan="2">체크인</td></tr>
-            <tr><th class="schedule-time" scope="row"><time datetime="09:30">09:30</time>–<time datetime="10:10">10:10</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 1</strong><br><a href="/speakers/youngbinlee">이영빈 · GM TCK</a><br>키노트 주제는 곧 공개합니다</td></tr>
+            <tr><th class="schedule-time" scope="row"><time datetime="09:30">09:30</time>–<time datetime="10:10">10:10</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 1</strong><br><a href="/speakers/youngbinlee">이영빈 · GM TCK</a><br>비개발자가 GitHub Copilot으로 코드가 아닌 '진짜 문제'를 푸는 실전 AX</td></tr>
             <tr><th class="schedule-time" scope="row"><time datetime="10:10">10:10</time>–<time datetime="10:20">10:20</time></th><td class="schedule-common" colspan="2">휴식</td></tr>
             <tr><th class="schedule-time" scope="row"><time datetime="10:20">10:20</time>–<time datetime="11:00">11:00</time></th><td class="schedule-keynote" colspan="2"><strong>오프닝 키노트 2</strong><br><a href="/speakers/junghyunnam">남정현 · 메가존클라우드</a><br>AI가 거울에 보이는 것보다 가까이 있음</td></tr>
             <tr><th class="schedule-time" scope="row"><time datetime="11:00">11:00</time>–<time datetime="11:20">11:20</time></th><td class="schedule-common" colspan="2">휴식 · 세션 준비</td></tr>
@@ -148,7 +148,7 @@ Layout: /_layout-2026.cshtml
             </tr>
             <tr>
               <th class="schedule-time" scope="row"><time datetime="15:30">15:30</time>–<time datetime="16:10">16:10</time></th>
-              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/minseoksong">송민석</a><br>에이전트가 판단하고 컨테이너가 실행한다: 실패에도 버티는 AI 워크플로우</td>
+              <td class="schedule-session"><span class="schedule-track-label">Track A - 제주 · Build&amp;Run</span><a href="/speakers/minseoksong">송민석</a><br>에이전트가 결정하고, 컨테이너가 실행한다: 신뢰할 수 있는 AI 워크플로우</td>
               <td class="schedule-session"><span class="schedule-track-label">Track B - 동해/독도 · Work with AI</span><a href="/speakers/youngseokim">김영서</a><br>녹화만 하면 글과 영상까지? 로컬 AI로 자동 제작하기</td>
             </tr>
             <tr>
