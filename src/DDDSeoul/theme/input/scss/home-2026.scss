@@ -279,7 +279,8 @@
   .keynote-band .section-label p { color: var(--ddd-border); }
   .keynote-band .section-body p { color: var(--ddd-border); }
   .keynote-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(#{"min(100%, 22rem)"}, 1fr)); gap: 20px; list-style: none; padding: 0; margin: 28px 0 0; }
-  .keynote-card { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 20px; align-items: center; padding: 20px; border: 1px solid var(--ddd-dark-rule); border-left: 4px solid var(--ddd-accent); }
+  .keynote-list > li { display: flex; }
+  .keynote-card { display: grid; width: 100%; grid-template-columns: 8rem minmax(0, 1fr); gap: 20px; align-items: start; align-content: start; padding: 20px; border: 1px solid var(--ddd-dark-rule); border-left: 4px solid var(--ddd-accent); }
   .keynote-photo { aspect-ratio: 1; overflow: hidden; border: 1px solid var(--ddd-dark-rule); }
   .keynote-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .keynote-body { min-width: 0; }
