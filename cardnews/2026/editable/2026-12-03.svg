@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title description">
+<title id="title">내일, 경험을 나눕니다</title>
+<desc id="description">DDD Seoul 2026. 내일, 경험을 나눕니다. DDD Seoul 2026 · D-1. 2026년 12월 4일 금요일 09:00–18:00, 한국 마이크로소프트 13층. 등록: https://dddseoul.kr/register</desc>
+<rect x="0" y="0" width="1080" height="1080" rx="0" fill="#FAF9F6"/>
+<rect x="0" y="0" width="1080" height="12" rx="0" fill="#BA4609"/>
+<text font-family="IBM Plex Sans KR" font-size="38" font-weight="700" fill="#202020"><tspan x="64" y="84">DDD Seoul</tspan></text>
+<text font-family="IBM Plex Sans KR" font-size="48" font-weight="700" fill="#BA4609"><tspan x="861" y="88">2026</tspan></text>
+<rect x="64" y="119" width="952" height="2" rx="0" fill="#202020"/>
+<text font-family="IBM Plex Sans KR" font-size="18" font-weight="700" fill="#BA4609"><tspan x="64" y="158">DEVELOPER! DEVELOPER! DEVELOPER!</tspan></text>
+<text font-family="IBM Plex Sans KR" font-size="24" font-weight="700" fill="#62605C"><tspan x="910" y="160">D-1</tspan></text>
+<text font-family="IBM Plex Sans KR" font-size="78" font-weight="700" fill="#202020"><tspan x="64" y="276">내일,</tspan><tspan x="64" y="380.52">경험을 나눕니다</tspan></text>
+<text font-family="IBM Plex Sans KR" font-size="30" font-weight="700" fill="#BA4609"><tspan x="64" y="502">DDD Seoul 2026 · D-1</tspan></text>
+<rect x="64" y="588" width="952" height="290" rx="14" fill="#202020"/>
+<text font-family="IBM Plex Sans KR" font-size="122" font-weight="700" fill="#FFFFFF"><tspan x="96" y="729">D-1</tspan></text>
+<text font-family="Pretendard" font-size="25" font-weight="400" fill="#FFFFFF"><tspan x="96" y="810">내일 금요일, 개발자의 경험을 나눠요.</tspan><tspan x="96" y="843.5">등록 페이지에서 최신 판매 안내를 확인하세요.</tspan></text>
+<rect x="0" y="930" width="1080" height="150" rx="0" fill="#BA4609"/>
+<text font-family="IBM Plex Sans KR" font-size="23" font-weight="700" fill="#FFFFFF"><tspan x="64" y="964">2026.12.04 금요일 · 09:00–18:00</tspan></text>
+<text font-family="Pretendard" font-size="21" font-weight="400" fill="#FFFFFF"><tspan x="64" y="997">한국 마이크로소프트 13층</tspan></text>
+<text font-family="IBM Plex Sans KR" font-size="30" font-weight="700" fill="#FFFFFF"><tspan x="64" y="1043">등록 → https://dddseoul.kr/register</tspan></text>
+</svg>
