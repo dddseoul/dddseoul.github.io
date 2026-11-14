@@ -189,6 +189,12 @@ Layout: /_layout-2026.cshtml
         <a href="https://www.infragistics.co.kr" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/infragistics.svg" alt="Infragistics" width="200" height="60" loading="lazy"></a>
         <a href="https://www.mongodb.com/ko-kr" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/mongodb.svg" alt="MongoDB" width="200" height="60" loading="lazy"></a>
       </div>
+      <div class="partners-top">
+        <h3>도서 후원사</h3>
+      </div>
+      <div class="sponsor-logos sponsor-logos-secondary">
+        <a href="https://www.hanbit.co.kr/" target="_blank" rel="noopener noreferrer"><img src="/images/sponsors/hanbitmedia.png" alt="한빛미디어" width="200" height="60" loading="lazy"></a>
+      </div>
       <p>DDD Seoul은 후원사의 도움으로 진행하고 있습니다. 함께해 주신 모든 후원사에 감사드립니다.</p>
     </div>
   </section>
