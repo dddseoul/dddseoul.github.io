@@ -63,6 +63,7 @@ for (const [start, price] of [['2026-10-10', '20,000원'], ['2026-11-10', '25,00
   assert(row?.includes(price), `Ticket price changed for ${start}; review campaign copy`);
 }
 for (const [id, partner] of Object.entries(data.partners)) {
+  if (id === 'hanbitmedia') continue;
   assert(homepage.includes(`/images/sponsors/${partner.logo}`), `Partner source changed: ${id}`);
 }
 const metadata = {
@@ -97,8 +98,9 @@ const sessionLines = ids => sessions(ids).map(s => {
 
 function makeDay(raw) {
   const day = { ...raw, dday: dday(raw.date) };
-  day.image = `images/${day.date}.png`;
-  day.editable = `editable/${day.date}.svg`;
+  const fileId = day.id ?? day.date;
+  day.image = `images/${fileId}.png`;
+  day.editable = `editable/${fileId}.svg`;
   const speaker = day.speakers?.[0] ? sources[day.speakers[0]] : undefined;
   const isSpeaker = day.type === 'speaker';
   if (isSpeaker) {
@@ -137,7 +139,20 @@ const campaign = { event: metadata, speakers: sources, partners: data.partners, 
 
 function validateCampaign() {
   const { days } = campaign;
-  assert.equal(days.length, 32);
+  assert.equal(days.length, 33);
+  const regularDays = days.filter(d => !d.id);
+  assert.equal(regularDays.length, 32);
+  for (let i = 0; i < regularDays.length; i++) {
+    const expected = new Date(Date.UTC(2026, 10, 2 + i)).toISOString().slice(0, 10);
+    assert.equal(regularDays[i].date, expected, 'Missing or duplicate day');
+  }
+  const extra = days.filter(d => d.id);
+  assert.equal(extra.length, 1);
+  assert.equal(extra[0].id, '2026-11-20-hanbitmedia');
+  assert.equal(extra[0].date, '2026-11-20');
+  assert.equal(extra[0].time, '15:00');
+  assert.deepEqual(extra[0].partners, ['hanbitmedia']);
+  assert.deepEqual(days.find(d => d.date === '2026-11-29').partners, ['infragistics', 'mongodb', 'hanbitmedia']);
   const counts = {};
   const first = new Set();
   const recap = new Set();
@@ -147,9 +162,7 @@ function validateCampaign() {
   const recappedSessions = [];
   for (let i = 0; i < days.length; i++) {
     const day = days[i];
-    const expected = new Date(Date.UTC(2026, 10, 2 + i)).toISOString().slice(0, 10);
-    assert.equal(day.date, expected, 'Missing or duplicate day');
-    assert.equal(day.dday, 32 - i);
+    assert.equal(day.dday, dday(day.date));
     counts[day.type] = (counts[day.type] ?? 0) + 1;
     assert(day.dday > 0);
     for (const channel of channels) {
@@ -188,7 +201,7 @@ function validateCampaign() {
       }
     }
   }
-  assert.deepEqual(counts, { attendance: 3, speaker: 16, partner: 4, 'keynote-recap': 1, 'session-recap': 5, 'partner-recap': 3 });
+  assert.deepEqual(counts, { attendance: 3, speaker: 16, partner: 5, 'keynote-recap': 1, 'session-recap': 5, 'partner-recap': 3 });
   assert.deepEqual([...first].sort(), Object.keys(sources).sort());
   assert.deepEqual([...recap].sort(), [...first].sort());
   for (const coverage of Object.values(channelCoverage)) assert.equal(coverage.size, 17);
@@ -204,7 +217,7 @@ function validateCampaign() {
   assert.deepEqual(joint[0].speakers, ['insookkim', 'sohyunbang']);
   assert.deepEqual(days.filter(d => d.partners?.includes('megazonecloud')).map(d => d.date),
     ['2026-11-10', '2026-11-27', '2026-12-01']);
-  assert.equal(new Set(days.filter(d => d.type === 'partner').flatMap(d => d.partners)).size, 4);
+  assert.equal(new Set(days.filter(d => d.type === 'partner').flatMap(d => d.partners)).size, 5);
   assert(days.find(d => d.date === '2026-11-09').posts.LinkedIn.includes('20,000원'));
   assert(days.find(d => d.date === '2026-11-09').posts.LinkedIn.includes('25,000원'));
 }
@@ -352,10 +365,11 @@ async function partnerCard(day) {
   const ids = day.partners;
   for (let i = 0; i < ids.length; i++) {
     const partner = data.partners[ids[i]];
-    const y = ids.length === 1 ? 409 : 397 + i * 203;
-    const height = ids.length === 1 ? 302 : 179;
+    const y = ids.length === 1 ? 409 : ids.length === 3 ? 397 + i * 126 : 397 + i * 203;
+    const height = ids.length === 1 ? 302 : ids.length === 3 ? 112 : 179;
     rect(64, y, 952, height, '#FFFFFF', 14);
-    await image(`images/sponsors/${partner.logo}`, 125, y + 38, 830, height - 76);
+    const padding = ids.length === 3 ? 16 : 38;
+    await image(partner.logoPath ?? `images/sponsors/${partner.logo}`, 125, y + padding, 830, height - 2 * padding);
   }
   const message = day.date === '2026-12-01'
     ? '남정현의 오프닝 키노트 · 진미나의 GitHub Copilot\n메가존클라우드 소속 발표자의 경험도 만나보세요.'
@@ -392,9 +406,9 @@ ${body}
 }
 
 async function verifyFiles() {
-  const expectedPng = campaign.days.map(d => `${d.date}.png`).sort();
-  const expectedSvg = campaign.days.map(d => `${d.date}.svg`).sort();
-  const expectedPosts = campaign.days.map(d => `${d.date}.md`).sort();
+  const expectedPng = campaign.days.map(d => `${d.id ?? d.date}.png`).sort();
+  const expectedSvg = campaign.days.map(d => `${d.id ?? d.date}.svg`).sort();
+  const expectedPosts = campaign.days.map(d => `${d.id ?? d.date}.md`).sort();
   assert.deepEqual((await readdir(path.join(here, 'images'))).sort(), expectedPng);
   assert.deepEqual((await readdir(path.join(here, 'editable'))).sort(), expectedSvg);
   assert.deepEqual((await readdir(path.join(here, 'posts'))).sort(), expectedPosts);
@@ -413,13 +427,13 @@ async function verifyFiles() {
     assert(editable.includes('data:image/png;base64,') || day.type === 'attendance');
     const rendered = await sharp(Buffer.from(editable)).png().toBuffer();
     assert.equal(sha(rendered), sha(await readFile(imagePath)), `PNG is stale: ${day.date}`);
-    const posts = await readFile(path.join(here, 'posts', `${day.date}.md`), 'utf8');
+    const posts = await readFile(path.join(here, 'posts', `${day.id ?? day.date}.md`), 'utf8');
     for (const channel of channels) assert(posts.includes(day.posts[channel]), `Stale post ${day.date}/${channel}`);
   }
   for (const [file, hash] of Object.entries(persisted.sourceHashes)) {
     assert.equal(sha(await readFile(path.join(root, ...file.split('/')))), hash, `Source changed: ${file}. Rebuild and review copy.`);
   }
-  console.log('PASS: 32 dates, 32 PNGs (1080×1080 sRGB), 32 editable SVGs, 128 CTA-bearing drafts.');
+  console.log('PASS: 32 dates, 33 PNGs (1080×1080 sRGB), 33 editable SVGs, 132 CTA-bearing drafts.');
   console.log('PASS: 17 speakers introduced and recapped on all 4 channels; 14 regular sessions + dedicated opening-keynote recap.');
   console.log(`PASS: X max ${Math.max(...campaign.days.map(d => d.xWeightedLength))}/280 weighted; Threads max ${Math.max(...campaign.days.map(d => d.threadsLength))}/500.`);
 }
@@ -434,7 +448,7 @@ if (process.argv.includes('--check')) {
     await sharp(Buffer.from(markup)).png().toFile(path.join(here, day.image));
     const post = [
       `# ${day.date} · ${day.headline.replace(/\n/g, ' ')}`,
-      `유형: ${typeLabels[day.type]} · D-${day.dday} · 게시 기준: KST`,
+      `유형: ${typeLabels[day.type]} · D-${day.dday} · 게시 기준: KST${day.time ? ` · 예정 시각: ${day.time}` : ''}`,
       `![${day.alt}](../${day.image})`,
       `편집 원본: [SVG](../${day.editable})`,
       `## 이미지 대체 텍스트\n\n${day.alt}`,
@@ -442,22 +456,22 @@ if (process.argv.includes('--check')) {
       `## 게시 전 확인\n\n${day.note}\n\nX 가중 문자: ${day.xWeightedLength}/280 · Threads: ${day.threadsLength}/500`,
       '초안입니다. 실제 게시·예약은 하지 않았습니다.'
     ].join('\n\n') + '\n';
-    await writeFile(path.join(here, 'posts', `${day.date}.md`), post, 'utf8');
+    await writeFile(path.join(here, 'posts', `${day.id ?? day.date}.md`), post, 'utf8');
   }
   await writeFile(path.join(here, 'campaign.json'), JSON.stringify(campaign, null, 2) + '\n', 'utf8');
   const calendar = [
     '# DDD Seoul 2026 게시 달력', '',
-    '2026년 11월 2일–12월 3일 · KST · 매일 4채널 · 실제 게시 전 검토용', '',
+    '2026년 11월 2일–12월 3일 · KST · 매일 4채널, 11/20 추가 초안 포함 · 실제 게시 전 검토용', '',
     `모든 이미지·게시글 CTA: ${cta}`, '',
     '| 날짜 | D-day | 유형 | 주제·대상 | 이미지 | 채널별 초안 |',
     '|---|---|---|---|---|---|',
-    ...campaign.days.map(d => `| ${dateLabel(d.date)} | D-${d.dday} | ${typeLabels[d.type]} | ${d.deck.replace(/\|/g, '·')} | [PNG](${d.image}) | [4채널](posts/${d.date}.md) |`)
+    ...campaign.days.map(d => `| ${dateLabel(d.date)}${d.time ? ` ${d.time}` : ''} | D-${d.dday} | ${typeLabels[d.type]} | ${d.deck.replace(/\|/g, '·')} | [PNG](${d.image}) | [4채널](posts/${d.id ?? d.date}.md) |`)
   ].join('\n') + '\n';
   await writeFile(path.join(here, 'calendar.md'), calendar, 'utf8');
   const thumbs = await Promise.all(campaign.days.map(async (d, i) => ({
     input: await sharp(path.join(here, d.image)).resize(270, 270).toBuffer(),
     left: i % 4 * 270, top: Math.floor(i / 4) * 270
   })));
-  await sharp({ create: { width: 1080, height: 2160, channels: 3, background: paper } }).composite(thumbs).png().toFile(path.join(here, 'contact-sheet.png'));
+  await sharp({ create: { width: 1080, height: Math.ceil(campaign.days.length / 4) * 270, channels: 3, background: paper } }).composite(thumbs).png().toFile(path.join(here, 'contact-sheet.png'));
   await verifyFiles();
 }
